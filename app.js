@@ -1,17 +1,23 @@
+// DEPENDENCIES
 const express = require("express");
-const app = express();
 const cors = require("cors");
 
+// CONFIGURATION
+const app = express();
+
+// MIDDLEWARE
 app.use(cors());
 app.use(express.json());
 
+
+// ROUTES
 app.get("/", (req, res) => {
     res.json( {message: "Welcome to the Products App Back-end"} );
     }
 );
 
+// ROUTES
 app.get ("*", (req, res) => {
-
     res.status(404).json({message: "Page Not Found"});
 });
 
