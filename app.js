@@ -12,7 +12,7 @@ app.use(express.json());
 
 // ROUTES
 app.get("/", (req, res) => {
-    res.json( {message: "Welcome to the Products App Back-end"} );
+    res.json( {message: "Welcome to our Capstone App Back-end"} );
     }
 );
 
