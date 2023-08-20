@@ -26,7 +26,7 @@ CREATE TABLE point_of_interest (
     id SERIAL PRIMARY KEY,   
     latitude DECIMAL,
     name VARCHAR, 
-    tour_id FOREIGN KEY, 
+    tour_id INT REFERENCES tour(id),
     image_url URL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -35,7 +35,7 @@ DROP TABLE IF EXISTS commentary;
 
 CREATE TABLE commentary (   
     id SERIAL PRIMARY KEY,   
-    poi_id FOREIGN KEY,
+    poi_id INT REFERENCES point_of_interest(id),
     name TEXT, 
     lang_code VARCHAR, 
     description TEXT,
