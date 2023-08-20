@@ -2,7 +2,8 @@ const db = require('../db/dbConfig')
 
 const getTours = async () => {
     try {
-
+        const tours = await db.any('SELECT * FROM tour')
+        return tours;
     } catch (e) {
         return e
     }
