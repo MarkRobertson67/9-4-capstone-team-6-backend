@@ -20,6 +20,8 @@ CREATE TABLE tour (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+DROP TABLE IF EXISTS point_of_interest;
+
 CREATE TABLE point_of_interest (   
     id SERIAL PRIMARY KEY,   
     latitude DECIMAL,
@@ -28,6 +30,8 @@ CREATE TABLE point_of_interest (
     image_url URL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+DROP TABLE IF EXISTS commentary;
 
 CREATE TABLE commentary (   
     id SERIAL PRIMARY KEY,   
