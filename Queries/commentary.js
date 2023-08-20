@@ -17,7 +17,7 @@ const getComment = async (id) => {
 }
 
 const updateComment = async (id, comment) => {
-    const { } = comment
+    const { poi_id, name, lang_code, description, translated_description, audio_url, created_at } = comment
 
     try {
 
@@ -27,7 +27,7 @@ const updateComment = async (id, comment) => {
 }
 
 const createComment = async (newComment) => {
-    const { } = newComment
+    const { poi_id, name, lang_code, description, translated_description, audio_url, created_at } = newComment
 
     try {
 
