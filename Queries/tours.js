@@ -17,7 +17,7 @@ const getTour = async (id) => {
 }
 
 const updateTour = async (id, Tour) => {
-    const { } = Tour
+    const { country, city, duration, theme, created_at, Current_Timestamp } = Tour
 
     try {
 
@@ -27,7 +27,7 @@ const updateTour = async (id, Tour) => {
 }
 
 const createTour = async (newTour) => {
-    const { } = newTour
+    const { country, city, duration, theme, created_at, Current_Timestamp } = newTour
 
     try {
 
