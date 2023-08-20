@@ -17,6 +17,26 @@ CREATE TABLE tour (
     city TEXT NOT NULL, 
     duration INTEGER, 
     theme TEXT,
-    created_at TIMESTAMP DEFAULT Current_Timestamp
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE point_of_interest (   
+    id SERIAL PRIMARY KEY,   
+    latitude DECIMAL,
+    name VARCHAR, 
+    tour_id FOREIGN KEY, 
+    image_url URL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE commentary (   
+    id SERIAL PRIMARY KEY,   
+    poi_id FOREIGN KEY,
+    name TEXT, 
+    lang_code VARCHAR, 
+    description TEXT,
+    translated_description TEXT,
+    audio_url URL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
