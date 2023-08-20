@@ -1,8 +1,10 @@
 const express = require('express');
 const tour = express.Router()
+const { getTours } = require('../Queries/tours')
 
 tour.get('/', async (req, res) => {
-
+    const allTours = await getTours();
+    allTours ? res.status(200).json(allTours) : res.status(500).json({ error: 'server error' })
 });
 
 tour.get('/:id', async (req, res) => {
