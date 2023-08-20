@@ -17,7 +17,7 @@ const getPointOfInterest = async (id) => {
 }
 
 const updatePointOfInterest = async (id, PointOfInterest) => {
-    const { } = PointOfInterest
+    const { latitude, name, tour_id, image_url, created_at } = PointOfInterest
 
     try {
 
@@ -27,7 +27,7 @@ const updatePointOfInterest = async (id, PointOfInterest) => {
 }
 
 const createPointOfInterest = async (newPointOfInterest) => {
-    const { } = newPointOfInterest
+    const { latitude, name, tour_id, image_url, created_at } = newPointOfInterest
 
     try {
 

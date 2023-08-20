@@ -12,7 +12,7 @@ VALUES
 ();
 
 
-INSERT INTO point_of_interest (id, latitude, name, tour_id, image_url, created_at)
+INSERT INTO point_of_interest (latitude, name, tour_id, image_url, created_at)
 VALUES
 
 (),
@@ -22,7 +22,7 @@ VALUES
 ();
 
 
-INSERT INTO commentary (id, poi_id, name, lang_code, description, translated_description, audio_url, created_at)
+INSERT INTO commentary (poi_id, name, lang_code, description, translated_description, audio_url, created_at)
 VALUES
 
 (),
