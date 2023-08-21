@@ -9,19 +9,43 @@ tour.get('/', async (req, res) => {
 
 tour.get('/:id', async (req, res) => {
     const { id } = req.params
+    const tour = await getATour(id);
+    if (tour) {
+      res.status(200).json(tour);
+    } else {
+      res.status(404).json({ error: "not found" });
+    }
 });
 
 tour.put('/:id', async (req, res) => {
     const { id } = req.params
-    const { body } = req
+    const { tour } = req.body;
+    try {
+        const updatedTour = await updateATour(id, tour);
+        res.status(200).json(updatedTour);
+      } catch (error) {
+        res.status(404).json({ error: "not found" });
+      }
 });
 
 tour.post('/', async (req, res) => {
-
+    const newTour = req.body;
+    try {
+      const addedTour = await addATour(newTour);
+      res.status(200).json(addedTour);
+    } catch (error) {
+      res.status(404).json({ error: "not found" });
+    }
 });
 
 tour.delete('/:id', async (req, res) => {
     const { id } = req.params
+    try {
+        const deletedTour = await deleteATour(id);
+        res.status(200).json(deletedTour);
+      } catch (error) {
+        res.status(404).json({ error: "not found" });
+      }
 });
 
 module.exports = tour;
