@@ -11,17 +11,19 @@ const getTours = async () => {
 
 const getTour = async (id) => {
     try {
-
+        const tour = await db.one("SELECT * FROM tour WHERE id=$1", id)
+        return tour;
     } catch (e) {
         return e;
     }
 }
 
-const updateTour = async (id, Tour) => {
-    const { country, city, duration, theme, created_at, Current_Timestamp } = Tour
+const updateTour = async (id, tour) => {
+    const { country, city, duration, theme, created_at, Current_Timestamp } = tour
 
     try {
-
+        const updatedTour = await db.one("UPDATE tour SET country=$1, city=$2, duration=$3, theme=$4, created_at=$5, Current_Timestamp=$6 WHERE id=$7 RETURNING *", [country, city, duration, theme, created_at, Current_Timestamp, id])
+        return updatedTour;
     } catch (e) {
         return e;
     }
@@ -31,7 +33,8 @@ const createTour = async (newTour) => {
     const { country, city, duration, theme, created_at, Current_Timestamp } = newTour
 
     try {
-
+        const tour = await db.one("INSERT INTO tour (country, city, duration, theme, created_at, Current_Timestamp) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *", [country, city, duration, theme, created_at, Current_Timestamp])
+        return tour;
     } catch (e) {
         return e;
     }
@@ -39,7 +42,8 @@ const createTour = async (newTour) => {
 
 const destroyTour = async (id) => {
     try {
-
+        const deletedTour = await db.one("DELETE FROM tour WHERE id=$1 RETURNING *", id)
+        return deletedTour;
     } catch (e) {
         return e;
     }
