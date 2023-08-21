@@ -27,7 +27,7 @@ CREATE TABLE point_of_interest (
     latitude DECIMAL,
     name VARCHAR, 
     tour_id INT REFERENCES tour(id),
-    image_url URL,
+    image_url VARCHAR,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -40,7 +40,7 @@ CREATE TABLE commentary (
     lang_code VARCHAR, 
     description TEXT,
     translated_description TEXT,
-    audio_url URL,
+    audio_url VARCHAR,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
