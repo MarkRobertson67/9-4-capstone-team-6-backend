@@ -1,8 +1,10 @@
 const express = require('express');
-const commentary = express.Router()
+const commentary = express.Router();
+const { getCommentary } = require('../Queries/commentary')
 
 commentary.get('/', async (req, res) => {
-
+    const allCommentary = await getCommentary();
+    allCommentary ? res.status(200).json(allCommentary) : res.status(500).json({ error: 'server error' })
 });
 
 commentary.get('/:id', async (req, res) => {
