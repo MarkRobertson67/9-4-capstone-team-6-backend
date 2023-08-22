@@ -12,14 +12,14 @@ VALUES
     ('Brazil', 'Rio de Janeiro', 3, 'Beach', '2023-08-21 19:00:00');
 
 
-INSERT INTO point_of_interest (latitude, name, tour_id, image_url, created_at)
+INSERT INTO point_of_interest (latitude, longitude, name, tour_id, image_url, created_at)
 VALUES
 
-    (48.8566, 'Eiffel Tower', 1, 'https://example.com/eiffel_tower.jpg', '2023-08-21 10:15:00'),
-    (41.9028, 'Colosseum', 2, 'https://example.com/colosseum.jpg', '2023-08-21 11:45:00'),
-    (35.6895, 'Shibuya Crossing', 3, 'https://example.com/shibuya_crossing.jpg', '2023-08-21 14:30:00'),
-    (-33.8688, 'Sydney Opera House', 4, 'https://example.com/opera_house.jpg', '2023-08-21 17:00:00'),
-    (-22.9068, 'Christ the Redeemer', 5, 'https://example.com/christ_redeemer.jpg', '2023-08-21 19:30:00');
+    (48.8566, 2.3522, 'Eiffel Tower', 1, 'https://example.com/eiffel_tower.jpg', '2023-08-21 10:15:00'),
+    (41.9028, 12.4964, 'Colosseum', 2, 'https://example.com/colosseum.jpg', '2023-08-21 11:45:00'),
+    (35.6895, 139.6917, 'Shibuya Crossing', 3, 'https://example.com/shibuya_crossing.jpg', '2023-08-21 14:30:00'),
+    (-33.8688, 151.2093, 'Sydney Opera House', 4, 'https://example.com/opera_house.jpg', '2023-08-21 17:00:00'),
+    (-22.9068, -43.1729, 'Christ the Redeemer', 5, 'https://example.com/christ_redeemer.jpg', '2023-08-21 19:30:00');
 
 
 INSERT INTO commentary (poi_id, name, lang_code, description, translated_description, audio_url, created_at)
