@@ -42,7 +42,8 @@ const createComment = async (newComment) => {
 
 const destroyComment = async (id) => {
     try {
-
+        const deletedComment = await db.one("DELETE FROM commentary WHERE id=$1 RETURNING *", id)
+        return deletedComment;
     } catch (e) {
         return e;
     }
