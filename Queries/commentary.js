@@ -33,7 +33,8 @@ const createComment = async (newComment) => {
     const { poi_id, name, lang_code, description, translated_description, audio_url, created_at } = newComment
 
     try {
-
+        const comment = await db.one("INSERT INTO commentary (poi_id, name, lang_code, description, translated_description, audio_url, created_at) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING *", [poi_id, name, lang_code, description, translated_description, audio_url, created_at])
+        return comment;
     } catch (e) {
         return e;
     }
