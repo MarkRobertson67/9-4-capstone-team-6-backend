@@ -19,17 +19,18 @@ const getPointOfInterest = async (id) => {
 }
 
 const updatePointOfInterest = async (id, PointOfInterest) => {
-    const { latitude, name, pointOfInterest_id, image_url, created_at } = PointOfInterest
+    const { latitude, longitude, name, pointOfInterest_id, image_url, created_at } = PointOfInterest
 
     try {
-
+        const updatedPointOfInterest = await db.one("UPDATE point_of_interest SET latitude=$1, longitude=$2, name=$3, pointOfInterest_id=$4, image_url=$5, created_at=$6 WHERE id=$7 RETURNING *", [latitude, longitude, name, pointOfInterest_id, image_url, created_at, id])
+        return updatedPointOfInterest;
     } catch (e) {
         return e;
     }
 }
 
 const createPointOfInterest = async (newPointOfInterest) => {
-    const { latitude, name, pointOfInterest_id, image_url, created_at } = newPointOfInterest
+    const { latitude, longitude, name, pointOfInterest_id, image_url, created_at } = newPointOfInterest
 
     try {
 
