@@ -37,10 +37,8 @@ DROP TABLE IF EXISTS commentary;
 CREATE TABLE commentary (   
     id SERIAL PRIMARY KEY,   
     poi_id INT REFERENCES point_of_interest(id),
-    name TEXT, 
-    lang_code VARCHAR, 
+    name TEXT,  
     description TEXT,
-    translated_description TEXT,
     audio_url VARCHAR,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
