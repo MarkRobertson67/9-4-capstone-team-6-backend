@@ -13,13 +13,13 @@ VALUES
 
 
 INSERT INTO point_of_interest (longitude, latitude, name, tour_id, image_url, created_at)
+
 VALUES
     (2.2945, 48.8566, 'Eiffel Tower', 1, './assets/eiffel_tower.jpg', '2023-08-21 10:15:00'),
     (12.4964, 41.9028, 'Colosseum', 2, './assets/colosseum.jpg', '2023-08-21 11:45:00'),
     (139.6917, 35.6895, 'Shibuya Crossing', 3, './assets/shibuya_crossing.jpg', '2023-08-21 14:30:00'),
     (151.2140, -33.8688, 'Sydney Opera House', 4, './assets/sydney_opera_house.jpg', '2023-08-21 17:00:00'),
     (-43.2105, -22.9068, 'Christ the Redeemer', 5, './assets/christ_the_redeemer.jpg', '2023-08-21 19:30:00');
-
 
 
 INSERT INTO commentary (poi_id, name, lang_code, description, translated_description, audio_url, created_at)
