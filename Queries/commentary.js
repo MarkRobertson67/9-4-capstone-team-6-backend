@@ -11,7 +11,8 @@ const getComments = async () => {
 
 const getComment = async (id) => {
     try {
-
+        const comment = await db.one("SELECT * FROM commentary WHERE id=$1", id)
+        return comment;
     } catch (e) {
         return e;
     }
