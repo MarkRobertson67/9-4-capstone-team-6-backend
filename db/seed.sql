@@ -12,7 +12,7 @@ VALUES
     ('Brazil', 'Rio de Janeiro', 3, 'Beach', '2023-08-21 19:00:00');
 
 
-INSERT INTO point_of_interest (longitude, latitude, name, tour_id, image_url, created_at)
+INSERT INTO point_of_interest ( latitude, longitude, name, tour_id, image_url, created_at)
 
 VALUES
     (2.2945, 48.8566, 'Eiffel Tower', 1, './assets/eiffel_tower.jpg', '2023-08-21 10:15:00'),
@@ -22,14 +22,14 @@ VALUES
     (-43.2105, -22.9068, 'Christ the Redeemer', 5, './assets/christ_the_redeemer.jpg', '2023-08-21 19:30:00');
 
 
-INSERT INTO commentary (poi_id, name, lang_code, description, translated_description, audio_url, created_at)
+INSERT INTO commentary (poi_id, name, description, audio_url, created_at)
 VALUES
 
-    (1, 'English Commentary', 'en', 'Description in English', 'Translated Description in English', 'https://example.com/english_audio.mp3', '2023-08-21 10:30:00'),
-    (2, 'French Commentary', 'fr', 'Description en français', 'Translated Description en français', 'https://example.com/french_audio.mp3', '2023-08-21 11:45:00'),
-    (3, 'German Commentary', 'de', 'Beschreibung auf Deutsch', 'Translated Beschreibung auf Deutsch', 'https://example.com/german_audio.mp3', '2023-08-21 13:00:00'),
-    (4, 'Spanish Commentary', 'es', 'Descripción en español', 'Translated Descripción en español', 'https://example.com/spanish_audio.mp3', '2023-08-21 14:15:00'),
-    (5, 'Italian Commentary', 'it', 'Descrizione in italiano', 'Translated Descrizione in italiano', 'https://example.com/italian_audio.mp3', '2023-08-21 15:30:00');
+    (1, 'English Commentary', 'Description in English', 'https://example.com/english_audio.mp3', '2023-08-21 10:30:00'),
+    (2, 'French Commentary', 'Description en français', 'https://example.com/french_audio.mp3', '2023-08-21 11:45:00'),
+    (3, 'German Commentary', 'Beschreibung auf Deutsch', 'https://example.com/german_audio.mp3', '2023-08-21 13:00:00'),
+    (4, 'Spanish Commentary', 'Descripción en español', 'https://example.com/spanish_audio.mp3', '2023-08-21 14:15:00'),
+    (5, 'Italian Commentary', 'Descrizione in italiano', 'https://example.com/italian_audio.mp3', '2023-08-21 15:30:00');
 
 
     
