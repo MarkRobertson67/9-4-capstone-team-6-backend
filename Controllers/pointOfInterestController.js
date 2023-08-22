@@ -1,5 +1,6 @@
 const express = require('express');
 const pointOfInterest = express.Router()
+const { PointOfInterest } = require('../Queries/pointOfInterest')
 
 pointOfInterest.get('/', async (req, res) => {
     const allPointOfInterest = await getPointOfInterest();

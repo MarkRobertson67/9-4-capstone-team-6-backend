@@ -9,6 +9,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+const pointOfInterestController = require('./Controllers/pointOfInterestController.js')
+app.use('/pointofinterest', pointOfInterestController)
+
 const tourController = require('./Controllers/tourController.js')
 app.use('/tours', tourController)
 
