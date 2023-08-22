@@ -9,6 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+
 const pointOfInterestController = require('./Controllers/pointOfInterestController.js')
 app.use('/pointofinterest', pointOfInterestController)
 
@@ -17,6 +18,7 @@ app.use('/commentary', commentaryController)
 
 const tourController = require('./Controllers/tourController.js')
 app.use('/tours', tourController)
+
 
 // ROUTES
 app.get("/", (req, res) => {
