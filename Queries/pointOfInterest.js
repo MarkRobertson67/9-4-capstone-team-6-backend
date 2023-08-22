@@ -2,7 +2,8 @@ const db = require('../db/dbConfig')
 
 const getPointsOfInterest = async () => {
     try {
-
+        const pointsOfInterest = await db.any('SELECT * FROM point_of_interest')
+        return pointsOfInterest;
     } catch (e) {
         return e
     }
