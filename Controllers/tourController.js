@@ -1,13 +1,13 @@
 const express = require('express');
-const tour = express.Router()
+const tours = express.Router()
 const { getTours, getTour, updateTour, createTour, destroyTour } = require('../Queries/tours')
 
-tour.get('/', async (req, res) => {
+tours.get('/', async (req, res) => {
   const allTours = await getTours();
   allTours ? res.status(200).json(allTours) : res.status(500).json({ error: 'server error' })
 });
 
-tour.get('/:id', async (req, res) => {
+tours.get('/:id', async (req, res) => {
   const { id } = req.params
   const tour = await getTour(id);
   if (tour) {
@@ -17,7 +17,7 @@ tour.get('/:id', async (req, res) => {
   }
 });
 
-tour.put('/:id', async (req, res) => {
+tours.put('/:id', async (req, res) => {
   const { id } = req.params
   const { tour } = req.body;
   try {
@@ -28,7 +28,7 @@ tour.put('/:id', async (req, res) => {
   }
 });
 
-tour.post('/', async (req, res) => {
+tours.post('/', async (req, res) => {
   const newTour = req.body;
   try {
     const addedTour = await createTour(newTour);
@@ -38,7 +38,7 @@ tour.post('/', async (req, res) => {
   }
 });
 
-tour.delete('/:id', async (req, res) => {
+tours.delete('/:id', async (req, res) => {
   const { id } = req.params
   try {
     const deletedTour = await destroyTour(id);
@@ -48,4 +48,4 @@ tour.delete('/:id', async (req, res) => {
   }
 });
 
-module.exports = tour;
+module.exports = tours;
