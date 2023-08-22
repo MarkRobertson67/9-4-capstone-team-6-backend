@@ -2,7 +2,8 @@ const db = require('../db/dbConfig')
 
 const getComments = async () => {
     try {
-
+        const comments = await db.any('SELECT * FROM commentary')
+        return comments;
     } catch (e) {
         return e
     }
