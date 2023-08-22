@@ -42,7 +42,8 @@ const createPointOfInterest = async (newPointOfInterest) => {
 
 const destroyPointOfInterest = async (id) => {
     try {
-
+        const deletedPointOfInterest = await db.one("DELETE FROM point_of_interest WHERE id=$1 RETURNING *", id)
+        return deletedPointOfInterest;
     } catch (e) {
         return e;
     }
