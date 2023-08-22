@@ -2,7 +2,8 @@ const db = require('../db/dbConfig')
 
 const getComments = async () => {
     try {
-
+        const comments = await db.any('SELECT * FROM commentary')
+        return comments;
     } catch (e) {
         return e
     }
@@ -10,7 +11,8 @@ const getComments = async () => {
 
 const getComment = async (id) => {
     try {
-
+        const comment = await db.one("SELECT * FROM commentary WHERE id=$1", id)
+        return comment;
     } catch (e) {
         return e;
     }
@@ -20,7 +22,8 @@ const updateComment = async (id, comment) => {
     const { poi_id, name, lang_code, description, translated_description, audio_url, created_at } = comment
 
     try {
-
+        const updatedComment = await db.one("UPDATE commentary SET poi_id=$1, name=$2, lang_code=$3, description=$4, translated_description=$5, audio_url=$6, created_at=$7 WHERE id=$8 RETURNING *", [poi_id, name, lang_code, description, translated_description, audio_url, created_at, id])
+        return updatedComment;
     } catch (e) {
         return e;
     }
@@ -30,7 +33,8 @@ const createComment = async (newComment) => {
     const { poi_id, name, lang_code, description, translated_description, audio_url, created_at } = newComment
 
     try {
-
+        const comment = await db.one("INSERT INTO commentary (poi_id, name, lang_code, description, translated_description, audio_url, created_at) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING *", [poi_id, name, lang_code, description, translated_description, audio_url, created_at])
+        return comment;
     } catch (e) {
         return e;
     }
@@ -38,7 +42,8 @@ const createComment = async (newComment) => {
 
 const destroyComment = async (id) => {
     try {
-
+        const deletedComment = await db.one("DELETE FROM commentary WHERE id=$1 RETURNING *", id)
+        return deletedComment;
     } catch (e) {
         return e;
     }

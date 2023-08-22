@@ -25,6 +25,7 @@ DROP TABLE IF EXISTS point_of_interest;
 CREATE TABLE point_of_interest (   
     id SERIAL PRIMARY KEY,   
     latitude DECIMAL,
+    longitude DECIMAL,
     name VARCHAR, 
     tour_id INT REFERENCES tour(id),
     image_url VARCHAR,

@@ -2,7 +2,8 @@ const db = require('../db/dbConfig')
 
 const getPointsOfInterest = async () => {
     try {
-
+        const pointsOfInterest = await db.any('SELECT * FROM point_of_interest')
+        return pointsOfInterest;
     } catch (e) {
         return e
     }
@@ -10,27 +11,30 @@ const getPointsOfInterest = async () => {
 
 const getPointOfInterest = async (id) => {
     try {
-
+        const pointOfInterest = await db.one("SELECT * FROM point_of_interest WHERE id=$1", id)
+        return pointOfInterest;
     } catch (e) {
         return e;
     }
 }
 
 const updatePointOfInterest = async (id, PointOfInterest) => {
-    const { latitude, name, tour_id, image_url, created_at } = PointOfInterest
+    const { latitude, longitude, name, pointOfInterest_id, image_url, created_at } = PointOfInterest
 
     try {
-
+        const updatedPointOfInterest = await db.one("UPDATE point_of_interest SET latitude=$1, longitude=$2, name=$3, pointOfInterest_id=$4, image_url=$5, created_at=$6 WHERE id=$7 RETURNING *", [latitude, longitude, name, pointOfInterest_id, image_url, created_at, id])
+        return updatedPointOfInterest;
     } catch (e) {
         return e;
     }
 }
 
 const createPointOfInterest = async (newPointOfInterest) => {
-    const { latitude, name, tour_id, image_url, created_at } = newPointOfInterest
+    const { latitude, longitude, name, pointOfInterest_id, image_url, created_at } = newPointOfInterest
 
     try {
-
+        const pointOfInterest = await db.one("INSERT INTO point_of_interest (latitude, longitude, name, pointOfInterest_id, image_url, created_at) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *", [latitude, longitude, name, pointOfInterest_id, image_url, created_at])
+        return pointOfInterest;
     } catch (e) {
         return e;
     }
@@ -38,7 +42,8 @@ const createPointOfInterest = async (newPointOfInterest) => {
 
 const destroyPointOfInterest = async (id) => {
     try {
-
+        const deletedPointOfInterest = await db.one("DELETE FROM point_of_interest WHERE id=$1 RETURNING *", id)
+        return deletedPointOfInterest;
     } catch (e) {
         return e;
     }
