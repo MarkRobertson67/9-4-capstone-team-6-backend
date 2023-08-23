@@ -12,7 +12,7 @@ VALUES
     ('Brazil', 'Rio de Janeiro', 3, 'Beach', '2023-08-21 19:00:00');
 
 
-INSERT INTO point_of_interest ( latitude, longitude, name, tour_id, image_url, created_at)
+INSERT INTO point_of_interest (latitude, longitude, name, tour_id, image_url, created_at)
 
 VALUES
     (2.2945, 48.8566, 'Eiffel Tower', 1, './assets/eiffel_tower.jpg', '2023-08-21 10:15:00'),
@@ -26,10 +26,10 @@ INSERT INTO commentary (poi_id, name, description, audio_url, created_at)
 VALUES
 
     (1, 'English Commentary', 'Description in English', 'https://example.com/english_audio.mp3', '2023-08-21 10:30:00'),
-    (2, 'French Commentary', 'Description en français', 'https://example.com/french_audio.mp3', '2023-08-21 11:45:00'),
-    (3, 'German Commentary', 'Beschreibung auf Deutsch', 'https://example.com/german_audio.mp3', '2023-08-21 13:00:00'),
-    (4, 'Spanish Commentary', 'Descripción en español', 'https://example.com/spanish_audio.mp3', '2023-08-21 14:15:00'),
-    (5, 'Italian Commentary', 'Descrizione in italiano', 'https://example.com/italian_audio.mp3', '2023-08-21 15:30:00');
+    (2, 'English Commentary', 'Description in English', 'https://example.com/english_audio.mp3', '2023-08-21 11:45:00'),
+    (3, 'English Commentary', 'Description in English', 'https://example.com/english_audio.mp3', '2023-08-21 13:00:00'),
+    (4, 'English Commentary', 'Description in English', 'https://example.com/english_audio.mp3', '2023-08-21 14:15:00'),
+    (5, 'English Commentary', 'Description in English', 'https://example.com/english_audio.mp3', '2023-08-21 15:30:00');
 
 
     
