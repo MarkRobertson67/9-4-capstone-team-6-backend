@@ -17,7 +17,7 @@ CREATE TABLE tour (
     region TEXT,
     state TEXT,
     city TEXT NOT NULL, 
-    duration INTEGER, 
+    duration TEXT, 
     difficulty TEXT,
     tourType TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
