@@ -20,7 +20,6 @@ CREATE TABLE tour (
     duration INTEGER, 
     difficulty TEXT,
     tourType TEXT,
-    theme TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 

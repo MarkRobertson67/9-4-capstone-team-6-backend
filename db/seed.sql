@@ -2,14 +2,14 @@
 \c tours;
 
 
-INSERT INTO tour (country, city, duration, theme, created_at)
+INSERT INTO tour (country, region, state, city, duration, difficulty, tourType, created_at)
 VALUES
 
-    ('France', 'Paris', 5, 'Cultural', '2023-08-21 10:00:00'),
-    ('Italy', 'Rome', 4, 'Historical', '2023-08-21 11:30:00'),
-    ('Japan', 'Tokyo', 7, 'Modern', '2023-08-21 14:15:00'),
-    ('Australia', 'Sydney', 6, 'Scenic', '2023-08-21 16:45:00'),
-    ('Brazil', 'Rio de Janeiro', 3, 'Beach', '2023-08-21 19:00:00');
+    ('France', '', '', 'Paris', 'Full-day', 'Medium', 'Cultural', '2023-08-21 10:00:00'),
+    ('Italy', '', '', 'Rome', 'Full-day', 'Medium', 'Historical', '2023-08-21 11:30:00'),
+    ('Japan', '', '', 'Tokyo', 'Full-day', 'Medium', 'Modern', '2023-08-21 14:15:00'),
+    ('Australia', '', '', 'Sydney', 'Full-day', 'Medium', 'Scenic', '2023-08-21 16:45:00'),
+    ('Brazil', '', '', 'Rio de Janeiro', 'Full-day', 'Medium', 'Beach', '2023-08-21 19:00:00');
 
 
 INSERT INTO point_of_interest (latitude, longitude, name, tour_id, image_url, created_at)
