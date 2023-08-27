@@ -14,8 +14,12 @@ DROP TABLE IF EXISTS tour;
 CREATE TABLE tour (   
     id SERIAL PRIMARY KEY,   
     country TEXT NOT NULL,
+    region TEXT,
+    state TEXT,
     city TEXT NOT NULL, 
     duration INTEGER, 
+    difficulty TEXT,
+    tourType TEXT,
     theme TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
