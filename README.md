@@ -15,13 +15,13 @@ To connect to the database and view the tables:
                 db:start: This script is used to start the database server. It ensures that the database server is up and running, allowing your application to establish a connection and interact with the database.
                 The db:stop script is used to stop the running instance of the database server. It gracefully shuts down the database server, terminating any active connections and releasing system resources. The purpose of the db:stop script is to ensure a clean and controlled shutdown of the database server. 
                 
-                Typically, you would use the `db:stop` script when you want to stop the database server after you have finished using it or when you need to perform maintenance tasks. It ensures that the database server is properly shut down, preventing any potential data corruption or inconsistencies.
+                Typically, you would use the `db:shutdown` script when you want to stop the database server after you have finished using it or when you need to perform maintenance tasks. It ensures that the database server is properly shut down, preventing any potential data corruption or inconsistencies.
 
         4.   To summarize:
 
-                - `db:start` starts the database server, making it available for your application to connect.
-                - `db:setup` initializes the database with the necessary structure and initial data.
-                - `db:stop` gracefully shuts down the running instance of the database server.
+                - `npm run db:start` starts the database server, making it available for your application to connect.
+                - `npm run db:setup` initializes the database with the necessary structure and initial data.
+                - `npm run db:shutdown` gracefully shuts down the running instance of the database server.
 
 These scripts work together to manage the lifecycle of the database server, from starting it up to setting it up and finally stopping it when it's no longer needed.
 
