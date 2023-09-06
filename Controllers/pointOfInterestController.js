@@ -1,9 +1,10 @@
 const express = require('express');
-const pointsOfInterest = express.Router()
+const pointsOfInterest = express.Router({ mergeParams: true })
 const { getPointsOfInterest, getPointOfInterest, updatePointOfInterest, createPointOfInterest, destroyPointOfInterest } = require('../Queries/pointOfInterest')
 
 pointsOfInterest.get('/', async (req, res) => {
-  const allPointOfInterest = await getPointsOfInterest();
+  const { tourId } = req.params;
+  const allPointOfInterest = await getPointsOfInterest(tourId);
   allPointOfInterest ? res.status(200).json(allPointOfInterest) : res.status(500).json({ error: 'server error' })
 });
 
