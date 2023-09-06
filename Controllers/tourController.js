@@ -1,6 +1,9 @@
 const express = require('express');
 const tours = express.Router()
 const { getTours, getTour, updateTour, createTour, destroyTour } = require('../Queries/tours')
+const pointsOfInterestController = require("./pointOfInterestController.js")
+
+tours.use('/:tourId/pointsOfInterest', pointsOfInterestController)
 
 tours.get('/', async (req, res) => {
   const allTours = await getTours();
