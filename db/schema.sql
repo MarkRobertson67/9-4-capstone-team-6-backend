@@ -20,7 +20,9 @@ CREATE TABLE tour (
     duration TEXT, 
     difficulty TEXT,
     tourType TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    name TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    ordered_points_of_interest JSONB
 );
 
 DROP TABLE IF EXISTS point_of_interest;
