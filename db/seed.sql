@@ -2,7 +2,7 @@
 \c tours;
 
 
-INSERT INTO tour (country, region, state, city, duration, difficulty, tourType, created_at)
+INSERT INTO tour (country, region, state, city, duration, difficulty, theme, created_at)
 VALUES
 
     ('France', '', '', 'Paris', 'Full-day', 'Medium', 'Cultural', '2023-08-21 10:00:00'),
