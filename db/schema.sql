@@ -19,8 +19,9 @@ CREATE TABLE tour (
     city TEXT NOT NULL, 
     duration TEXT, 
     difficulty TEXT,
-    tourType TEXT,
+    theme TEXT,
     name TEXT,
+    image_url VARCHAR,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     ordered_points_of_interest JSONB
 );
