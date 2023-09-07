@@ -30,15 +30,21 @@ const updateTour = async (id, tour) => {
 }
 
 const createTour = async (newTour) => {
-    const { country, city, duration, theme, created_at, Current_Timestamp } = newTour
-
+    const { country, region, state, city, duration, difficulty, tourType } = newTour;
+  
     try {
-        const tour = await db.one("INSERT INTO tour (country, city, duration, theme, created_at, Current_Timestamp) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *", [country, city, duration, theme, created_at, Current_Timestamp])
-        return tour;
+      // Use your database query library (e.g., pg-promise) to insert the tour
+      const tour = await db.one(
+        "INSERT INTO tour (country, region, state, city, duration, difficulty, tourType, created_at) VALUES ($1, $2, $3, $4, $5, $6, $7, CURRENT_TIMESTAMP) RETURNING *",
+        [country, region, state, city, duration, difficulty, tourType]
+      );
+  
+      return tour;
     } catch (e) {
-        return e;
+      return e;
     }
-}
+  };
+  
 
 const destroyTour = async (id) => {
     try {
