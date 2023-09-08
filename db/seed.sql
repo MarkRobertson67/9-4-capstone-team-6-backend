@@ -2,7 +2,7 @@
 \c tours;
 
 
-INSERT INTO tour (country, region, state, city, duration, difficulty, theme, name, image_url, created_at, ordered_points_of_interest)
+INSERT INTO tour (country, region, state, city, duration, difficulty, theme, tour_name, image_url, created_at, ordered_points_of_interest)
 VALUES
     ('France', '', '', 'Paris', 'Full-day', 'Medium', 'Cultural', 'Eiffel Tower Tour', './assets/eiffel_tower.jpg', '2023-08-21 10:00:00', '[]'),
     ('Italy', '', '', 'Rome', 'Full-day', 'Medium', 'Historical', 'Colosseum Tour', './assets/colosseum.jpg', '2023-08-21 11:30:00', '[]'),
@@ -12,7 +12,7 @@ VALUES
 
 
 
-INSERT INTO point_of_interest (latitude, longitude, name, tour_id, image_url, created_at)
+INSERT INTO point_of_interest (latitude, longitude, poi_name, tour_id, image_url, created_at)
 
 VALUES
     (2.2945, 48.8566, 'Eiffel Tower', 1, './assets/eiffel_tower.jpg', '2023-08-21 10:15:00'),
@@ -22,7 +22,7 @@ VALUES
     (-43.2105, -22.9068, 'Christ the Redeemer', 5, './assets/christ_the_redeemer.jpg', '2023-08-21 19:30:00');
 
 
-INSERT INTO commentary (poi_id, name, description, audio_url, created_at)
+INSERT INTO commentary (poi_id, comm_name, description, audio_url, created_at)
 VALUES
 
     (1, 'Eiffel Tower', 'Ladies and gentlemen, welcome to the most iconic symbol of Paris and a true masterpiece of engineering and artistry the Eiffel Tower! I''m your tour guide for today, and I''m thrilled to take you on a journey through the history, design, and breathtaking views of this magnificent iron structure.

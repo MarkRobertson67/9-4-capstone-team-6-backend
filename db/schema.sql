@@ -20,7 +20,7 @@ CREATE TABLE tour (
     duration TEXT, 
     difficulty TEXT,
     theme TEXT,
-    name TEXT,
+    tour_name TEXT,
     image_url VARCHAR,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     ordered_points_of_interest JSONB
@@ -32,7 +32,7 @@ CREATE TABLE point_of_interest (
     id SERIAL PRIMARY KEY,   
     latitude DECIMAL,
     longitude DECIMAL,
-    name VARCHAR, 
+    poi_name VARCHAR, 
     tour_id INT REFERENCES tour(id),
     image_url VARCHAR,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
@@ -43,7 +43,7 @@ DROP TABLE IF EXISTS commentary;
 CREATE TABLE commentary (   
     id SERIAL PRIMARY KEY,   
     poi_id INT REFERENCES point_of_interest(id),
-    name TEXT,  
+    comm_name TEXT,  
     description TEXT,
     audio_url VARCHAR,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP

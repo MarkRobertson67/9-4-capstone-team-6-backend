@@ -30,13 +30,12 @@ const updateTour = async (id, tour) => {
 }
 
 const createTour = async (newTour) => {
-    const { country, region, state, city, duration, difficulty, tourType } = newTour;
+    const { country, region, state, city, duration, difficulty, theme, tour_name, image_url, created_at, ordered_points_of_interest } = newTour;
   
     try {
-      // Use your database query library (e.g., pg-promise) to insert the tour
       const tour = await db.one(
-        "INSERT INTO tour (country, region, state, city, duration, difficulty, tourType, created_at) VALUES ($1, $2, $3, $4, $5, $6, $7, CURRENT_TIMESTAMP) RETURNING *",
-        [country, region, state, city, duration, difficulty, tourType]
+        "INSERT INTO tour (country, region, state, city, duration, difficulty, theme, tour_name, image_url, created_at, ordered_points_of_interest) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, CURRENT_TIMESTAMP, $10) RETURNING *",
+        [country, region, state, city, duration, difficulty, theme, tour_name, image_url, []]
       );
   
       return tour;
