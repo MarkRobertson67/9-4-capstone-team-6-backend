@@ -33,7 +33,7 @@ const createPointOfInterest = async (newPointOfInterest) => {
     const { latitude, longitude, name, tour_id, image_url, created_at } = newPointOfInterest
 
     try {
-        const pointOfInterest = await db.one("INSERT INTO point_of_interest (latitude, longitude, name, tour_id, image_url, created_at) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *", [latitude, longitude, name, tour_id, image_url, created_at])
+        const pointOfInterest = await db.one("INSERT INTO point_of_interest (latitude, longitude, poi_name, tour_id, image_url, created_at) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *", [latitude, longitude, name, tour_id, image_url, created_at])
         return pointOfInterest;
     } catch (e) {
         return e;
