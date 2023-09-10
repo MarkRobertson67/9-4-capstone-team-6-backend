@@ -30,20 +30,20 @@ const updateTour = async (id, tour) => {
 }
 
 const createTour = async (newTour) => {
-    const { country, region, state, city, duration, difficulty, theme, tour_name, image_url, created_at, ordered_points_of_interest } = newTour;
-  
+    const { country, region, state, city, duration, difficulty, theme, tour_name, image_url, ordered_points_of_interest } = newTour;
+
     try {
-      const tour = await db.one(
-        "INSERT INTO tour (country, region, state, city, duration, difficulty, theme, tour_name, image_url, created_at, ordered_points_of_interest) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, CURRENT_TIMESTAMP, $10) RETURNING *",
-        [country, region, state, city, duration, difficulty, theme, tour_name, image_url, []]
-      );
-  
-      return tour;
+        const tour = await db.one(
+            "INSERT INTO tour (country, region, state, city, duration, difficulty, theme, tour_name, image_url, ordered_points_of_interest) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING *",
+            [country, region, state, city, duration, difficulty, theme, tour_name, image_url, ordered_points_of_interest]
+        );
+
+        return tour;
     } catch (e) {
-      return e;
+        return e;
     }
-  };
-  
+};
+
 
 const destroyTour = async (id) => {
     try {
