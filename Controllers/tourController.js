@@ -16,7 +16,7 @@ tours.get('/:id', async (req, res) => {
   if (tour) {
     res.status(200).json(tour);
   } else {
-    res.status(404).json({ error: "not found" });
+    res.status(404).json({ error: "Can't find that tour." });
   }
 });
 
@@ -27,7 +27,7 @@ tours.put('/:id', async (req, res) => {
     const updatedTour = await updateTour(id, tour);
     res.status(200).json(updatedTour);
   } catch (error) {
-    res.status(404).json({ error: "not found" });
+    res.status(404).json({ error: "Can't find that tour." });
   }
 });
 
@@ -37,7 +37,7 @@ tours.post('/', async (req, res) => {
     const addedTour = await createTour(newTour);
     res.status(200).json(addedTour);
   } catch (error) {
-    res.status(404).json({ error: "not found" });
+    res.status(404).json({ error: "Can't find that tour." });
   }
 });
 
@@ -47,7 +47,7 @@ tours.delete('/:id', async (req, res) => {
     const deletedTour = await destroyTour(id);
     res.status(200).json(deletedTour);
   } catch (error) {
-    res.status(404).json({ error: "not found" });
+    res.status(404).json({ error: "Can't find that tour." });
   }
 });
 
