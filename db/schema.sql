@@ -23,7 +23,7 @@ CREATE TABLE tour (
     tour_name TEXT,
     image_url VARCHAR,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    ordered_points_of_interest JSONB
+    ordered_points_of_interest VARCHAR []
 );
 
 DROP TABLE IF EXISTS point_of_interest;

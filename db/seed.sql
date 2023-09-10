@@ -4,11 +4,11 @@
 
 INSERT INTO tour (country, region, state, city, duration, difficulty, theme, tour_name, image_url, created_at, ordered_points_of_interest)
 VALUES
-    ('France', '', '', 'Paris', 'Full-day', 'Medium', 'Cultural', 'Eiffel Tower Tour', './assets/eiffel_tower.jpg', '2023-08-21 10:00:00', '[]'),
-    ('Italy', '', '', 'Rome', 'Full-day', 'Medium', 'Historical', 'Colosseum Tour', './assets/colosseum.jpg', '2023-08-21 11:30:00', '[]'),
-    ('Japan', '', '', 'Tokyo', 'Full-day', 'Medium', 'Modern', 'Shibuya Crossing Tour', './assets/shibuya_crossing.jpg', '2023-08-21 14:15:00', '[]'),
-    ('Australia', '', '', 'Sydney', 'Full-day', 'Medium', 'Scenic', 'Sydney Opera House Tour', './assets/sydney_opera_house.jpg', '2023-08-21 16:45:00', '[]'),
-    ('Brazil', '', '', 'Rio de Janeiro', 'Full-day', 'Medium', 'Beach', 'Christ the Redeemer Tour', './assets/christ_the_redeemer.jpg', '2023-08-21 19:00:00', '[]');
+    ('France', '', '', 'Paris', 'Full-day', 'Medium', 'Cultural', 'Eiffel Tower Tour', './assets/eiffel_tower.jpg', '2023-08-21 10:00:00', '{''}'),
+    ('Italy', '', '', 'Rome', 'Full-day', 'Medium', 'Historical', 'Colosseum Tour', './assets/colosseum.jpg', '2023-08-21 11:30:00', '{}'),
+    ('Japan', '', '', 'Tokyo', 'Full-day', 'Medium', 'Modern', 'Shibuya Crossing Tour', './assets/shibuya_crossing.jpg', '2023-08-21 14:15:00', '{''}'),
+    ('Australia', '', '', 'Sydney', 'Full-day', 'Medium', 'Scenic', 'Sydney Opera House Tour', './assets/sydney_opera_house.jpg', '2023-08-21 16:45:00', '{''}'),
+    ('Brazil', '', '', 'Rio de Janeiro', 'Full-day', 'Medium', 'Beach', 'Christ the Redeemer Tour', './assets/christ_the_redeemer.jpg', '2023-08-21 19:00:00', '{''}');
 
 
 
