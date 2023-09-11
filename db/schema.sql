@@ -3,7 +3,7 @@
 DROP DATABASE IF EXISTS tours;
 
 -- Create our Database
-CREATE DATABASE tours;
+CREATE DATABASE tours ;
 
 -- Connect to the db
 \c tours;
