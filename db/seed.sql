@@ -280,12 +280,3 @@ Before we wrap up, I encourage you all to take a moment to absorb the emotions a
 So, my friends, let''s make the most of this opportunity to explore Christ the Redeemer together. Let''s capture the essence of this place, learn about its history, and appreciate the incredible views it offers. Whether you leave with a sense of awe, spiritual inspiration, or both, I guarantee this experience will leave an everlasting impression on your hearts. Let''s go forth and create memories that will stay with us for a lifetime!', 'https://example.com/english_audio.mp3', '2023-08-21 15:30:00');
 
 
-    
--- INSERT INTO tour (country, region, state, city, duration, difficulty, theme, created_at)
--- VALUES
-
---     ('France', '', '', 'Paris', 'Full-day', 'Medium', 'Cultural', '2023-08-21 10:00:00'),
---     ('Italy', '', '', 'Rome', 'Full-day', 'Medium', 'Historical', '2023-08-21 11:30:00'),
---     ('Japan', '', '', 'Tokyo', 'Full-day', 'Medium', 'Modern', '2023-08-21 14:15:00'),
---     ('Australia', '', '', 'Sydney', 'Full-day', 'Medium', 'Scenic', '2023-08-21 16:45:00'),
---     ('Brazil', '', '', 'Rio de Janeiro', 'Full-day', 'Medium', 'Beach', '2023-08-21 19:00:00');
