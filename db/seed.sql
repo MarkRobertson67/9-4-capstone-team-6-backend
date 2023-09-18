@@ -21,7 +21,7 @@ VALUES
       'Palais de Chaillot',
       'Place du Trocadéro'
     ]),
-    ('Italy', '', '', 'Rome', '2 hours', 'Medium', 'Historical', 'Rome, Italy Historic tour - lasting 2 hours with Medium difficult', 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0OTkwMDZ8MHwxfHNlYXJjaHwxfHxyb21lfGVufDB8fHx8MTY5NDM4MTk2Mnww&ixlib=rb-4.0.3&q=80&w=1080', '2023-08-21 11:30:00', ARRAY[
+    ('Italy', '', '', 'Rome', '2 hours', 'Medium', 'Historical', 'Rome, Italy Historic tour - lasting 2 hours with Medium difficulty', 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0OTkwMDZ8MHwxfHNlYXJjaHwxfHxyb21lfGVufDB8fHx8MTY5NDM4MTk2Mnww&ixlib=rb-4.0.3&q=80&w=1080', '2023-08-21 11:30:00', ARRAY[
       'Colosseum', 
       'Roman Forum', 
       'Capitoline Hill', 
