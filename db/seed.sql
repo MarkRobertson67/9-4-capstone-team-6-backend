@@ -282,7 +282,7 @@ As we conclude our journey across Pont Alexandre III, I hope you''ve been captiv
 
 I want to thank each of you for joining me on this delightful walk across Pont Alexandre III today. May this experience inspire you to appreciate the artistry in everyday life and the timeless allure of Paris. As we continue our exploration of this magnificent city, remember that each bridge, each street, and each corner holds its own story, waiting for us to discover', 'https://example.com/pont_alexandre_iii_audio.mp3', '2023-08-21 13:00:00'),
 
-    (7, 'Grand Palais', 'Ladies and gentlemen, welcome to the Palais Garnier, one of the most exquisite and iconic opera houses in the world. I'm your tour guide, and it's a pleasure to have you join me on this enchanting journey through the history and opulence of this cultural gem.
+    (7, 'Grand Palais', 'Ladies and gentlemen, welcome to the Palais Garnier, one of the most exquisite and iconic opera houses in the world. I''m your tour guide, and it''s a pleasure to have you join me on this enchanting journey through the history and opulence of this cultural gem.
 
 As we stand before the Palais Garnier, let''s journey back to the 19th century, a time of artistic flourishing and grandeur. This architectural masterpiece was inaugurated in 1875 during the Belle Époque, a period of elegance, innovation, and artistic creativity. Designed by the renowned architect Charles Garnier, this opera house embodies the essence of Second Empire architecture and Beaux-Arts style.
 
@@ -429,7 +429,7 @@ Beyond the Eiffel Tower, the Place du Trocadéro offers a commanding view of the
 
 As we conclude our visit to the Place du Trocadéro, I encourage you to take in the splendor of this iconic square, its museums, and its unparalleled vistas. The memories you create here, with the Eiffel Tower as your backdrop, will surely stay with you as a testament to the enduring allure of Paris.
 
-Thank you for joining me on this journey to the Place du Trocadéro, and may you carry the magic of this place in your hearts as you continue to explore the treasures of Paris and the world. Au revoir!', 'https://example.com/place_du_trocadero_audio.mp3', '2023-08-21 17:30:00');
+Thank you for joining me on this journey to the Place du Trocadéro, and may you carry the magic of this place in your hearts as you continue to explore the treasures of Paris and the world. Au revoir!', 'https://example.com/place_du_trocadero_audio.mp3', '2023-08-21 17:30:00'),
 
     (16, 'Colosseum', 'Now, as we stand before this magnificent amphitheater, let''s delve into its incredible history. The Colosseum, officially known as the Flavian Amphitheatre, was constructed over 1,900 years ago, between AD 70 and AD 80, during the reign of Emperor Vespasian. It was inaugurated with a series of spectacular games that lasted for 100 days, showcasing gladiatorial contests, animal hunts, and mock sea battles. The Colosseum could hold between 50,000 to 80,000 spectators, making it the epicenter of Roman entertainment and a symbol of the empire''s power and opulence.
     Now, let''s take a closer look at the Colosseum''s architecture. The sheer scale of this amphitheater is awe-inspiring. Its oval shape, soaring walls, and layered seating are a testament to the brilliance of Roman engineering and design. What''s even more astonishing is that the exterior was constructed using massive stone blocks that interlocked without the need for mortar. It''s a true marvel of precision and design.
@@ -517,9 +517,9 @@ I want to thank each of you for joining me on this journey through the Pantheon 
 
 So, let''s bid farewell to this magnificent temple, knowing that it will continue to stand as a testament to the ingenuity and artistic brilliance of ancient Rome. The Pantheon is a timeless treasure, and I hope you carry its memory with you as you explore the wonders of this historic city.', 'https://example.com/pantheon_audio.mp3', '2023-08-21 12:10:00'),
 
-    (21, 'Piazza Navona', 'Ladies and gentlemen, welcome to the captivating Piazza Navona, one of Rome's most magnificent public squares and a testament to the city's rich history and artistic heritage. I am your tour guide, and I'm delighted to lead you through the vibrant past and captivating beauty of this iconic place.
+    (21, 'Piazza Navona', 'Ladies and gentlemen, welcome to the captivating Piazza Navona, one of Rome''s most magnificent public squares and a testament to the city''s rich history and artistic heritage. I am your tour guide, and I''m delighted to lead you through the vibrant past and captivating beauty of this iconic place.
 
-As we gather in the heart of Piazza Navona, let's step back in time to the 1st century AD when this square was the site of the ancient Stadium of Domitian. It was here that ancient Romans gathered to watch athletic contests and games. Today, Piazza Navona stands as a splendid example of Baroque architecture, adorned with ornate fountains, stunning sculptures, and historic buildings.
+As we gather in the heart of Piazza Navona, let''s step back in time to the 1st century AD when this square was the site of the ancient Stadium of Domitian. It was here that ancient Romans gathered to watch athletic contests and games. Today, Piazza Navona stands as a splendid example of Baroque architecture, adorned with ornate fountains, stunning sculptures, and historic buildings.
 
 Our first stop is the magnificent Fontana dei Quattro Fiumi, or the Fountain of the Four Rivers, designed by the renowned sculptor Gian Lorenzo Bernini. This masterpiece represents four of the world''s great rivers the Nile, Ganges, Danube, and Río de la Plata symbolizing the reach of the Catholic Church across the globe. As you gaze upon this remarkable fountain, take in the intricate details and the dynamic energy of the sculptures.
 
@@ -740,7 +740,7 @@ So, as we continue to explore the wonders of Italy, let''s carry with us the les
     (32, 'Colosseum', 'We are back to our starting point.',
     'https://example.com/english_audio.mp3', '2023-08-21 11:45:00'),
 
-    (33, 'Tokyo Station', 'Ladies and gentlemen, welcome to Tokyo Station, a hub of modernity and a gateway to Japan's vibrant capital. I am your tour guide, and I'm excited to take you on a journey through this bustling transportation hub and the surrounding areas.
+    (33, 'Tokyo Station', 'Ladies and gentlemen, welcome to Tokyo Station, a hub of modernity and a gateway to Japan''s vibrant capital. I am your tour guide, and I''m excited to take you on a journey through this bustling transportation hub and the surrounding areas.
 
 As we stand in the heart of Tokyo, let''s take a moment to appreciate the significance of this station. Tokyo Station is not just a transportation hub; it''s a symbol of Japan''s progress and a testament to the fusion of tradition and innovation.
 
@@ -1068,7 +1068,7 @@ Our journey through Circular Quay begins with a visit to the Sydney Opera House.
 
 Next, we''ll make our way to Circular Quay''s promenade, where you can stroll along the water''s edge and admire the views. The quay is a perfect place for people-watching, with street performers, artists, and locals going about their day. It''s a vibrant tapestry of life that adds to the area''s charm.
 
-Circular Quay is also home to a variety of dining options, from casual cafes to upscale restaurants. You can savor fresh seafood, international cuisine, or enjoy a classic Australian meat pie while taking in the harbor's sights. There's something to satisfy every palate.
+Circular Quay is also home to a variety of dining options, from casual cafes to upscale restaurants. You can savor fresh seafood, international cuisine, or enjoy a classic Australian meat pie while taking in the harbor''s sights. There''s something to satisfy every palate.
 
 As we continue our exploration, you''ll discover the Royal Botanic Garden nearby. This lush oasis offers a serene escape from the urban hustle and bustle. You can meander through the well-manicured gardens, learn about native Australian flora, and revel in the tranquility of nature.
 
