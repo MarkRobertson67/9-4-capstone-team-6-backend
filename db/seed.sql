@@ -1,5 +1,5 @@
 
-\c tours;
+-- \c tours;
 
 
 INSERT INTO tour (country, region, state, city, duration, difficulty, theme, tour_name, image_url, created_at, ordered_points_of_interest)
@@ -1290,7 +1290,7 @@ I want to thank each of you for joining me on this journey across the Sydney Har
 
 So, as we continue to explore the vibrant city of Sydney, carry with you the awe-inspiring views and the sense of connection to this remarkable bridge. May your time in Sydney be filled with wonder and discovery.', '2023-08-21 17:45:00'),
 
-    (60, 'Circular Quay', 'We are back to our starting point.', '2023-08-21 18:00:00');
+    (60, 'Circular Quay', 'We are back to our starting point.', '2023-08-21 18:00:00'),
     
     (61, 'Candelária Church', 'Ladies and gentlemen, welcome to Candelária Church, one of Brazil''s most iconic architectural landmarks and a place steeped in history, spirituality, and artistic magnificence. I am your tour guide, and I am thrilled to lead you on this immersive exploration of a place that holds a special significance in the heart of Rio de Janeiro.
 
