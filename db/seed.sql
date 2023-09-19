@@ -155,7 +155,6 @@ VALUES
     (-33.8620, 151.2094, 'The Rocks', 4, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv5hQ6yJVpmTg0zGNYbg3mAYbQjToD_coUqw&usqp=CAU', '2023-08-21 20:30:00'),
     (-33.8523, 151.2102, 'Sydney Harbour Bridge', 4, 'https://images.unsplash.com/photo-1599617491715-6a27ca6f1b15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3lkbmV5JTIwaGFyYm91ciUyMGJyaWRnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60', '2023-08-21 20:45:00'),
     (-33.8613, 151.2094, 'Circular Quay', 4, 'https://images.unsplash.com/photo-1672215790432-391d672cf99d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2lyY3VsYXIlMjBxdWF5fGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60', '2023-08-21 21:00:00'),
-    (48.8594, 2.3635, 'Shakespeare and Company', 4, 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hha2VzcGVhcmUlMjBhbmQlMjBjb21wYW55JTIwc3lkbmV5fGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60', '2023-08-21 17:30:00'),
     (-22.9036, -43.1779, 'Candelária Church', 5, 'https://images.unsplash.com/photo-1635349372344-c51a84eaeddd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2FuZGVsYXJpYSUyMGNodXJjaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60', '2023-08-21 21:15:00'),
     (-22.9033, -43.1786, 'Largo da Carioca', 5, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1lS7dL8eYwmbGCry6-dfGzOvM8uthk_3NMQ&usqp=CAU', '2023-08-21 21:30:00'),
     (-22.9120, -43.1759, 'Municipal Theater of Rio de Janeiro', 5, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQib5H0cXHtE0zHUTkhOcZyckOlkA6iPDDNBQ&usqp=CAU', '2023-08-21 21:45:00'),
@@ -172,7 +171,7 @@ VALUES
     (-22.9036, -43.1779, 'Candelária Church', 5, 'https://images.unsplash.com/photo-1635349372344-c51a84eaeddd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2FuZGVsYXJpYSUyMGNodXJjaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60', '2023-08-22 00:30:00');
 
 
-INSERT INTO commentary (poi_id, comm_name, description, audio_url, created_at)
+INSERT INTO commentary (poi_id, comm_name, description, created_at)
 VALUES
 
     (1, 'Louvre Museum', 'Ladies and gentlemen, welcome to the Louvre Museum, one of the world''s most renowned cultural institutions and a true treasure trove of art, history, and human achievement. I am your tour guide, and it is my great pleasure to accompany you on this captivating journey through time and creativity.
@@ -193,7 +192,7 @@ VALUES
 
     As we continue our exploration of the Louvre, I hope you''ve gained a deeper appreciation for the boundless creativity of the human spirit and the enduring power of art to transcend time and culture. The Louvre is not just a museum; it''s a testament to the universality of beauty and expression.
 
-    I want to thank each of you for joining me on this incredible journey through the Louvre Museum today. May this experience inspire you to explore the world of art and culture further and continue your own personal journey of discovery. So, let''s continue our adventure through this extraordinary place, carrying with us the memories of the Mona Lisa''s smile, the elegance of Venus de Milo, and the richness of history that defines the Louvre.', 'https://example.com/louvre_audio.mp3', '2023-08-21 10:30:00'),
+    I want to thank each of you for joining me on this incredible journey through the Louvre Museum today. May this experience inspire you to explore the world of art and culture further and continue your own personal journey of discovery. So, let''s continue our adventure through this extraordinary place, carrying with us the memories of the Mona Lisa''s smile, the elegance of Venus de Milo, and the richness of history that defines the Louvre.',  '2023-08-21 10:30:00'),
 
     (2, 'Place Vendôme', 'Ladies and gentlemen, welcome to Place Vendôme, one of the world''s most exquisite squares and a true jewel in the heart of Paris. I''m your tour guide, and I am delighted to be your companion as we explore the history, elegance, and charm of this iconic location.
 
@@ -210,7 +209,7 @@ One cannot discuss Place Vendôme without mentioning its significance in the wor
 As we continue our journey through Place Vendôme, let the beauty of the architecture, the whispers of history, and the contemporary elegance of this square captivate your senses. It''s a place where the past and the present coexist in perfect harmony, and where every cobblestone has a story to tell.
 
 I want to thank each of you for joining me on this delightful exploration of Place Vendôme today. May this experience inspire you to appreciate the elegance of life and the artistry of craftsmanship. So, let''s continue our sojourn through this extraordinary square, savoring every moment and carrying with us the sophistication and charm that define Place Vendôme.
-', 'https://example.com/place_vendome_audio.mp3', '2023-08-21 11:00:00'),
+', '2023-08-21 11:00:00'),
 
     (3, 'Palais Garnier', 'Ladies and gentlemen, welcome to Palais Garnier, one of the world''s most magnificent opera houses and a true masterpiece of architectural grandeur. I''m your tour guide, and it is my pleasure to accompany you on this enchanting journey through the history, opulence, and artistic brilliance of this iconic Parisian landmark.
 
@@ -226,7 +225,7 @@ Our tour will take us behind the scenes, where you''ll have the opportunity to d
 
 As we stand here, surrounded by the echoes of history and the beauty of the arts, let''s remember that Palais Garnier is not just a building; it''s a sanctuary of culture and creativity. It has witnessed the world''s most talented performers, composers, and artists, and it continues to be a source of inspiration for all who enter.
 
-I want to thank each of you for joining me on this captivating journey through Palais Garnier today. May this experience inspire you to appreciate the beauty of the performing arts and the enduring legacy of human creativity. So, let''s continue our exploration of this extraordinary opera house, reveling in its splendor and carrying with us the echoes of arias and the magic of the stage.', 'https://example.com/palais_garnier_audio.mp3', '2023-08-21 11:30:00'),
+I want to thank each of you for joining me on this captivating journey through Palais Garnier today. May this experience inspire you to appreciate the beauty of the performing arts and the enduring legacy of human creativity. So, let''s continue our exploration of this extraordinary opera house, reveling in its splendor and carrying with us the echoes of arias and the magic of the stage.', '2023-08-21 11:30:00'),
 
     (4, 'Place de la Concorde', 'Ladies and gentlemen, welcome to Place de la Concorde, one of the most iconic and historic squares in all of Paris. I''m your tour guide, and I am delighted to be your companion as we explore the rich history and grandeur of this remarkable place.
 
@@ -244,7 +243,7 @@ As we stroll through the square, you''ll notice the eight statues representing F
 
 Our journey here is a reminder of the resilience of the human spirit and the power of reconciliation. Place de la Concorde stands as a testament to the enduring values of liberty, equality, and fraternity that France cherishes.
 
-I want to thank each of you for joining me on this enlightening journey through Place de la Concorde today. May this experience inspire you to appreciate the significance of public spaces in our cities and the historical tapestry that shapes our world. As we continue our exploration of Paris, remember that every corner of this city has a story to tell and a treasure to reveal.', 'https://example.com/place_de_la_concorde_audio.mp3', '2023-08-21 12:00:00'),
+I want to thank each of you for joining me on this enlightening journey through Place de la Concorde today. May this experience inspire you to appreciate the significance of public spaces in our cities and the historical tapestry that shapes our world. As we continue our exploration of Paris, remember that every corner of this city has a story to tell and a treasure to reveal.', '2023-08-21 12:00:00'),
 
     (5, 'Jardin des Tuileries', 'Ladies and gentlemen, welcome to Jardin des Tuileries, a splendid and historic garden that beckons us to explore its beauty and the stories it holds. I''m your tour guide, and I am thrilled to be your companion on this delightful journey through one of Paris''s most beloved green spaces.
 
@@ -264,7 +263,7 @@ Jardin des Tuileries holds its own secrets and tales, like the historic events t
 
 As we conclude our exploration of Jardin des Tuileries, I hope you''ve been captivated by the timeless beauty and tranquility of this place. It serves as a reminder that amid the bustling city of Paris, there are pockets of serenity waiting to be discovered.
 
-I want to thank each of you for joining me on this picturesque journey through Jardin des Tuileries today. May this experience inspire you to cherish the beauty of nature and the significance of art in our lives. As we continue our exploration of Paris, remember that the city''s wonders are as diverse as the petals in a blooming garden, each one waiting to be admired and appreciated.', 'https://example.com/jardin_des_tuileries_audio.mp3', '2023-08-21 12:30:00'),
+I want to thank each of you for joining me on this picturesque journey through Jardin des Tuileries today. May this experience inspire you to cherish the beauty of nature and the significance of art in our lives. As we continue our exploration of Paris, remember that the city''s wonders are as diverse as the petals in a blooming garden, each one waiting to be admired and appreciated.', '2023-08-21 12:30:00'),
 
     (6, 'Pont Alexandre III', 'Ladies and gentlemen, welcome to Pont Alexandre III, an exquisite bridge that stands as a testament to Paris''s architectural grandeur and artistic splendor. I''m your tour guide, and it is my privilege to lead you across this iconic landmark that gracefully spans the Seine River.
 
@@ -280,7 +279,7 @@ Our adventure wouldn''t be complete without acknowledging the Grand Palais and t
 
 As we conclude our journey across Pont Alexandre III, I hope you''ve been captivated by the bridge''s beauty and its connection to Parisian history. It''s a place where art, history, and romance converge, offering a glimpse into the soul of the City of Light.
 
-I want to thank each of you for joining me on this delightful walk across Pont Alexandre III today. May this experience inspire you to appreciate the artistry in everyday life and the timeless allure of Paris. As we continue our exploration of this magnificent city, remember that each bridge, each street, and each corner holds its own story, waiting for us to discover', 'https://example.com/pont_alexandre_iii_audio.mp3', '2023-08-21 13:00:00'),
+I want to thank each of you for joining me on this delightful walk across Pont Alexandre III today. May this experience inspire you to appreciate the artistry in everyday life and the timeless allure of Paris. As we continue our exploration of this magnificent city, remember that each bridge, each street, and each corner holds its own story, waiting for us to discover', '2023-08-21 13:00:00'),
 
     (7, 'Grand Palais', 'Ladies and gentlemen, welcome to the Palais Garnier, one of the most exquisite and iconic opera houses in the world. I''m your tour guide, and it''s a pleasure to have you join me on this enchanting journey through the history and opulence of this cultural gem.
 
@@ -296,7 +295,7 @@ Now, let''s make our way to the heart of the Palais Garnier, the auditorium. As 
 
 Throughout its history, the Palais Garnier has hosted countless operas, ballets, and other artistic performances, cementing its status as a world-class venue. It continues to be a stage for some of the most talented artists and performers from around the globe.
 
-As we conclude our visit to the Palais Garnier, I hope you''ve been transported not only through time but also into the world of art, music, and culture. This opera house is more than just a building; it''s a living testament to the enduring power of the performing arts and human creativity.', 'https://example.com/grand_palais_audio.mp3', '2023-08-21 13:30:00'),
+As we conclude our visit to the Palais Garnier, I hope you''ve been transported not only through time but also into the world of art, music, and culture. This opera house is more than just a building; it''s a living testament to the enduring power of the performing arts and human creativity.', '2023-08-21 13:30:00'),
 
     (8, 'Petit Palais', 'Ladies and gentlemen, welcome to the Petit Palais, a hidden gem in the heart of Paris that houses an exquisite collection of art and culture. I am your tour guide, and it is my great pleasure to accompany you on this enchanting journey through the world of fine arts.
 
@@ -316,7 +315,7 @@ As we explore the galleries, you''ll also discover the Petit Palais''s commitmen
 
 Before we conclude our tour, I want to express my gratitude for joining me on this inspiring journey through the Petit Palais. It''s a place where history, art, and beauty come together to create a unique and enriching experience.
 
-So, let''s continue our exploration of this cultural treasure, carrying with us the memories of the Petit Palais''s elegance and the artistic wonders we''ve encountered. May this visit inspire you to further explore the world of art and culture, both within these walls and beyond.', 'https://example.com/petit_palais_audio.mp3', '2023-08-21 14:00:00'),
+So, let''s continue our exploration of this cultural treasure, carrying with us the memories of the Petit Palais''s elegance and the artistic wonders we''ve encountered. May this visit inspire you to further explore the world of art and culture, both within these walls and beyond.', '2023-08-21 14:00:00'),
 
     (9, 'Champs-Élysées', 'Ladies and gentlemen, welcome to the Champs-Élysées, one of the world''s most iconic avenues and a symbol of Parisian elegance and grandeur. I am your tour guide, and it is my great pleasure to lead you on this enchanting journey along this historic and glamorous boulevard.
 
@@ -336,7 +335,7 @@ The Champs-Élysées has been the setting for numerous historic events and celeb
 
 As we conclude our journey along the Champs-Élysées, I hope you''ve enjoyed this glimpse into the heart of Paris. The avenue''s blend of history, elegance, and vibrant energy is truly unique and offers a taste of the Parisian way of life.
 
-So, let''s continue to savor the beauty of the Champs-Élysées as you explore further or perhaps indulge in some of the finest shopping and dining experiences this avenue has to offer. Thank you for joining me on this captivating tour, and may your memories of this iconic Parisian landmark stay with you forever.', 'https://example.com/champs_elysees_audio.mp3', '2023-08-21 14:30:00'),
+So, let''s continue to savor the beauty of the Champs-Élysées as you explore further or perhaps indulge in some of the finest shopping and dining experiences this avenue has to offer. Thank you for joining me on this captivating tour, and may your memories of this iconic Parisian landmark stay with you forever.', '2023-08-21 14:30:00'),
 
     (10, 'Arc de Triomphe', 'Ladies and gentlemen, welcome to the Arc de Triomphe, one of the most iconic symbols of France and a monument that stands as a testament to the nation''s history and spirit. I am your tour guide, and it is my great honor to guide you through the grandeur and significance of this magnificent arch.
 
@@ -354,7 +353,7 @@ Our visit here today offers an opportunity to reflect on the values that France 
 
 As we conclude our exploration of the Arc de Triomphe, I hope you''ve gained a deeper appreciation for its historical significance and the symbolism it carries. This arch is not just a monument; it is a beacon of national pride and a tribute to the resilience of the human spirit.
 
-So, let''s continue to savor the view and perhaps take a moment for personal reflection or to honor the memory of those who have shaped the destiny of this remarkable nation. Thank you for joining me on this journey through the Arc de Triomphe, and may the spirit of France inspire you as it has inspired countless others.', 'https://example.com/arc_de_triomphe_audio.mp3', '2023-08-21 15:00:00'),
+So, let''s continue to savor the view and perhaps take a moment for personal reflection or to honor the memory of those who have shaped the destiny of this remarkable nation. Thank you for joining me on this journey through the Arc de Triomphe, and may the spirit of France inspire you as it has inspired countless others.', '2023-08-21 15:00:00'),
 
     (11, 'Eiffel Tower', 'Ladies and gentlemen, welcome to the most iconic symbol of Paris and a true masterpiece of engineering and artistry the Eiffel Tower! I''m your tour guide for today, and I''m thrilled to take you on a journey through the history, design, and breathtaking views of this magnificent iron structure.
     As we stand here, gazing up at the Eiffel Tower, let''s travel back in time to the late 19th century. The tower was built by the visionary Gustave Eiffel for the 1889 World''s Fair, a celebration of the French Revolution''s centennial. Can you believe it was initially met with skepticism? But oh, how times have changed! Today, it stands tall as a symbol of Paris and France''s creative spirit.
@@ -363,7 +362,7 @@ So, let''s continue to savor the view and perhaps take a moment for personal ref
     Now, if you''re feeling adventurous, you can choose to take the stairs to the second level. It''s quite a climb, but the sense of achievement and the unique perspective of the tower''s structure make it well worth the effort. For those who prefer a smoother ride, the elevator is your best friend, whisking you up through the tower''s intricate framework.
     Ah, but the magic doesn''t end when the sun goes down! The Eiffel Tower transforms into a dazzling spectacle every evening. Starting at sunset and continuing until 1 AM, the tower''s thousands of lights create a sparkling dance that''s truly mesmerizing. So, if you''re in the mood for a romantic evening or just want to witness something enchanting, consider staying a bit longer.
     As we stand here, soaking in the views and the history, remember that the Eiffel Tower is more than just a structure  it''s a symbol of love, dreams, and human ingenuity. It has inspired countless proposals, captured hearts in films and literature, and continues to stand as a beacon of Parisian pride.
-    So, my fellow adventurers, I hope you''re as excited as I am to explore every nook and cranny of this remarkable landmark. Whether you''re here for the first time or returning for another glimpse, the Eiffel Tower promises an experience that will leave an indelible mark on your memories. Let''s embark on this journey together and create moments to treasure forever!', 'https://example.com/english_audio.mp3', '2023-08-21 10:30:00'),
+    So, my fellow adventurers, I hope you''re as excited as I am to explore every nook and cranny of this remarkable landmark. Whether you''re here for the first time or returning for another glimpse, the Eiffel Tower promises an experience that will leave an indelible mark on your memories. Let''s embark on this journey together and create moments to treasure forever!', '2023-08-21 10:30:00'),
 
     (12, 'Trocadéro Gardens', 'Ladies and gentlemen, welcome to the Trocadéro Gardens, a place of grace and grandeur that offers one of the most splendid views of the iconic Eiffel Tower. I am your tour guide, and I am delighted to accompany you on this journey through these enchanting gardens.
 
@@ -379,7 +378,7 @@ For those who enjoy a leisurely walk, the gardens offer a serene escape from the
 
 As we conclude our visit to the Trocadéro Gardens, I hope you''ve found this oasis of nature and culture to be a delightful part of your Parisian adventure. Whether you''re here to admire the Eiffel Tower, explore the museums, or simply unwind in this idyllic setting, these gardens have something special to offer each and every visitor.
 
-So, let''s take one last moment to soak in the view, breathe in the fresh air, and appreciate the harmonious blend of art, history, and nature that defines the Trocadéro Gardens. Thank you for joining me on this journey, and may the memories of this place stay with you long after you leave.', 'https://example.com/trocadero_gardens_audio.mp3', '2023-08-21 16:00:00'),
+So, let''s take one last moment to soak in the view, breathe in the fresh air, and appreciate the harmonious blend of art, history, and nature that defines the Trocadéro Gardens. Thank you for joining me on this journey, and may the memories of this place stay with you long after you leave.', '2023-08-21 16:00:00'),
 
     (13, 'Musée de l''Homme', 'Ladies and gentlemen, welcome to the Musée de l''Homme, a captivating institution that invites us to explore the rich tapestry of human history, culture, and evolution. I am your tour guide, and it is my pleasure to accompany you on this enlightening journey through the museum''s exhibits.
 
@@ -395,7 +394,7 @@ For those with a thirst for knowledge, the museum''s research and educational pr
 
 As we conclude our visit to the Musée de l''Homme, I hope you''ve found this journey through the annals of human history to be both enlightening and thought-provoking. The museum offers a profound perspective on our past, present, and the interconnectedness of our global community.
 
-So, let''s take a moment to appreciate the remarkable accomplishments of humanity, from our ancient origins to the vibrant cultures that shape our world today. Thank you for joining me on this exploration of the Musée de l''Homme, and may the knowledge gained here inspire you to continue your quest for understanding in the world around you.', 'https://example.com/musee_de_lhomme_audio.mp3', '2023-08-21 16:30:00'),
+So, let''s take a moment to appreciate the remarkable accomplishments of humanity, from our ancient origins to the vibrant cultures that shape our world today. Thank you for joining me on this exploration of the Musée de l''Homme, and may the knowledge gained here inspire you to continue your quest for understanding in the world around you.',  '2023-08-21 16:30:00'),
 
     (14, 'Palais de Chaillot', 'Ladies and gentlemen, welcome to the Palais de Chaillot, a majestic architectural marvel that offers a splendid panorama of the City of Light. I am your tour guide, and it is my privilege to accompany you on this journey to discover the history, culture, and breathtaking views that await us.
 
@@ -413,7 +412,7 @@ But our journey doesn''t end here. From the Palais de Chaillot, we have a stunni
 
 As we conclude our visit to the Palais de Chaillot, I encourage you to take a moment to savor the grandeur of Paris and its rich cultural tapestry. May the memories of this place, its museums, and its breathtaking vistas stay with you long after we bid adieu.
 
-Thank you for joining me on this journey to Palais de Chaillot, and may you continue to be enchanted by the wonders of Paris and the world. Au revoir!', 'https://example.com/palais_de_chaillot_audio.mp3', '2023-08-21 17:00:00'),
+Thank you for joining me on this journey to Palais de Chaillot, and may you continue to be enchanted by the wonders of Paris and the world. Au revoir!', '2023-08-21 17:00:00'),
 
     (15, 'Place du Trocadéro', 'Ladies and gentlemen, welcome to the Place du Trocadéro, a splendid square that offers one of the most iconic and breathtaking views of the Eiffel Tower in all of Paris. I am your tour guide, and it is my pleasure to accompany you on this journey to discover the beauty, history, and culture of this remarkable place.
 
@@ -429,7 +428,7 @@ Beyond the Eiffel Tower, the Place du Trocadéro offers a commanding view of the
 
 As we conclude our visit to the Place du Trocadéro, I encourage you to take in the splendor of this iconic square, its museums, and its unparalleled vistas. The memories you create here, with the Eiffel Tower as your backdrop, will surely stay with you as a testament to the enduring allure of Paris.
 
-Thank you for joining me on this journey to the Place du Trocadéro, and may you carry the magic of this place in your hearts as you continue to explore the treasures of Paris and the world. Au revoir!', 'https://example.com/place_du_trocadero_audio.mp3', '2023-08-21 17:30:00'),
+Thank you for joining me on this journey to the Place du Trocadéro, and may you carry the magic of this place in your hearts as you continue to explore the treasures of Paris and the world. Au revoir!', '2023-08-21 17:30:00'),
 
     (16, 'Colosseum', 'Now, as we stand before this magnificent amphitheater, let''s delve into its incredible history. The Colosseum, officially known as the Flavian Amphitheatre, was constructed over 1,900 years ago, between AD 70 and AD 80, during the reign of Emperor Vespasian. It was inaugurated with a series of spectacular games that lasted for 100 days, showcasing gladiatorial contests, animal hunts, and mock sea battles. The Colosseum could hold between 50,000 to 80,000 spectators, making it the epicenter of Roman entertainment and a symbol of the empire''s power and opulence.
     Now, let''s take a closer look at the Colosseum''s architecture. The sheer scale of this amphitheater is awe-inspiring. Its oval shape, soaring walls, and layered seating are a testament to the brilliance of Roman engineering and design. What''s even more astonishing is that the exterior was constructed using massive stone blocks that interlocked without the need for mortar. It''s a true marvel of precision and design.
@@ -437,7 +436,7 @@ Thank you for joining me on this journey to the Place du Trocadéro, and may you
     Over time, the Colosseum has transcended its time and place, becoming a symbol not just of Rome but of human achievement. Its image has graced countless artworks, literature, and films, making it a part of our global heritage. Today, it stands as a UNESCO World Heritage Site, preserving the legacy of ancient Rome for generations to come.
     While time and nature have taken their toll, ongoing restoration efforts ensure that the Colosseum remains accessible to visitors from around the world. It''s a place where we can step back in time, connect with history, and appreciate the incredible architectural feats of antiquity.
     As we stand here today, let''s reflect on the Colosseum''s historical significance and the incredible stories that have unfolded within these ancient walls. This is more than just a relic; it''s a living testament to human ingenuity and the grandeur of ancient Rome.
-    So, my fellow adventurers, I hope you''re as captivated as I am by the rich history of this incredible monument. Let''s honor the countless individuals who contributed to its legacy and celebrate the enduring marvel of this arena. The Colosseum is a treasure trove of history, and the memories we create here will stay with us for a lifetime. Let''s embark on this unforgettable journey together and immerse ourselves in the magic of the Colosseum!', 'https://example.com/colosseum_audio.mp3', '2023-08-21 11:45:00'),
+    So, my fellow adventurers, I hope you''re as captivated as I am by the rich history of this incredible monument. Let''s honor the countless individuals who contributed to its legacy and celebrate the enduring marvel of this arena. The Colosseum is a treasure trove of history, and the memories we create here will stay with us for a lifetime. Let''s embark on this unforgettable journey together and immerse ourselves in the magic of the Colosseum!', '2023-08-21 11:45:00'),
 
     (17, 'Roman Forum', 'Ladies and gentlemen, welcome to the Roman Forum, an ancient marvel that invites us to step back in time and immerse ourselves in the rich history of Rome. I am your tour guide, and together, we will explore the heart of this once-mighty empire.
 
@@ -457,7 +456,7 @@ Our journey through the Roman Forum is a journey through the annals of human civ
 
 As we conclude our visit to this remarkable site, take a moment to soak in the history and grandeur of the Roman Forum. The echoes of the past are still alive here, whispering tales of a civilization that shaped the course of history.
 
-Thank you for joining me on this journey through the Roman Forum, and may the stories of ancient Rome continue to inspire and captivate your imagination as you explore the wonders of Italy and beyond.', 'https://example.com/roman_forum_audio.mp3', '2023-08-21 11:50:00'),
+Thank you for joining me on this journey through the Roman Forum, and may the stories of ancient Rome continue to inspire and captivate your imagination as you explore the wonders of Italy and beyond.', '2023-08-21 11:50:00'),
 
     (18, 'Capitoline Hill', 'Ladies and gentlemen, welcome to Capitoline Hill, one of Rome''s legendary seven hills and a place steeped in history, art, and grandeur. I am your tour guide, and together, we will ascend this historic hill and explore its many treasures.
 
@@ -479,7 +478,7 @@ Before we conclude our visit, take a moment to savor the ambiance of the piazza 
 
 I want to thank each of you for joining me on this journey to Capitoline Hill today. May this experience inspire you to delve further into the rich history, art, and culture of Italy. As you explore the wonders of Rome and beyond, may you carry with you the memories of this iconic hill and the treasures it holds.
 
-So, let us bid farewell to this historic site, knowing that the echoes of the past will continue to resonate in your hearts. Capitoline Hill remains a testament to the enduring spirit and legacy of Rome.', 'https://example.com/capitoline_hill_audio.mp3', '2023-08-21 11:55:00'),
+So, let us bid farewell to this historic site, knowing that the echoes of the past will continue to resonate in your hearts. Capitoline Hill remains a testament to the enduring spirit and legacy of Rome.', '2023-08-21 11:55:00'),
 
     (19, 'Trevi Fountain', 'Ladies and gentlemen, welcome to the enchanting Trevi Fountain, a masterpiece of Baroque art and one of Rome''s most beloved landmarks. I am your tour guide, and it is my pleasure to lead you through the history, beauty, and legends that surround this iconic monument.
 
@@ -497,7 +496,7 @@ Let''s also take a moment to appreciate the surrounding piazza, which has been t
 
 I want to thank each of you for joining me on this journey to the Trevi Fountain today. May the magic of this place stay with you as you explore the wonders of Rome and beyond. And as you toss your coins into the fountain, may your wishes come true, and may the eternal city hold a special place in your hearts.
 
-So, let us bid farewell to this mesmerizing masterpiece, knowing that its waters will continue to flow with dreams and aspirations for generations to come. The Trevi Fountain is not just a fountain; it''s a symbol of hope and the enduring spirit of Rome.', 'https://example.com/trevi_fountain_audio.mp3', '2023-08-21 12:20:00'),
+So, let us bid farewell to this mesmerizing masterpiece, knowing that its waters will continue to flow with dreams and aspirations for generations to come. The Trevi Fountain is not just a fountain; it''s a symbol of hope and the enduring spirit of Rome.', '2023-08-21 12:20:00'),
 
     (20, 'Pantheon', 'Ladies and gentlemen, welcome to the awe-inspiring Pantheon, one of Rome''s most extraordinary architectural marvels. I am your tour guide, and it''s my pleasure to guide you through the rich history, remarkable design, and cultural significance of this ancient Roman temple.
 
@@ -515,7 +514,7 @@ As we conclude our visit to the Pantheon, I hope you''ve gained a deeper appreci
 
 I want to thank each of you for joining me on this journey through the Pantheon today. As you step outside, I encourage you to look up at the magnificent dome and take in the grandeur of this ancient wonder. May the Pantheon''s beauty and history stay with you as you continue to explore the captivating city of Rome.
 
-So, let''s bid farewell to this magnificent temple, knowing that it will continue to stand as a testament to the ingenuity and artistic brilliance of ancient Rome. The Pantheon is a timeless treasure, and I hope you carry its memory with you as you explore the wonders of this historic city.', 'https://example.com/pantheon_audio.mp3', '2023-08-21 12:10:00'),
+So, let''s bid farewell to this magnificent temple, knowing that it will continue to stand as a testament to the ingenuity and artistic brilliance of ancient Rome. The Pantheon is a timeless treasure, and I hope you carry its memory with you as you explore the wonders of this historic city.', '2023-08-21 12:10:00'),
 
     (21, 'Piazza Navona', 'Ladies and gentlemen, welcome to the captivating Piazza Navona, one of Rome''s most magnificent public squares and a testament to the city''s rich history and artistic heritage. I am your tour guide, and I''m delighted to lead you through the vibrant past and captivating beauty of this iconic place.
 
@@ -535,7 +534,7 @@ As we conclude our exploration of Piazza Navona, I hope you''ve been captivated 
 
 I want to thank each of you for joining me on this journey through Piazza Navona today. As you continue your exploration of Rome, may the memories of this splendid square stay with you, and may you find inspiration in the beauty and history that surrounds you.
 
-So, let''s bid farewell to this remarkable piazza, knowing that its enduring beauty will continue to captivate visitors from around the world. Piazza Navona is a treasure trove of art and culture, and I encourage you to explore it further and discover its hidden gems.', 'https://example.com/piazza_navona_audio.mp3', '2023-08-21 12:15:00'),
+So, let''s bid farewell to this remarkable piazza, knowing that its enduring beauty will continue to captivate visitors from around the world. Piazza Navona is a treasure trove of art and culture, and I encourage you to explore it further and discover its hidden gems.', '2023-08-21 12:15:00'),
 
     (22, 'Campo de'' Fiori', 'Ladies and gentlemen, welcome to Campo de'' Fiori, a charming and historic square nestled in the heart of Rome. I am your tour guide, and I''m excited to take you on a journey through the rich tapestry of this delightful place.
 
@@ -555,7 +554,7 @@ As we conclude our visit to Campo de''Fiori, I hope you''ve enjoyed this glimpse
 
 I want to thank each of you for joining me on this journey through Campo de''Fiori today. May the memories of this charming square stay with you, and may you continue to explore and savor the many wonders that Rome has to offer.
 
-So, let''s bid arrivederci to this remarkable square, knowing that its unique character and vibrant energy will continue to draw visitors and capture hearts for generations to come.', 'https://example.com/campo_de_fiori_audio.mp3', '2023-08-21 12:25:00'),
+So, let''s bid arrivederci to this remarkable square, knowing that its unique character and vibrant energy will continue to draw visitors and capture hearts for generations to come.', '2023-08-21 12:25:00'),
 
     (23, 'Trastevere', 'Ladies and gentlemen, welcome to Trastevere, one of Rome''s most enchanting and picturesque neighborhoods. I am your tour guide, and I''m thrilled to lead you on a journey through the timeless charm and vibrant culture of this historic district.
 
@@ -575,7 +574,7 @@ As we conclude our exploration of Trastevere, I hope you''ve fallen under the sp
 
 I want to thank each of you for joining me on this journey through Trastevere today. May the memories of this enchanting neighborhood stay with you, and may you continue to discover the beauty and allure of Rome in every corner.
 
-So, let''s bid arrivederci to Trastevere, knowing that its timeless charm and authentic character will always welcome those seeking the heart and soul of the Eternal City.', 'https://example.com/trastevere_audio.mp3', '2023-08-21 12:30:00'),
+So, let''s bid arrivederci to Trastevere, knowing that its timeless charm and authentic character will always welcome those seeking the heart and soul of the Eternal City.', '2023-08-21 12:30:00'),
 
     (24, 'Vatican City', 'Ladies and gentlemen, welcome to Vatican City, one of the world''s most extraordinary and spiritually significant places. I am your tour guide, and I am honored to lead you on this sacred journey through the heart of the Catholic Church and the Vatican''s cultural treasures.
 
@@ -595,7 +594,7 @@ Our journey through Vatican City allows us to witness the profound impact of fai
 
 I want to thank each of you for joining me on this extraordinary journey through Vatican City today. May the spiritual and cultural significance of this place leave a lasting impression on your hearts and minds. As you depart, may you carry with you the sense of wonder and reverence that Vatican City has inspired in countless souls.
 
-So, let us bid farewell to this sacred enclave, knowing that its legacy and significance will continue to shine as a beacon of faith, art, and human achievement.', 'https://example.com/vatican_city_audio.mp3', '2023-08-21 12:35:00'),
+So, let us bid farewell to this sacred enclave, knowing that its legacy and significance will continue to shine as a beacon of faith, art, and human achievement.', '2023-08-21 12:35:00'),
 
     (25, 'St. Peter''s Basilica', 'Ladies and gentlemen, welcome to St. Peter''s Basilica, one of the most iconic and revered religious sites in the world. I am your tour guide, and I am deeply honored to accompany you on this spiritual and architectural journey through the heart of Vatican City.
 
@@ -615,7 +614,7 @@ Before we conclude our visit, I invite you to spend a few moments in silent refl
 
 I want to express my gratitude to each of you for joining me on this profound journey through St. Peter''s Basilica today. May the beauty and spiritual significance of this place leave an indelible mark on your hearts and souls. As you depart, may you carry with you the sense of awe and wonder that St. Peter''s Basilica has evoked in countless visitors throughout history.
 
-So, let us bid farewell to this hallowed sanctuary, knowing that its legacy and significance will continue to shine as a beacon of faith, art, and human aspiration.', 'https://example.com/st_peters_basilica_audio.mp3', '2023-08-21 12:40:00'),
+So, let us bid farewell to this hallowed sanctuary, knowing that its legacy and significance will continue to shine as a beacon of faith, art, and human aspiration.', '2023-08-21 12:40:00'),
 
     (26, 'Castel Sant''Angelo', 'Ladies and gentlemen, welcome to Castel Sant''Angelo, a historic fortress that has witnessed the ebb and flow of centuries of Roman history. I am your tour guide, and I am delighted to accompany you on this journey through time and architectural marvels.
 
@@ -633,7 +632,7 @@ Before we conclude our tour, I encourage you to reflect on the layers of history
 
 I extend my sincere gratitude to each of you for joining me on this expedition through Castel Sant''Angelo today. May the echoes of the past and the resilience of this fortress inspire you as you continue your journey through the eternal city of Rome.
 
-So, let us bid farewell to this remarkable monument, knowing that its stories and mysteries will continue to intrigue and captivate visitors for generations to come.', 'https://example.com/castel_santangelo_audio.mp3', '2023-08-21 12:45:00'),
+So, let us bid farewell to this remarkable monument, knowing that its stories and mysteries will continue to intrigue and captivate visitors for generations to come.', '2023-08-21 12:45:00'),
 
     (27, 'Piazza del Popolo', 'Ladies and gentlemen, welcome to Piazza del Popolo, one of Rome''s most iconic and historically significant squares. I am your tour guide, and I am thrilled to guide you through the storied past and vibrant present of this magnificent urban space.
 
@@ -653,7 +652,7 @@ As we conclude our exploration of Piazza del Popolo, I encourage you to take a m
 
 I want to extend my heartfelt thanks to each of you for joining me on this journey through Piazza del Popolo today. May your memories of this square be filled with the splendor of its architecture, the warmth of its people, and the enduring spirit of Rome.
 
-So, let us continue our exploration of the Eternal City, knowing that the enchantment of Rome extends far beyond the bounds of this magnificent square.', 'https://example.com/piazza_del_popolo_audio.mp3', '2023-08-21 12:50:00'),
+So, let us continue our exploration of the Eternal City, knowing that the enchantment of Rome extends far beyond the bounds of this magnificent square.', '2023-08-21 12:50:00'),
 
     (28, 'Spanish Steps', 'Ladies and gentlemen, welcome to the Spanish Steps, one of Rome''s most famous and beloved landmarks. I am your tour guide, and I am delighted to accompany you on this journey through the heart of the Eternal City.
 
@@ -673,7 +672,7 @@ As we conclude our visit to the Spanish Steps, I encourage you to take a moment 
 
 I want to express my gratitude to each of you for joining me on this exploration of the Spanish Steps today. May your memories of this place be filled with the elegance, history, and romance that define Rome.
 
-So, as we continue our discovery of the Eternal City, remember that the magic of Rome extends far beyond this iconic staircase.', 'https://example.com/spanish_steps_audio.mp3', '2023-08-21 12:55:00'),
+So, as we continue our discovery of the Eternal City, remember that the magic of Rome extends far beyond this iconic staircase.', '2023-08-21 12:55:00'),
 
     (29, 'Piazza Venezia', 'Ladies and gentlemen, welcome to Piazza Venezia, a central and historic square that serves as a focal point in the heart of Rome. I am your tour guide, and I am excited to lead you on this journey through the rich history and grandeur of this remarkable place.
 
@@ -691,7 +690,7 @@ As we conclude our visit to Piazza Venezia, take a moment to appreciate the ener
 
 I want to thank each of you for joining me on this exploration of Piazza Venezia today. May your memories of this square be filled with the grandeur and the vibrant spirit of Rome.
 
-So, as we continue our journey through the Eternal City, remember that every corner of Rome has a story to tell, and Piazza Venezia is just one captivating chapter in this city''s rich narrative.', 'https://example.com/piazza_venezia_audio.mp3', '2023-08-21 13:00:00'),
+So, as we continue our journey through the Eternal City, remember that every corner of Rome has a story to tell, and Piazza Venezia is just one captivating chapter in this city''s rich narrative.', '2023-08-21 13:00:00'),
 
     (30, 'Altare della Patria', 'Ladies and gentlemen, welcome to Altare della Patria, also known as the Monumento Nazionale a Vittorio Emanuele II or simply the Vittoriano. I am your tour guide, and it is my honor to guide you through this magnificent monument that stands as a symbol of Italy''s unity and patriotism.
 
@@ -709,7 +708,7 @@ As we conclude our visit to Altare della Patria, take a moment to reflect on the
 
 I want to express my gratitude to each of you for joining me on this exploration of Altare della Patria today. May your memories of this remarkable monument be filled with admiration for Italy''s history and its enduring spirit.
 
-So, as we continue our exploration of Rome, let''s carry with us the pride and reverence that Altare della Patria instills in all who visit, reminding us of the importance of unity and patriotism.', 'https://example.com/altare_della_patria_audio.mp3', '2023-08-21 13:05:00'),
+So, as we continue our exploration of Rome, let''s carry with us the pride and reverence that Altare della Patria instills in all who visit, reminding us of the importance of unity and patriotism.', '2023-08-21 13:05:00'),
 
     (31, 'Roman Forum (second mention)', 'Ladies and gentlemen, welcome to the Roman Forum, a place where history comes to life, and the echoes of ancient Rome resonate through the ages. I am your tour guide, and together, we''ll embark on a captivating journey through this remarkable archaeological site.
 
@@ -735,10 +734,9 @@ As we wrap up our exploration of the Roman Forum, I hope you''ve gained a deeper
 
 I want to express my gratitude to each of you for joining me on this journey through the Roman Forum today. May the echoes of history and the grandeur of ancient Rome stay with you as lasting memories.
 
-So, as we continue to explore the wonders of Italy, let''s carry with us the lessons and inspirations we''ve gathered here at the Roman Forum, a place where the past meets the present.', 'https://example.com/roman_forum_audio.mp3', '2023-08-21 13:10:00'),
+So, as we continue to explore the wonders of Italy, let''s carry with us the lessons and inspirations we''ve gathered here at the Roman Forum, a place where the past meets the present.', '2023-08-21 13:10:00'),
 
-    (32, 'Colosseum', 'We are back to our starting point.',
-    'https://example.com/english_audio.mp3', '2023-08-21 11:45:00'),
+    (32, 'Colosseum', 'We are back to our starting point.', '2023-08-21 11:45:00'),
 
     (33, 'Tokyo Station', 'Ladies and gentlemen, welcome to Tokyo Station, a hub of modernity and a gateway to Japan''s vibrant capital. I am your tour guide, and I''m excited to take you on a journey through this bustling transportation hub and the surrounding areas.
 
@@ -772,7 +770,7 @@ As we conclude our tour of Tokyo Station and its surroundings, I hope you''ve ga
 
 I want to express my gratitude for joining me on this exploration of Tokyo Station and its environs. May the memories of our journey stay with you as you continue to discover the wonders of Tokyo and Japan.
 
-So, as you venture forth into this captivating city, remember that Tokyo Station is more than just a transportation hub; it''s a gateway to the extraordinary experiences and adventures that await you in Tokyo.', 'https://example.com/tokyo_station_audio.mp3', '2023-08-21 09:45:00'),
+So, as you venture forth into this captivating city, remember that Tokyo Station is more than just a transportation hub; it''s a gateway to the extraordinary experiences and adventures that await you in Tokyo.', '2023-08-21 09:45:00'),
 
     (34, 'Imperial Palace', 'Ladies and gentlemen, welcome to the Imperial Palace, an iconic symbol of Japan''s rich history and enduring traditions. I am your tour guide, and I''m honored to accompany you on this remarkable journey through the heart of Tokyo.
 
@@ -790,7 +788,7 @@ Throughout our tour, I encourage you to take a moment to reflect on the signific
 
 As we conclude our visit to the Imperial Palace, I want to express my gratitude for joining me on this journey. May the memories of this iconic landmark inspire you to delve further into Japan''s rich history and cultural heritage.
 
-So, as you depart this hallowed ground, remember that the Imperial Palace represents more than just a physical structure; it embodies the spirit of Japan and its enduring commitment to tradition, unity, and the future.', 'https://example.com/imperial_palace_audio.mp3', '2023-08-21 10:00:00'),
+So, as you depart this hallowed ground, remember that the Imperial Palace represents more than just a physical structure; it embodies the spirit of Japan and its enduring commitment to tradition, unity, and the future.', '2023-08-21 10:00:00'),
 
     (35, 'Yasukuni Shrine', 'Ladies and gentlemen, welcome to Yasukuni Shrine, a place of deep significance in Japan''s history and culture. I am your tour guide, and it''s an honor to lead you on this exploration of a site that evokes powerful emotions and reflections.
 
@@ -808,7 +806,7 @@ As you stand within the solemn grounds of Yasukuni Shrine, I encourage you to ap
 
 As our visit to Yasukuni Shrine comes to a close, I want to express my appreciation for joining me on this journey. May the experience here encourage you to explore Japan''s history, culture, and the enduring spirit of remembrance.
 
-So, as you depart from this significant site, carry with you the understanding that Yasukuni Shrine stands as a symbol of Japan''s complex history and its commitment to honoring those who have served the nation.', 'https://example.com/yasukuni_shrine_audio.mp3', '2023-08-21 10:15:00'),
+So, as you depart from this significant site, carry with you the understanding that Yasukuni Shrine stands as a symbol of Japan''s complex history and its commitment to honoring those who have served the nation.', '2023-08-21 10:15:00'),
 
     (36, 'Tokyo National Museum', 'DLadies and gentlemen, welcome to the Tokyo National Museum, a treasure trove of Japan''s rich cultural heritage and artistic legacy. I am your tour guide, and it''s my pleasure to guide you through this remarkable institution dedicated to preserving and showcasing the nation''s history.
 
@@ -830,7 +828,7 @@ As we conclude our visit to the Tokyo National Museum, I want to express my grat
 
 As you exit the museum, I encourage you to continue exploring Tokyo and experiencing the living traditions and artistic expressions that make Japan a unique and vibrant country. May the memories of our time here inspire your ongoing curiosity about this fascinating culture.
 
-So, let''s depart from this cultural haven with a sense of wonder and appreciation for Japan''s enduring legacy in the world of art and history.', 'https://example.com/tokyo_national_museum_audio.mp3', '2023-08-21 10:30:00'),
+So, let''s depart from this cultural haven with a sense of wonder and appreciation for Japan''s enduring legacy in the world of art and history.', '2023-08-21 10:30:00'),
 
     (37, 'Ueno Park', 'Ladies and gentlemen, welcome to Ueno Park, a serene oasis nestled in the heart of bustling Tokyo. I am your tour guide, and it''s my pleasure to accompany you on this delightful journey through one of the city''s most beloved green spaces.
 
@@ -856,7 +854,7 @@ Before we part ways, take a moment to appreciate the park''s serene beauty and p
 
 Thank you for joining me on this journey through Ueno Park. As you exit the park, may you carry with you the memories of its tranquil landscapes and cultural treasures. Continue to explore Tokyo''s vibrant offerings, and may your travels be filled with discovery and wonder.
 
-So, let''s bid farewell to Ueno Park, knowing that its serene spirit will remain in our hearts as a cherished memory of Tokyo''s enduring allure.', 'https://example.com/ueno_park_audio.mp3', '2023-08-21 10:45:00'),
+So, let''s bid farewell to Ueno Park, knowing that its serene spirit will remain in our hearts as a cherished memory of Tokyo''s enduring allure.', '2023-08-21 10:45:00'),
 
     (38, 'Asakusa Shrine', 'Ladies and gentlemen, welcome to the Asakusa Shrine, a place of spiritual tranquility in the heart of Tokyo. I am your tour guide, and it''s my privilege to lead you through this sacred sanctuary, where tradition and reverence intertwine.
 
@@ -878,7 +876,7 @@ Before we conclude our visit to the Asakusa Shrine, I encourage you to explore t
 
 I want to express my gratitude for joining me on this spiritual journey through the Asakusa Shrine. May the tranquility and reverence of this sacred place remain with you as a source of inspiration and reflection. As you continue to explore Tokyo and beyond, may you carry the blessings and serenity of this shrine in your heart.
 
-So, let''s bid farewell to the Asakusa Shrine, knowing that its sacred aura will linger with us as we continue our adventures in Tokyo and beyond.', 'https://example.com/asakusa_shrine_audio.mp3', '2023-08-21 11:00:00'),
+So, let''s bid farewell to the Asakusa Shrine, knowing that its sacred aura will linger with us as we continue our adventures in Tokyo and beyond.', '2023-08-21 11:00:00'),
 
     (39, 'Senso-ji Temple', 'Ladies and gentlemen, welcome to Senso-ji Temple, Tokyo''s oldest and most revered Buddhist temple, where spirituality and history converge in a place of timeless beauty and profound significance. I am your tour guide, and it''s my honor to lead you on a journey of discovery through this sacred haven.
 
@@ -898,7 +896,7 @@ Before we conclude our visit, I encourage you to explore the temple grounds furt
 
 I want to express my gratitude for sharing this spiritual journey with me today. May the peace and reverence of Senso-ji Temple remain with you as a source of inspiration and tranquility. As you continue your explorations of Tokyo and its treasures, may the blessings of this sacred place accompany you on your path.
 
-So, let''s bid farewell to Senso-ji Temple, knowing that its timeless beauty and profound spirituality will linger in our hearts as we continue our adventures.', 'https://example.com/sensoji_temple_audio.mp3', '2023-08-21 11:15:00'),
+So, let''s bid farewell to Senso-ji Temple, knowing that its timeless beauty and profound spirituality will linger in our hearts as we continue our adventures.', '2023-08-21 11:15:00'),
 
     (40, 'Tokyo Skytree', 'Ladies and gentlemen, welcome to Tokyo Skytree, an architectural marvel and an iconic symbol of Japan''s modernity and innovation. I am your tour guide, and I''m thrilled to take you on an awe-inspiring journey into the heights of Tokyo.
 
@@ -918,7 +916,7 @@ Before we conclude our visit, don''t forget to explore the souvenir shops and en
 
 I want to thank each of you for joining me on this breathtaking journey to the heights of Tokyo Skytree. May the memories of these awe-inspiring views and the sense of wonder stay with you long after we descend to solid ground. Whether you''re a seasoned traveler or visiting Japan for the first time, Tokyo Skytree offers an experience that transcends cultural boundaries.
 
-So, let''s continue to revel in the beauty of Tokyo from the skies above and create memories that will remain etched in our hearts.', 'https://example.com/tokyo_skytree_audio.mp3', '2023-08-21 11:30:00'),
+So, let''s continue to revel in the beauty of Tokyo from the skies above and create memories that will remain etched in our hearts.', '2023-08-21 11:30:00'),
 
     (41, 'Akihabara Electric Town', 'Ladies and gentlemen, welcome to Akihabara Electric Town, a vibrant district in Tokyo that''s renowned for its electrifying energy and a haven for tech enthusiasts and pop culture aficionados. I am your tour guide, and I''m excited to take you on an exhilarating journey through this unique and iconic neighborhood.
 
@@ -938,7 +936,7 @@ Before we conclude our visit, take a moment to soak in the neon lights and bustl
 
 I want to express my gratitude for joining me on this journey through Akihabara Electric Town. May the excitement and discoveries of this district stay with you as you explore the multifaceted facets of Tokyo and Japan. Whether you''re a tech enthusiast, an anime lover, or simply curious about the culture, Akihabara offers an experience like no other.
 
-So, let''s continue to immerse ourselves in the world of electronics, pop culture, and gaming as we explore every nook and cranny of Akihabara Electric Town.', 'https://example.com/akihabara_audio.mp3', '2023-08-21 11:45:00'),
+So, let''s continue to immerse ourselves in the world of electronics, pop culture, and gaming as we explore every nook and cranny of Akihabara Electric Town.', '2023-08-21 11:45:00'),
 
     (42, 'Tsukiji Fish Market', 'Ladies and gentlemen, welcome to Tsukiji Fish Market, a true paradise for seafood enthusiasts and a bustling epicenter of culinary excellence. I am your tour guide, and I''m delighted to lead you on an exciting expedition through this renowned market.
 
@@ -958,7 +956,7 @@ Before we conclude our visit, take a moment to absorb the sights, sounds, and fl
 
 I want to express my appreciation for joining me on this culinary expedition through Tsukiji Fish Market. May the flavors and memories of this market linger with you as you continue to explore the culinary delights of Japan. From sushi to street food, Tsukiji is a testament to the exquisite tastes and traditions of this remarkable country.
 
-So, let''s continue our exploration of Tsukiji Fish Market, savoring the treasures of the sea and the rich tapestry of Japanese culinary culture.', 'https://example.com/tsukiji_fish_market_audio.mp3', '2023-08-21 12:00:00'),
+So, let''s continue our exploration of Tsukiji Fish Market, savoring the treasures of the sea and the rich tapestry of Japanese culinary culture.', '2023-08-21 12:00:00'),
 
     (43, 'Hibiya Park', 'Ladies and gentlemen, welcome to Hibiya Park, an oasis of tranquility nestled in the heart of Tokyo, Japan. I am your tour guide, and it''s my pleasure to guide you through this serene urban escape.
 
@@ -980,7 +978,7 @@ Before we conclude our visit to Hibiya Park, take a moment to appreciate the sen
 
 I want to express my gratitude for joining me on this serene journey through Hibiya Park. May the tranquility and natural beauty of this urban sanctuary stay with you as you continue to explore the wonders of Tokyo.
 
-So, let''s continue our exploration of Hibiya Park, embracing the harmony between nature and city life that defines this remarkable oasis.', 'https://example.com/hibiya_park_audio.mp3', '2023-08-21 12:15:00'),
+So, let''s continue our exploration of Hibiya Park, embracing the harmony between nature and city life that defines this remarkable oasis.', '2023-08-21 12:15:00'),
 
     (44, 'Ginza Shopping District', 'Ladies and gentlemen, welcome to the Ginza Shopping District, a world-renowned shopping haven in the heart of Tokyo, Japan. I am your tour guide, and it''s my pleasure to lead you through this vibrant and bustling district.
 
@@ -1004,7 +1002,7 @@ Before we conclude our visit to Ginza, take a moment to appreciate the district'
 
 I want to express my gratitude for joining me on this exhilarating journey through the Ginza Shopping District. May the memories of your time here in Ginza be filled with the excitement of discovery and the allure of luxury.
 
-So, let''s continue our exploration of Ginza, where every corner holds the promise of a new and unforgettable experience.', 'https://example.com/ginza_shopping_district_audio.mp3', '2023-08-21 12:30:00'),
+So, let''s continue our exploration of Ginza, where every corner holds the promise of a new and unforgettable experience.', '2023-08-21 12:30:00'),
 
     (45, 'Tokyo International Forum', 'Ladies and gentlemen, welcome to the Tokyo International Forum, a cultural and convention center that stands as a symbol of modernity and creativity in the heart of Tokyo, Japan. I am your tour guide, and it''s my pleasure to guide you through this architectural marvel.
 
@@ -1024,7 +1022,7 @@ Before we conclude our tour, take a moment to enjoy the open spaces and courtyar
 
 I want to express my gratitude for joining me on this journey through the Tokyo International Forum today. May your experience here be a reminder of the boundless possibilities that architecture, culture, and creativity can offer.
 
-So, let''s continue our exploration of this magnificent structure, where the spirit of innovation and inspiration are celebrated daily.', 'https://example.com/tokyo_international_forum_audio.mp3', '2023-08-21 12:45:00'),
+So, let''s continue our exploration of this magnificent structure, where the spirit of innovation and inspiration are celebrated daily.', '2023-08-21 12:45:00'),
 
     (46, 'Marunouchi District', 'Ladies and gentlemen, welcome to Marunouchi District, a vibrant and bustling neighborhood located in the heart of Tokyo, Japan. I am your tour guide, and it''s my pleasure to introduce you to the charms and attractions of this remarkable urban enclave.
 
@@ -1044,9 +1042,9 @@ Our journey through Marunouchi District encapsulates the essence of Tokyo''s dyn
 
 I want to extend my gratitude to each of you for joining me on this exploration of Marunouchi District today. As you continue to explore this vibrant neighborhood, may you discover its hidden gems and experience the unique blend of Tokyo''s modernity and tradition.
 
-So, let''s continue our discovery of Marunouchi, where every street corner reveals a new facet of this captivating urban landscape.', 'https://example.com/marunouchi_district_audio.mp3', '2023-08-21 13:00:00'),
+So, let''s continue our discovery of Marunouchi, where every street corner reveals a new facet of this captivating urban landscape.', '2023-08-21 13:00:00'),
 
-    (47, 'Tokyo Station (end point)', 'We are back to our starting point.', 'https://example.com/tokyo_station_end_point_audio.mp3', '2023-08-21 13:15:00'),
+    (47, 'Tokyo Station (end point)', 'We are back to our starting point.', '2023-08-21 13:15:00'),
 
     (48, 'Sydney Opera House', 'Nestled along the picturesque Sydney Harbor, the Sydney Opera House is a masterpiece of human creativity and ingenuity. Its distinctive sail-like design is instantly recognizable, making it not only an architectural gem but also a symbol of Australia''s cultural identity.
     Our story begins with the brilliant Danish architect, Jørn Utzon, whose vision brought this cultural landmark to life. The Opera House''s design is a testament to innovation and ambition. It took over a decade to complete, with construction beginning in 1959 and culminating in its official opening in 1973.
@@ -1056,7 +1054,7 @@ So, let''s continue our discovery of Marunouchi, where every street corner revea
     The Opera House isn''t just for the elite; it''s a place for everyone. Its accessibility is a testament to Australia''s commitment to making the arts inclusive. Whether you''re attending a performance, taking a guided tour, or simply strolling around its forecourt, the Opera House welcomes all with open arms.
     The Opera House''s location on Bennelong Point offers breathtaking views of Sydney Harbor, the Sydney Harbour Bridge, and the city skyline. The sight of the Opera House, bathed in the warm hues of the setting sun or illuminated against the night sky, is nothing short of magical.
     For artists and creatives worldwide, the Sydney Opera House stands as a beacon of inspiration. Its design challenges conventional notions of architecture, reminding us that the boundaries of creativity are limitless.
-    As we conclude our exploration, I hope you''ve enjoyed this glimpse into the world of the Sydney Opera House. It''s not merely a building; it''s a symbol of artistic excellence, a source of national pride, and a testament to what human imagination and collaboration can achieve. The Opera House is a place where culture, art, and innovation come together, and it continues to inspire generations to reach for new heights of creativity.', 'https://example.com/sydney_opera_house_audio.mp3', '2023-08-21 14:45:00'),
+    As we conclude our exploration, I hope you''ve enjoyed this glimpse into the world of the Sydney Opera House. It''s not merely a building; it''s a symbol of artistic excellence, a source of national pride, and a testament to what human imagination and collaboration can achieve. The Opera House is a place where culture, art, and innovation come together, and it continues to inspire generations to reach for new heights of creativity.', '2023-08-21 14:45:00'),
 
     (49, 'Circular Quay', 'Ladies and gentlemen, welcome to Circular Quay, a vibrant waterfront precinct located in the heart of Sydney, Australia. I am your tour guide, and I''m thrilled to introduce you to the beauty and excitement of this iconic Australian destination.
 
@@ -1078,7 +1076,7 @@ Our journey through Circular Quay encapsulates the spirit of Sydney, where natur
 
 I want to express my gratitude to each of you for joining me on this exploration of Circular Quay today. As you continue to explore this iconic precinct, may you find inspiration in its scenic wonders and vibrant energy.
 
-So, let''s continue our discovery of Circular Quay, where every moment offers a new opportunity to be captivated by Sydney''s charm.', 'https://example.com/circular_quay_audio.mp3', '2023-08-21 15:00:00'),
+So, let''s continue our discovery of Circular Quay, where every moment offers a new opportunity to be captivated by Sydney''s charm.', '2023-08-21 15:00:00'),
 
     (50, 'Royal Botanic Garden', 'Ladies and gentlemen, welcome to the Royal Botanic Garden in Sydney, Australia, a place of natural wonder and tranquility nestled in the heart of this vibrant city. I am your tour guide, and I am delighted to accompany you on this enchanting journey through one of Sydney''s most cherished treasures.
 
@@ -1098,7 +1096,7 @@ As we conclude our exploration of this botanical paradise, I hope you leave with
 
 I want to extend my gratitude to each of you for joining me on this journey through the Royal Botanic Garden today. Whether you''re a nature enthusiast, a lover of horticulture, or simply seeking a moment of serenity, this garden offers a sanctuary for all.
 
-So, let''s continue to embrace the beauty of this natural wonderland and carry the spirit of conservation with us as we explore more of Sydney''s treasures.', 'https://example.com/royal_botanic_garden_audio.mp3', '2023-08-21 15:30:00'),
+So, let''s continue to embrace the beauty of this natural wonderland and carry the spirit of conservation with us as we explore more of Sydney''s treasures.', '2023-08-21 15:30:00'),
 
     (51, 'Mrs Macquarie''s Chair', 'Ladies and gentlemen, welcome to Mrs. Macquarie''s Chair, a cherished Sydney landmark that offers one of the most iconic views of the Sydney Harbour. I am your guide, and I''m delighted to accompany you on this breathtaking journey through history and natural beauty.
 
@@ -1116,7 +1114,7 @@ Before we conclude our visit to this extraordinary viewpoint, take a moment to s
 
 As we leave this remarkable spot, let the memory of this view and the tranquility of the moment stay with you. May it serve as a reminder of the enduring beauty that Sydney offers and the harmony between its urban and natural landscapes.
 
-Thank you for joining me on this journey to Mrs. Macquarie''s Chair. I hope this experience has left an indelible mark on your memories and a deep appreciation for the captivating beauty of Sydney''s harbor.', 'https://example.com/mrs_macquaries_chair_audio.mp3', '2023-08-21 15:45:00'),
+Thank you for joining me on this journey to Mrs. Macquarie''s Chair. I hope this experience has left an indelible mark on your memories and a deep appreciation for the captivating beauty of Sydney''s harbor.', '2023-08-21 15:45:00'),
 
     (52, 'Art Gallery of New South Wales', 'Ladies and gentlemen, welcome to the Art Gallery of New South Wales, a cultural gem nestled amidst the stunning landscapes of Sydney. I am your guide, and it is my pleasure to introduce you to the world of art that awaits within these hallowed halls.
 
@@ -1138,7 +1136,7 @@ I want to extend my heartfelt gratitude to each of you for joining me on this ar
 
 As we leave the Art Gallery of New South Wales, remember that art has the power to ignite our imagination, challenge our perspectives, and connect us to the broader tapestry of humanity. May your appreciation for the arts continue to flourish, and may you carry the memories of this visit with you as a testament to the enduring power of creativity.
 
-Thank you for being a part of this cultural exploration, and I hope you continue to seek out the beauty and wonder that art brings to our lives.', 'https://example.com/art_gallery_of_nsw_audio.mp3', '2023-08-21 16:00:00'),
+Thank you for being a part of this cultural exploration, and I hope you continue to seek out the beauty and wonder that art brings to our lives.', '2023-08-21 16:00:00'),
 
     (53, 'The Domain', 'Ladies and gentlemen, welcome to The Domain, a sprawling green oasis nestled within the heart of Sydney''s vibrant cityscape. I am your guide, and it is my pleasure to introduce you to this picturesque haven of natural beauty and cultural significance.
 
@@ -1160,7 +1158,7 @@ I want to express my gratitude for joining me on this journey through The Domain
 
 As we bid farewell to this verdant paradise, remember to carry with you the sense of peace and harmony that The Domain imparts. In a world of constant motion, places like this remind us of the profound beauty and balance that nature provides.
 
-Thank you for being a part of this exploration, and may you continue to find moments of tranquility and inspiration in the embrace of nature.', 'https://example.com/the_domain_audio.mp3', '2023-08-21 16:15:00'),
+Thank you for being a part of this exploration, and may you continue to find moments of tranquility and inspiration in the embrace of nature.', '2023-08-21 16:15:00'),
 
     (54, 'Hyde Park', 'Ladies and gentlemen, welcome to Hyde Park, a verdant jewel nestled in the heart of Sydney''s bustling urban landscape. I am your guide, and it''s a pleasure to introduce you to this serene oasis where nature, history, and leisure unite.
 
@@ -1182,7 +1180,7 @@ Before we conclude our visit to Hyde Park, I want to express my gratitude for jo
 
 As we bid adieu to this tranquil haven, I encourage you to carry with you the sense of peace and serenity that Hyde Park imparts. In the heart of Sydney''s vibrant metropolis, this park is a testament to the harmonious coexistence of nature and urban life.
 
-Thank you for being part of this exploration, and may you continue to find moments of tranquility and inspiration in the beauty of Hyde Park.', 'https://example.com/hyde_park_audio.mp3', '2023-08-21 16:30:00'),
+Thank you for being part of this exploration, and may you continue to find moments of tranquility and inspiration in the beauty of Hyde Park.', '2023-08-21 16:30:00'),
 
     (55, 'St. Mary''s Cathedral', 'Ladies and gentlemen, welcome to St. Mary''s Cathedral, a masterpiece of Gothic Revival architecture and a spiritual beacon in the heart of Sydney. I am your guide, and it''s an honor to introduce you to this awe-inspiring place of worship and reflection.
 
@@ -1204,7 +1202,7 @@ I want to express my gratitude for joining me on this journey through St. Mary''
 
 As we bid farewell to this remarkable cathedral, I encourage you to carry the sense of peace and inspiration you''ve found here into your daily life. St. Mary''s Cathedral stands as a beacon of hope and a symbol of the profound impact that architecture and spirituality can have on our lives.
 
-Thank you for being part of this exploration, and may you continue to find moments of wonder and grace in the world around you.', 'https://example.com/st_marys_cathedral_audio.mp3', '2023-08-21 16:45:00'),
+Thank you for being part of this exploration, and may you continue to find moments of wonder and grace in the world around you.', '2023-08-21 16:45:00'),
 
     (56, 'Sydney Tower Eye', 'Ladies and gentlemen, welcome to the Sydney Tower Eye, an iconic landmark that offers breathtaking views of the stunning city of Sydney. I''m your guide, and I''m thrilled to take you on an exhilarating journey to the top of this towering structure.
 
@@ -1228,7 +1226,7 @@ I want to thank each of you for joining me on this incredible journey to the Syd
 
 As we prepare to leave this spectacular vantage point, remember that the memories you''ve created here will stay with you forever. Sydney, with its vibrant energy and natural beauty, has left an indelible mark on our hearts.
 
-So, let''s bid adieu to the Sydney Tower Eye, carrying with us the breathtaking views, the sense of wonder, and the appreciation for this remarkable city. May your time here inspire you to explore more of Sydney''s treasures and embrace the endless possibilities that this vibrant city has to offer.', 'https://example.com/sydney_tower_eye_audio.mp3', '2023-08-21 17:00:00'),
+So, let''s bid adieu to the Sydney Tower Eye, carrying with us the breathtaking views, the sense of wonder, and the appreciation for this remarkable city. May your time here inspire you to explore more of Sydney''s treasures and embrace the endless possibilities that this vibrant city has to offer.', '2023-08-21 17:00:00'),
 
     (57, 'Queen Victoria Building', 'Ladies and gentlemen, welcome to the Queen Victoria Building, a true architectural gem and a testament to Sydney''s rich history and culture. I am your guide, and I am delighted to take you on a journey through this remarkable building.
 
@@ -1248,7 +1246,7 @@ As we conclude our visit to this architectural wonder, I hope you''ve gained a d
 
 I want to extend my gratitude to each of you for joining me on this journey through the Queen Victoria Building today. Whether you''re here for shopping, sightseeing, or simply soaking in the ambiance, this building has something special to offer.
 
-As we prepare to leave this historic landmark, remember that the Queen Victoria Building is a place where history and elegance coexist. May your memories of this visit be as timeless as the building itself, and may you continue to explore the rich tapestry of Sydney''s cultural treasures.', 'https://example.com/queen_victoria_building_audio.mp3', '2023-08-21 17:15:00'),
+As we prepare to leave this historic landmark, remember that the Queen Victoria Building is a place where history and elegance coexist. May your memories of this visit be as timeless as the building itself, and may you continue to explore the rich tapestry of Sydney''s cultural treasures.', '2023-08-21 17:15:00'),
 
     (58, 'The Rocks', 'Ladies and gentlemen, welcome to The Rocks, a historic neighborhood that stands as a living testament to Sydney''s past and present. I am your guide, and I am thrilled to take you on a journey through this vibrant and charming district.
 
@@ -1272,7 +1270,7 @@ As we conclude our visit to The Rocks, I hope you''ve experienced the rich tapes
 
 I want to thank each of you for joining me on this exploration of The Rocks today. Whether you''re a history enthusiast, an art lover, or simply seeking a taste of Sydney''s vibrant culture, this neighborhood has something to offer everyone.
 
-As we bid farewell to The Rocks, take with you the memories of its charming streets, lively markets, and the sense of connection to Sydney''s captivating history. May your journey through Sydney continue to be filled with wonder and discovery.', 'https://example.com/the_rocks_audio.mp3', '2023-08-21 17:30:00'),
+As we bid farewell to The Rocks, take with you the memories of its charming streets, lively markets, and the sense of connection to Sydney''s captivating history. May your journey through Sydney continue to be filled with wonder and discovery.', '2023-08-21 17:30:00'),
 
     (59, 'Sydney Harbour Bridge', 'Ladies and gentlemen, welcome to the Sydney Harbour Bridge, an iconic symbol of Sydney and a testament to human engineering and ambition. I am your guide, and I''m delighted to share the remarkable history and breathtaking views that await you on this bridge.
 
@@ -1290,10 +1288,266 @@ As we stand here, taking in the breathtaking views and the history that surround
 
 I want to thank each of you for joining me on this journey across the Sydney Harbour Bridge today. Whether you''re a first-time visitor or a seasoned traveler, this bridge offers an experience that leaves an indelible mark on your memories.
 
-So, as we continue to explore the vibrant city of Sydney, carry with you the awe-inspiring views and the sense of connection to this remarkable bridge. May your time in Sydney be filled with wonder and discovery.', 'https://example.com/sydney_harbour_bridge_audio.mp3', '2023-08-21 17:45:00'),
+So, as we continue to explore the vibrant city of Sydney, carry with you the awe-inspiring views and the sense of connection to this remarkable bridge. May your time in Sydney be filled with wonder and discovery.', '2023-08-21 17:45:00'),
 
-    (60, 'Circular Quay', 'We are back to our starting point.', 'https://example.com/circular_quay_second_visit_audio.mp3', '2023-08-21 18:00:00');
+    (60, 'Circular Quay', 'We are back to our starting point.', '2023-08-21 18:00:00');
     
-    
+    (61, 'Candelária Church', 'Ladies and gentlemen, welcome to Candelária Church, one of Brazil''s most iconic architectural landmarks and a place steeped in history, spirituality, and artistic magnificence. I am your tour guide, and I am thrilled to lead you on this immersive exploration of a place that holds a special significance in the heart of Rio de Janeiro.
+
+As we stand before this majestic church, let us delve into its fascinating history. Candelária Church, officially known as the Igreja de Nossa Senhora da Candelária, has stood at this very spot for over two centuries. Its construction began in the late 18th century and continued for many decades, resulting in a stunning blend of architectural styles that reflect the evolving tastes of the time. The church was named after the patron saint of sailors, a nod to Rio de Janeiro''s maritime history.
+
+The exterior of Candelária Church is a visual masterpiece, with its neoclassical façade adorned with intricate carvings and columns that evoke a sense of grandeur. As you gaze upon its splendid façade, take a moment to appreciate the craftsmanship that went into creating this magnificent structure.
+
+But it''s not just the exterior that captivates; step inside, and you''ll be transported to a world of serenity and spiritual reflection. The interior of Candelária Church is a breathtaking display of opulence and devotion. Its gilded altars, intricate woodwork, and magnificent stained glass windows create an ambiance of divine beauty. As sunlight filters through the colorful glass, the interior is bathed in a kaleidoscope of hues, casting a serene and contemplative atmosphere.
+
+Candelária Church is not just a place of worship; it''s also a repository of art and history. As you explore its interior, you''ll encounter a rich collection of religious artworks, including exquisite paintings, sculptures, and religious artifacts. Each piece tells a story, not only of the church''s spiritual journey but also of the broader cultural heritage of Rio de Janeiro.
+
+The church''s historical significance extends beyond its architecture and art. It has been a witness to numerous events that have shaped the city''s history. Candelária Church was at the center of important moments during Brazil''s tumultuous past, and its walls have absorbed the prayers, hopes, and dreams of generations.
+
+As we stand here today, let us take a moment to soak in the atmosphere of reverence and reflection. Whether you are a person of faith or an admirer of art and architecture, Candelária Church has something to offer to each of us. It serves as a reminder of the enduring human quest for beauty, meaning, and spirituality.
+
+Before we conclude our visit to Candelária Church, I invite you to spend some time in quiet contemplation, appreciating the profound sense of history and culture that envelops this sacred space. It is a place where the past meets the present, and where the soul finds solace in the midst of a bustling city.
+
+I want to express my gratitude to each of you for joining me on this journey through the marvels of Candelária Church. May the memories we create here stay with you, and may you carry the beauty and spirituality of this place in your hearts.', '2023-09-17 08:00:00'),
+
+  (62, 'Largo da Carioca', 'Ladies and gentlemen, welcome to Largo da Carioca, a historic square nestled in the heart of Rio de Janeiro, Brazil. I am your tour guide, and I''m delighted to be your companion as we explore the rich history and vibrant culture of this charming urban space.
+
+As we gather here at Largo da Carioca, let''s take a moment to appreciate the significance of this square in the city''s narrative. The square has been a central hub of activity for centuries, serving as a crossroads where people from all walks of life converge. Its name, "Carioca," is a term used to refer to the native residents of Rio de Janeiro, and it''s a nod to the city''s unique identity.
+
+Our first point of interest in this square is the iconic Carioca Aqueduct, known locally as "Arcos da Lapa." This monumental structure, with its grand arches, stands as a testament to Rio''s architectural prowess. Originally built in the mid-18th century, it was once a functioning aqueduct that brought water from the Carioca River to the city. Today, it serves as a bridge for trams, connecting the neighborhoods of Santa Teresa and Centro. As we stand in its shadow, we can''t help but be awed by the scale and grace of this historic marvel.
+
+Around the square, you''ll notice a blend of architectural styles, ranging from colonial to modern. This diversity reflects the city''s evolving identity over the years. Largo da Carioca has been a place of transformation, mirroring the changes and growth of Rio de Janeiro itself.
+
+One of the most striking features of this square is the vibrant street life that thrives here. Street vendors, artists, and musicians add a touch of local flair to the atmosphere. You''ll find stalls selling delectable Brazilian snacks, handmade crafts, and souvenirs that make for perfect mementos of your visit.
+
+As you wander through Largo da Carioca, you''ll also come across the charming Church of Our Lady of the Rosary and Saint Benedict. This historic church, dating back to the 18th century, is a masterpiece of Baroque architecture. Its intricately designed façade and exquisite interior decorations pay homage to Brazil''s rich religious and cultural heritage.
+
+Largo da Carioca is not just a place to admire architecture and enjoy street life; it''s also a place to connect with the city''s history. The square has been a stage for important events, political gatherings, and cultural celebrations throughout Rio''s past. Its significance extends beyond its physical boundaries; it''s a place where the soul of Rio de Janeiro comes alive.
+
+Before we conclude our visit to Largo da Carioca, I encourage you to take a moment to soak in the vibrant energy of this square. Whether you choose to savor a local delicacy, listen to the music of street performers, or simply people-watch, Largo da Carioca offers a unique window into the heart and soul of Rio de Janeiro.
+
+I want to thank each of you for joining me on this journey through Largo da Carioca today. May the memories we create here stay with you, and may you carry the spirit of this vibrant square with you as you continue to explore the wonders of Rio de Janeiro.', '2023-09-17 08:10:00'),
+
+  (63, 'Municipal Theater of Rio de Janeiro', 'Ladies and gentlemen, welcome to the Municipal Theater of Rio de Janeiro, an architectural gem and a cultural treasure nestled in the heart of this vibrant city. I am your tour guide, and it is my privilege to take you on a journey through the history, elegance, and artistic significance of this magnificent institution.
+
+As we stand before the Municipal Theater, or Teatro Municipal as it''s known in Portuguese, let''s take a moment to appreciate the grandeur of its façade. Designed by the renowned Brazilian architect Francisco de Oliveira Passos, this building is a masterpiece of eclectic architecture, blending elements of Art Nouveau and Art Deco styles. Its iconic dome and intricate ornamentation immediately capture our attention and transport us to a bygone era of opulence and creativity.
+
+The history of the Municipal Theater dates back to the early 20th century when it was inaugurated in 1909. This was a time when Rio de Janeiro was experiencing a cultural renaissance, and the theater was conceived as a symbol of the city''s cultural sophistication. Today, it remains a symbol of Brazil''s rich artistic heritage.
+
+Our first stop inside the theater is the breathtaking main hall, often referred to as the "Golden Room." As you step inside, you''ll be awestruck by the sheer beauty and opulence of this space. The chandeliers, adorned with Bohemian crystals, cast a warm glow on the gilded décor and rich red velvet seats. It''s a space where performances come to life, where music, dance, and theater converge to create moments of pure magic.
+
+The Municipal Theater is not just a feast for the eyes; it''s also a stage for world-class performances. Over the years, it has hosted some of the most renowned artists, musicians, and dancers from around the globe. The theater''s acoustics are world-famous, making it a preferred venue for orchestral concerts and opera performances. If you have the opportunity to attend a live performance here, you''ll be treated to an unforgettable sensory experience.
+
+As we explore the backstage areas, you''ll gain insight into the intricate workings of the theater. The dressing rooms, filled with nostalgia and history, have been occupied by countless performers who have graced this stage. The costume and prop rooms are a testament to the meticulous attention to detail that goes into every production.
+
+One of the most remarkable features of the Municipal Theater is the stunning stained glass ceiling in the main hall. Created by the French artist Marianne Peretti, it depicts the nine muses and Apollo, the god of music and arts. The celestial colors and intricate details make it a true masterpiece and a source of inspiration for all who gaze upon it.
+
+The Municipal Theater is more than just a performance venue; it''s a guardian of culture and a testament to the enduring power of the arts. Its educational programs, exhibitions, and outreach initiatives ensure that the legacy of culture and creativity continues to thrive in Rio de Janeiro.
+
+Before we conclude our tour, take a moment to soak in the ambiance of this remarkable space. Whether you''re an avid theatergoer or simply an admirer of architecture and history, the Municipal Theater offers something truly extraordinary for everyone.
+
+I want to thank each of you for joining me on this journey through the Municipal Theater of Rio de Janeiro today. May the memories we create here be a source of inspiration and a reminder of the beauty that art brings to our lives.', '2023-09-17 08:20:00'),
+
+  (64, 'Cinelândia Square', 'Ladies and gentlemen, welcome to Cinelândia Square, the cultural and historical heart of Rio de Janeiro. I am your tour guide, and it''s a pleasure to take you on a journey through the vibrant history, architecture, and significance of this remarkable square.
+
+As we stand here in Cinelândia, also known as Praça Floriano Peixoto, let''s transport ourselves back in time to the early 20th century. The square was named after Marshal Floriano Peixoto, the second president of Brazil, and it was during his time that Rio de Janeiro experienced a cultural renaissance.
+
+Our first point of interest here is the iconic Theatro Municipal, or Municipal Theater, which graces the northern side of the square. This magnificent theater, designed by Francisco de Oliveira Passos, the same architect behind many of Rio''s iconic buildings, is a symbol of opulence and artistic excellence. Its neoclassical façade adorned with statues and columns is a true architectural marvel.
+
+The Theatro Municipal opened its doors in 1909 and quickly became a hub for cultural performances. The grandeur of the interior, characterized by its ornate chandeliers, plush red velvet seats, and golden accents, makes it a fitting setting for world-class opera, ballet, and orchestral performances. It''s a place where art transcends time, and every show is a masterpiece.
+
+On the southern side of Cinelândia Square, you''ll find another architectural gem, the National Library of Brazil, or Biblioteca Nacional. Established in 1810, it''s the largest library in Latin America and one of the most important cultural institutions in Brazil. The library houses millions of volumes, including rare manuscripts, maps, and prints. Its façade, with grand Ionic columns, exudes an air of intellect and grandeur.
+
+Next to the National Library stands the Royal Portuguese Reading Room, an exquisite neo-Manueline-style building. It''s a testament to the deep cultural ties between Brazil and Portugal. The interior is a true masterpiece of craftsmanship, adorned with intricately carved woodwork, stained glass windows, and a stunning chandelier.
+
+Cinelândia Square is not only a place of culture but also a symbol of democracy and civic engagement. It has witnessed historic events, including political rallies and protests, that have shaped the course of Brazilian history. The equestrian statue of Marshal Floriano Peixoto at the center of the square stands as a reminder of Brazil''s democratic journey.
+
+Our tour wouldn''t be complete without mentioning the surrounding streets and avenues that radiate from Cinelândia. Avenida Rio Branco, for example, is a bustling thoroughfare that leads to the waterfront and boasts an impressive collection of historic and modern buildings.
+
+As we stroll through Cinelândia, I encourage you to soak in the atmosphere, appreciate the architectural wonders, and reflect on the cultural significance of this square. Whether you''re an art enthusiast, a history buff, or simply a lover of urban spaces, Cinelândia has something to offer everyone.
+
+I want to thank each of you for joining me on this exploration of Cinelândia Square today. May the history, culture, and beauty of this place leave a lasting impression, and may it inspire you to delve deeper into the rich tapestry of Rio de Janeiro''s past and present.', '2023-09-17 08:30:00'),
+
+  (65, 'National Library of Brazil', 'Ladies and gentlemen, welcome to the National Library of Brazil, one of the most distinguished cultural institutions in South America. I am your tour guide, and I am honored to take you on a journey through the rich history, literary treasures, and architectural splendor of this magnificent library.
+
+As we stand before the grand entrance of the National Library, let us first appreciate the sheer majesty of its neoclassical architecture. The imposing façade, adorned with Corinthian columns and intricate carvings, speaks to the library''s significance as a repository of knowledge and culture. Designed by the renowned Brazilian architect, Francisco de Oliveira Passos, the library''s building itself is a work of art.
+
+The National Library of Brazil was founded in 1810 by King João VI of Portugal, who saw the importance of cultivating knowledge and education in Brazil. Over the centuries, it has grown into one of the largest and most comprehensive libraries in the world, housing millions of books, manuscripts, maps, and documents. It''s a treasure trove of information and a testament to Brazil''s commitment to learning.
+
+One of the library''s most prized possessions is its collection of rare books and manuscripts. Among these is the first printed book in Brazil, "Marítimo" by João de Lisboa, dating back to 1569. The library also houses a significant collection of Portuguese royal documents, including the royal collection brought to Brazil by the Portuguese court during the Napoleonic Wars.
+
+As we step inside, you''ll be greeted by the breathtaking Rotunda, a circular reading room crowned by a stunning dome adorned with intricate frescoes. This space has a unique energy, where scholars and researchers from around the world come to study and explore. It''s a place where the past and the present merge, and where the pursuit of knowledge is celebrated.
+
+One of the library''s most prized possessions is its collection of rare books and manuscripts. Among these is the first printed book in Brazil, "Marítimo" by João de Lisboa, dating back to 1569. The library also houses a significant collection of Portuguese royal documents, including the royal collection brought to Brazil by the Portuguese court during the Napoleonic Wars.
+
+As we step inside, you''ll be greeted by the breathtaking Rotunda, a circular reading room crowned by a stunning dome adorned with intricate frescoes. This space has a unique energy, where scholars and researchers from around the world come to study and explore. It''s a place where the past and the present merge, and where the pursuit of knowledge is celebrated.
+
+The National Library also plays a vital role in preserving Brazil''s literary heritage. Its vast collection includes works by some of the country''s greatest authors, such as Machado de Assis, Euclides da Cunha, and Clarice Lispector. These literary giants have left an indelible mark on Brazilian literature, and their manuscripts and original writings are carefully preserved here.
+
+But the library is not just a place for academics and researchers; it''s a space for everyone to discover the joy of reading and learning. The library''s many exhibitions, events, and public programs ensure that knowledge and culture are accessible to all.
+
+Before we conclude our tour, take a moment to explore the library''s beautiful gardens and courtyards, which provide a tranquil escape from the bustling city outside. These green spaces have witnessed countless readers and thinkers finding inspiration among the pages of the library''s books.
+
+I want to thank each of you for joining me on this exploration of the National Library of Brazil today. May this visit kindle a greater appreciation for the written word, the pursuit of knowledge, and the enduring legacy of literature.', '2023-09-17 08:40:00'),
+
+  (66, 'Theatro Municipal tram stop', 'Ladies and gentlemen, welcome to Theatro Municipal tram stop, a significant and historic transportation hub located in the heart of Rio de Janeiro. I am your guide, and I''m thrilled to share the fascinating history and cultural significance of this iconic tram stop.
+
+As we stand on the platform of Theatro Municipal tram stop, take a moment to absorb the bustling energy of Rio de Janeiro''s city center. This tram stop has served as a vital transportation link for generations of cariocas (Rio de Janeiro''s residents) and visitors alike, connecting various parts of the city and providing a gateway to cultural and historical treasures.
+
+Theatro Municipal tram stop is intrinsically linked to the nearby Theatro Municipal, one of Brazil''s most celebrated opera houses. The theater''s opulent architecture and exquisite design are visible from this vantage point. It''s a testament to the grandeur and cultural significance of the performing arts in Rio de Janeiro.
+
+This tram stop has witnessed countless artists, musicians, and theatergoers passing through its gates, making it an integral part of Rio''s cultural tapestry. It''s not just a transportation hub; it''s a symbol of the city''s passion for music, dance, and the performing arts.
+
+The tram lines that converge at this stop have their own rich history. Trams have been a mode of transportation in Rio de Janeiro since the late 19th century, and their distinct yellow and blue cars are an iconic sight on the city''s streets. While trams are no longer the primary means of transportation, they remain a charming and nostalgic way to explore Rio de Janeiro.
+
+Theatro Municipal tram stop also serves as a gateway to some of Rio''s most cherished attractions. From here, you can easily access the historic neighborhood of Santa Teresa, known for its winding streets, colorful houses, and bohemian atmosphere. Santa Teresa offers a glimpse into Rio''s artistic and creative soul.
+
+Additionally, this tram stop is a convenient starting point for exploring Cinelândia Square, a cultural and political center that hosts some of Rio de Janeiro''s most significant landmarks, including the National Library of Brazil and the Museum of Fine Arts. The square is a testament to the city''s commitment to education, culture, and the arts.
+
+As you wait for the tram or disembark from your journey, take a moment to appreciate the architectural details of the tram stop itself. Its design reflects the elegance and style of a bygone era, a reminder of Rio de Janeiro''s storied past.
+
+Before we conclude our visit to Theatro Municipal tram stop, I want to express my gratitude for joining me on this brief but meaningful exploration of this transportation hub. Whether you''re here to catch a tram, begin a cultural adventure, or simply soak in the atmosphere, I hope you carry with you a sense of the history and vibrancy that defines this special place.', '2023-09-17 08:50:00'),
+
+  (67, 'Lapa Arches', 'Ladies and gentlemen, welcome to the iconic Lapa Arches, one of the most recognizable and cherished landmarks in the vibrant city of Rio de Janeiro. I am your guide, and I''m excited to take you on a journey through the history, culture, and artistic spirit that define this magnificent structure.
+
+As we stand beneath the grand Lapa Arches, also known as the "Arcos da Lapa" in Portuguese, let''s transport ourselves back in time to understand the significance of this monumental aqueduct. The aqueduct was constructed in the mid-18th century, during the colonial period of Brazil when it was still a Portuguese colony. Its primary purpose was to supply fresh water to the growing city of Rio de Janeiro.
+
+The arches stretch for an impressive 270 meters, forming an imposing semicircular structure that spans over the Lapa neighborhood below. The sheer scale and architectural ingenuity of the Lapa Arches are a testament to the craftsmanship of the time. The aqueduct was a remarkable engineering feat, showcasing the skills and vision of those who designed and built it.
+
+While the Lapa Arches served as a functional aqueduct, it also holds cultural and historical significance. Over the years, it has become a symbol of Rio de Janeiro, representing the city''s rich heritage and blending seamlessly into its urban landscape. The sight of the aqueduct towering above the bustling streets of Lapa is a sight to behold, especially when illuminated at night.
+
+In recent decades, the Lapa Arches have undergone restoration and preservation efforts to ensure their continued existence as a cherished cultural icon. Today, they stand as a reminder of Rio de Janeiro''s past and a testament to the city''s commitment to preserving its architectural heritage.
+
+One of the most striking features of the Lapa Arches is their adaptation for modern use. In the early 20th century, the aqueduct''s water supply system was replaced by a tramline that ran along the top of the arches. This tramline, known as the "Bonde de Santa Teresa," became an integral part of the city''s transportation network and a beloved mode of travel for locals and visitors alike.
+
+The Lapa Arches are also closely associated with the lively and bohemian neighborhood of Lapa. This neighborhood is known for its vibrant music scene, historic bars, and lively street parties. It''s a place where samba rhythms fill the air, and the spirit of Carnival lives year-round.
+
+Many visitors to the Lapa Arches are drawn to the adjacent "Escadaria Selarón" or Selarón Steps, an artistic masterpiece created by the late artist Jorge Selarón. These colorful steps, adorned with tiles from all over the world, offer a stunning contrast to the aqueduct''s stone arches. The Selarón Steps are a testament to the power of art to transform public spaces and bring people together.
+
+Before we conclude our visit to the Lapa Arches, let me express my gratitude for sharing this experience with me. Whether you''re here to admire the architectural marvel, soak in the vibrant atmosphere of Lapa, or simply take in the beauty of the Selarón Steps, I hope you leave with a deeper appreciation for the history and culture of Rio de Janeiro.', '2023-09-17 09:00:00'),
+
+  (68, 'Selarón Steps', 'Ladies and gentlemen, welcome to the Selarón Steps, a vibrant and artistic masterpiece nestled in the heart of Rio de Janeiro, Brazil. I am your guide, and I''m delighted to introduce you to this remarkable work of art and cultural icon.
+
+As we ascend these colorful steps, created by the visionary artist Jorge Selarón, let''s embark on a journey that celebrates creativity, community, and the boundless spirit of human expression.
+
+The story of the Selarón Steps is a testament to the transformative power of art and the indomitable passion of one man. Jorge Selarón, a Chilean-born artist, embarked on a mission to revitalize this once-neglected staircase in the Lapa neighborhood of Rio de Janeiro. What began as a personal artistic endeavor evolved into a symbol of hope, unity, and international collaboration.
+
+Each of the 215 steps that make up the Selarón Steps is a canvas, adorned with a kaleidoscope of colorful tiles, ceramics, and fragments from all corners of the globe. Selarón collected these tiles over the years, and the steps became a living, breathing artwork that continues to evolve.
+
+As you walk up these steps, take a moment to appreciate the intricate details and the stories that each tile carries. From hand-painted tiles depicting local scenes to fragments from distant lands, the Selarón Steps are a testament to the diversity and interconnectedness of our world.
+
+Jorge Selarón dedicated his life to this artistic endeavor, often working on the steps day and night. His passion and dedication resonated with both locals and tourists, turning the Selarón Steps into a symbol of community and collaboration. Visitors from around the world contributed tiles and fragments, making the steps a truly global work of art.
+
+Tragically, Jorge Selarón passed away in 2013, but his legacy lives on through these steps. Today, the Selarón Steps are not only a tourist attraction but also a symbol of Rio de Janeiro''s artistic spirit and a tribute to Selarón''s vision.
+
+The Selarón Steps have been featured in numerous films, documentaries, and travel shows, further cementing their status as an iconic cultural landmark. They have also provided the backdrop for music videos, cultural events, and celebrations of all kinds.
+
+As we reach the top of the Selarón Steps, take a moment to soak in the panoramic views of the Lapa neighborhood and the vibrant city of Rio de Janeiro. From here, you can see the grand Lapa Arches, another historic landmark that adds to the charm of this neighborhood.
+
+Before we conclude our visit, let me express my gratitude for sharing this artistic journey with me. Whether you came to admire the colors, the stories, or the legacy of Jorge Selarón, I hope you leave here with a deeper appreciation for the power of art to transcend borders and bring people together.
+
+Thank you for being a part of this experience, and may the Selarón Steps continue to inspire creativity and connection for generations to come.', '2023-09-17 09:10:00'),
+
+  (69, 'Santa Teresa neighborhood', 'Ladies and gentlemen, welcome to the enchanting Santa Teresa neighborhood, nestled on the hills of Rio de Janeiro, Brazil. I am your guide, and I''m excited to introduce you to this unique and artistic corner of the city.
+
+Santa Teresa is a neighborhood that encapsulates the soul of Rio de Janeiro. It''s a place where history, culture, and creativity converge to create a vibrant and eclectic atmosphere. As we explore its winding streets and colorful alleys, you''ll soon discover why Santa Teresa is a beloved gem among both locals and visitors.
+
+Our journey begins in the heart of Santa Teresa, where colonial-style mansions, adorned with intricate ironwork and lush gardens, line the cobblestone streets. This neighborhood has a rich history, and you''ll find that many of these elegant homes have been transformed into charming boutique hotels, restaurants, and art studios.
+
+One of the highlights of Santa Teresa is the iconic Santa Teresa Tram, also known as the "bonde." This historic tramline, which dates back to the early 20th century, winds its way through the neighborhood''s hilly terrain, offering passengers breathtaking views of Rio de Janeiro''s landscapes. It''s a delightful way to immerse yourself in the neighborhood''s charm.
+
+Santa Teresa has long been a haven for artists, and you''ll find evidence of their creativity around every corner. The neighborhood is dotted with art studios, galleries, and open-air exhibitions that showcase the diverse talents of local and international artists. It''s a place where artistic expression knows no bounds, and you''re invited to explore and be inspired.
+
+As you wander through Santa Teresa''s streets, you''ll come across cozy cafes, where you can savor Brazilian coffee and indulge in delectable pastries. The neighborhood''s culinary scene is equally enticing, offering a fusion of flavors that reflect Rio''s diverse cultural heritage.
+
+One of the must-visit spots in Santa Teresa is the Selarón Steps, which we explored earlier. These vibrant and artistic steps are not only a tribute to the neighborhood but also a testament to the artistic spirit that permeates Santa Teresa.
+
+Santa Teresa is also known for its lively cultural scene. Throughout the year, the neighborhood hosts festivals, music events, and art exhibitions that celebrate its rich heritage. Be sure to check if there are any local events happening during your visit, as they provide a unique opportunity to immerse yourself in the neighborhood''s dynamic culture.
+
+One of the defining features of Santa Teresa is its sense of community. Despite its proximity to the bustling city center, the neighborhood has managed to maintain a close-knit and welcoming atmosphere. You''ll often find residents socializing on their doorsteps or gathering in the local square, creating a warm and inviting ambiance.
+
+Before we conclude our exploration of Santa Teresa, I want to express my gratitude for joining me on this journey through this captivating neighborhood. Santa Teresa is a place that invites you to slow down, embrace the beauty of everyday life, and savor the richness of culture and art.
+
+As you continue to explore Santa Teresa or perhaps indulge in its culinary delights or artistic offerings, I hope you carry with you the spirit of this remarkable neighborhood. May Santa Teresa leave an indelible mark on your heart, and may its artistic and cultural treasures continue to inspire you in your travels.
+
+Thank you for being a part of this experience, and I wish you a wonderful day ahead as you continue to explore the wonders of Rio de Janeiro.', '2023-09-17 09:20:00'),
+
+  (70, 'Parque das Ruínas (Ruins Park)', 'Ladies and gentlemen, welcome to Parque das Ruínas, also known as Ruins Park, a fascinating cultural and historical gem nestled in the heart of Rio de Janeiro, Brazil. I am your guide, and I am thrilled to be your companion on this captivating journey through the intriguing ruins and vibrant arts scene of this unique park.
+
+Parque das Ruínas holds a special place in Rio''s cultural landscape, offering a captivating blend of history, art, and stunning panoramic views of the city. Our exploration of this hidden treasure promises to be both enriching and inspiring.
+
+Our journey begins with the story of Laurinda Santos Lobo, a prominent Brazilian patron of the arts who lived in the early 20th century. Her home, which now forms the core of the park''s ruins, was a hub for intellectuals, artists, and musicians of her time. As we wander through the remnants of her mansion, you''ll feel the echoes of the vibrant cultural gatherings that once graced these walls.
+
+Parque das Ruínas has been transformed into an open-air cultural center, and you''re in for a treat as we explore its artistic offerings. The park hosts a variety of exhibitions, concerts, and performances that showcase the rich creative spirit of Rio de Janeiro. From contemporary art displays to live music and theater, there''s always something exciting happening here.
+
+One of the highlights of our visit is the stunning panoramic view of Rio de Janeiro that unfolds before us. As we climb to the park''s elevated terrace, you''ll be rewarded with breathtaking vistas of the city''s iconic landmarks, including Sugarloaf Mountain, Christ the Redeemer, and the picturesque neighborhoods of Santa Teresa and Lapa. It''s a moment that captures the essence of Rio''s natural beauty and urban charm.
+
+Parque das Ruínas also pays homage to its history through thoughtfully preserved architectural elements. The exposed brickwork, iron structures, and remnants of Laurinda Santos Lobo''s mansion create a unique ambiance that blends the old and the new. It''s a testament to the park''s commitment to honoring its heritage while embracing contemporary culture.
+
+As you explore the park''s various levels and terraces, take your time to soak in the art installations and sculptures that are scattered throughout the grounds. The park''s commitment to fostering creativity is evident in every corner, making it a source of inspiration for both established and emerging artists.
+
+Before we conclude our visit to Parque das Ruínas, I want to express my gratitude for sharing this experience with me. The park''s fusion of history, art, and breathtaking scenery creates a unique atmosphere that leaves a lasting impression on all who visit. May the spirit of creativity and cultural appreciation that you''ve encountered here continue to inspire your travels and enrich your life.
+
+As you explore the vibrant city of Rio de Janeiro further, I hope you carry with you the memories of this unique park and its compelling story. Thank you for being a part of this journey, and I wish you a wonderful day ahead filled with more exciting discoveries in this captivating city.', '2023-09-17 09:30:00'),
+
+  (71, 'Escadaria Selarón (Selarón Steps)', 'Ladies and gentlemen, welcome to the world-famous Escadaria Selarón, or Selarón Steps, an iconic landmark located right here in Rio de Janeiro, Brazil. I am your guide, and I am thrilled to accompany you on this enchanting journey through the vibrant and artistic world of these unique steps.
+
+The Selarón Steps, created by the Chilean-born artist Jorge Selarón, are not just a staircase; they are a true work of art and a symbol of the creative spirit that thrives in Rio de Janeiro. Our exploration of this extraordinary masterpiece promises to be a feast for the senses.
+
+Jorge Selarón, a self-taught artist, dedicated over 20 years of his life to transforming this once-neglected stairway into a magnificent mosaic masterpiece. As we ascend these colorful steps, you''ll witness the culmination of his artistic vision—a mesmerizing fusion of over 2,000 tiles from around the world. Each tile tells a story, and together, they create a harmonious symphony of colors and patterns.
+
+The Selarón Steps are more than just an artistic endeavor; they are a testament to the power of creativity and dedication. Jorge Selarón''s passion for his work and his desire to bring beauty to a public space have left an indelible mark on Rio de Janeiro and the world.
+
+As we continue our ascent, take a moment to appreciate the details of the tiles. You''ll notice that they come from all corners of the globe, donated by people who wanted to contribute to this living work of art. The steps have become a symbol of unity and a celebration of cultural diversity.
+
+The Selarón Steps have also been featured in films, music videos, and countless photographs, making them a global icon of Rio de Janeiro. Whether you''re a fan of art, culture, or simply the joy of discovery, this place has something to offer everyone.
+
+Our visit to the Selarón Steps would not be complete without acknowledging Jorge Selarón''s legacy. His dedication to this project until his passing in 2013 is a testament to the transformative power of art. His spirit lives on in every tile and every visitor who climbs these steps.
+
+Before we conclude our journey, I want to thank you for sharing this remarkable experience with me. The Selarón Steps are a testament to the beauty that can emerge from creativity, dedication, and a love for art. As you continue to explore Rio de Janeiro and beyond, may you carry with you the vibrant spirit of this place and the inspiration it offers.
+
+Thank you for being a part of this enchanting tour, and I wish you a wonderful day ahead filled with more art, culture, and discovery.', '2023-09-17 09:40:00'),
+
+  (72, 'Lapa Neighborhood', 'Ladies and gentlemen, welcome to the vibrant Lapa Neighborhood right here in Rio de Janeiro, Brazil. I''m delighted to be your guide as we delve into the rich cultural tapestry of this dynamic and historic part of the city.
+
+The Lapa Neighborhood is a place where tradition and modernity seamlessly blend, creating a unique and lively atmosphere. As we explore its streets, you''ll have the chance to immerse yourself in the captivating energy that defines this neighborhood.
+
+Our journey begins in the heart of Lapa, known for its iconic arches, the Arcos da Lapa. These historic aqueduct arches, originally built in the mid-18th century, have become an emblem of the neighborhood. Today, they serve as a bridge for the tram and a symbol of Lapa''s enduring connection to its past.
+
+Lapa is renowned for its vibrant nightlife, and it comes alive after the sun sets. The neighborhood''s bars, clubs, and music venues pulse with the rhythms of samba and other Brazilian music genres. It''s the perfect place to experience the soul of Rio de Janeiro through its music and dance.
+
+One of the highlights of Lapa is the Selarón Steps, which we visited earlier. These steps, covered in a dazzling mosaic of tiles from around the world, were created by the artist Jorge Selarón. They stand as a testament to the neighborhood''s artistic spirit and its welcoming embrace of global culture.
+
+The Lapa Neighborhood is also a hub of creativity and street art. As we stroll through its colorful streets, take a moment to admire the graffiti and murals that adorn the buildings. These works of art tell stories, convey messages, and reflect the vibrant soul of the community.
+
+While Lapa is known for its lively entertainment scene, it also boasts historic and architectural gems. The Carioca Aqueduct, which supports the Arcos da Lapa, is a marvel of engineering from the colonial era. Its massive stone arches and intricate design are a testament to the craftsmanship of the time.
+
+Our journey through Lapa wouldn''t be complete without mentioning its central market, known as the "Mercado Popular da Lapa." Here, you''ll find a bustling market where vendors offer a wide array of goods, from fresh produce and local crafts to delicious street food. It''s a place where the flavors of Brazil come together.
+
+As we conclude our exploration of Lapa, I want to thank you for joining me on this cultural adventure. The neighborhood''s blend of history, art, and entertainment is a reflection of Rio de Janeiro''s vibrant spirit. I hope you carry with you the memories of our time here and continue to explore the wonders of this incredible city.
+
+Thank you for being a part of this journey, and I wish you a fantastic day ahead filled with more discoveries and experiences in Rio de Janeiro''s Lapa Neighborhood.', '2023-09-17 09:50:00'),
+
+  (73, 'Carioca Aqueduct (Arcos da Lapa)', 'Ladies and gentlemen, welcome to the awe-inspiring Carioca Aqueduct, also known as the Arcos da Lapa, right here in the heart of Rio de Janeiro, Brazil. It''s my pleasure to guide you through the history and significance of this remarkable architectural marvel.
+
+The Carioca Aqueduct, with its majestic stone arches, stands as a testament to the rich history of Rio de Janeiro. This remarkable structure was constructed in the mid-18th century during the colonial period when Brazil was a Portuguese colony. Its primary purpose was to supply the city with fresh water from the Carioca River, a vital resource for the growing settlement.
+
+As we stand beneath these towering arches, take a moment to appreciate the craftsmanship of the aqueduct''s builders. The massive stone blocks, meticulously cut and stacked, create a sense of grandeur and timelessness. The aqueduct''s design was inspired by Roman architecture, reflecting the architectural trends of the time.
+
+In addition to its functional role in providing water to the city, the Carioca Aqueduct also served as a bridge for trams. Today, the iconic bonde trams still traverse the arches, offering residents and visitors a unique and nostalgic mode of transportation through the historic heart of Rio de Janeiro.
+
+The Arcos da Lapa have become an enduring symbol of the city and are often featured in literature, art, and films that celebrate the vibrant culture of Rio. The arches have witnessed the transformation of the city over the centuries, from colonial times to the bustling metropolis we see today.
+
+One of the most iconic features of the Carioca Aqueduct is its dramatic illumination at night. As the sun sets and the city lights come to life, the arches are bathed in a warm glow, creating a mesmerizing spectacle. It''s a sight you won''t want to miss during your visit to Rio de Janeiro.
+
+The neighborhood of Lapa, where the Arcos da Lapa are located, is known for its lively atmosphere, vibrant nightlife, and cultural diversity. It''s a place where music, art, and history converge, making it a must-visit destination in Rio.
+
+As we stand here beneath the Carioca Aqueduct''s arches, I invite you to take a moment to absorb the history and grandeur of this iconic structure. Feel the connection to the past and the dynamic energy of the present that flows through this remarkable place.
+
+Thank you for joining me on this journey through the Carioca Aqueduct, a true marvel of Rio de Janeiro''s architectural heritage. As you continue to explore the city, may you carry with you the memories of this historic site and the rich stories it holds.
+
+', '2023-09-17 10:00:00'),
+
+  (74, 'Candelária Church', 'We are back to our starting point.', '2023-09-17 10:10:00');
 
 
