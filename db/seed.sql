@@ -155,7 +155,6 @@ VALUES
     (-33.8620, 151.2094, 'The Rocks', 4, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv5hQ6yJVpmTg0zGNYbg3mAYbQjToD_coUqw&usqp=CAU', '2023-08-21 20:30:00'),
     (-33.8523, 151.2102, 'Sydney Harbour Bridge', 4, 'https://images.unsplash.com/photo-1599617491715-6a27ca6f1b15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3lkbmV5JTIwaGFyYm91ciUyMGJyaWRnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60', '2023-08-21 20:45:00'),
     (-33.8613, 151.2094, 'Circular Quay', 4, 'https://images.unsplash.com/photo-1672215790432-391d672cf99d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2lyY3VsYXIlMjBxdWF5fGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60', '2023-08-21 21:00:00'),
-    (48.8594, 2.3635, 'Shakespeare and Company', 4, 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hha2VzcGVhcmUlMjBhbmQlMjBjb21wYW55JTIwc3lkbmV5fGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60', '2023-08-21 17:30:00'),
     (-22.9036, -43.1779, 'Candelária Church', 5, 'https://images.unsplash.com/photo-1635349372344-c51a84eaeddd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2FuZGVsYXJpYSUyMGNodXJjaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60', '2023-08-21 21:15:00'),
     (-22.9033, -43.1786, 'Largo da Carioca', 5, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1lS7dL8eYwmbGCry6-dfGzOvM8uthk_3NMQ&usqp=CAU', '2023-08-21 21:30:00'),
     (-22.9120, -43.1759, 'Municipal Theater of Rio de Janeiro', 5, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQib5H0cXHtE0zHUTkhOcZyckOlkA6iPDDNBQ&usqp=CAU', '2023-08-21 21:45:00'),
@@ -172,7 +171,7 @@ VALUES
     (-22.9036, -43.1779, 'Candelária Church', 5, 'https://images.unsplash.com/photo-1635349372344-c51a84eaeddd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2FuZGVsYXJpYSUyMGNodXJjaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60', '2023-08-22 00:30:00');
 
 
-INSERT INTO commentary (poi_id, comm_name, description, audio_url, created_at)
+INSERT INTO commentary (poi_id, comm_name, description, created_at)
 VALUES
 
     (1, 'Louvre Museum', 'Ladies and gentlemen, welcome to the Louvre Museum, one of the world''s most renowned cultural institutions and a true treasure trove of art, history, and human achievement. I am your tour guide, and it is my great pleasure to accompany you on this captivating journey through time and creativity.
@@ -1294,6 +1293,262 @@ So, as we continue to explore the vibrant city of Sydney, carry with you the awe
 
     (60, 'Circular Quay', 'We are back to our starting point.', 'https://example.com/circular_quay_second_visit_audio.mp3', '2023-08-21 18:00:00');
     
-    
+    (61, 'Candelária Church', 'Ladies and gentlemen, welcome to Candelária Church, one of Brazil''s most iconic architectural landmarks and a place steeped in history, spirituality, and artistic magnificence. I am your tour guide, and I am thrilled to lead you on this immersive exploration of a place that holds a special significance in the heart of Rio de Janeiro.
+
+As we stand before this majestic church, let us delve into its fascinating history. Candelária Church, officially known as the Igreja de Nossa Senhora da Candelária, has stood at this very spot for over two centuries. Its construction began in the late 18th century and continued for many decades, resulting in a stunning blend of architectural styles that reflect the evolving tastes of the time. The church was named after the patron saint of sailors, a nod to Rio de Janeiro''s maritime history.
+
+The exterior of Candelária Church is a visual masterpiece, with its neoclassical façade adorned with intricate carvings and columns that evoke a sense of grandeur. As you gaze upon its splendid façade, take a moment to appreciate the craftsmanship that went into creating this magnificent structure.
+
+But it''s not just the exterior that captivates; step inside, and you''ll be transported to a world of serenity and spiritual reflection. The interior of Candelária Church is a breathtaking display of opulence and devotion. Its gilded altars, intricate woodwork, and magnificent stained glass windows create an ambiance of divine beauty. As sunlight filters through the colorful glass, the interior is bathed in a kaleidoscope of hues, casting a serene and contemplative atmosphere.
+
+Candelária Church is not just a place of worship; it''s also a repository of art and history. As you explore its interior, you''ll encounter a rich collection of religious artworks, including exquisite paintings, sculptures, and religious artifacts. Each piece tells a story, not only of the church''s spiritual journey but also of the broader cultural heritage of Rio de Janeiro.
+
+The church''s historical significance extends beyond its architecture and art. It has been a witness to numerous events that have shaped the city''s history. Candelária Church was at the center of important moments during Brazil''s tumultuous past, and its walls have absorbed the prayers, hopes, and dreams of generations.
+
+As we stand here today, let us take a moment to soak in the atmosphere of reverence and reflection. Whether you are a person of faith or an admirer of art and architecture, Candelária Church has something to offer to each of us. It serves as a reminder of the enduring human quest for beauty, meaning, and spirituality.
+
+Before we conclude our visit to Candelária Church, I invite you to spend some time in quiet contemplation, appreciating the profound sense of history and culture that envelops this sacred space. It is a place where the past meets the present, and where the soul finds solace in the midst of a bustling city.
+
+I want to express my gratitude to each of you for joining me on this journey through the marvels of Candelária Church. May the memories we create here stay with you, and may you carry the beauty and spirituality of this place in your hearts.', '2023-09-17 08:00:00'),
+
+  (62, 'Largo da Carioca', 'Ladies and gentlemen, welcome to Largo da Carioca, a historic square nestled in the heart of Rio de Janeiro, Brazil. I am your tour guide, and I''m delighted to be your companion as we explore the rich history and vibrant culture of this charming urban space.
+
+As we gather here at Largo da Carioca, let''s take a moment to appreciate the significance of this square in the city''s narrative. The square has been a central hub of activity for centuries, serving as a crossroads where people from all walks of life converge. Its name, "Carioca," is a term used to refer to the native residents of Rio de Janeiro, and it''s a nod to the city''s unique identity.
+
+Our first point of interest in this square is the iconic Carioca Aqueduct, known locally as "Arcos da Lapa." This monumental structure, with its grand arches, stands as a testament to Rio''s architectural prowess. Originally built in the mid-18th century, it was once a functioning aqueduct that brought water from the Carioca River to the city. Today, it serves as a bridge for trams, connecting the neighborhoods of Santa Teresa and Centro. As we stand in its shadow, we can''t help but be awed by the scale and grace of this historic marvel.
+
+Around the square, you''ll notice a blend of architectural styles, ranging from colonial to modern. This diversity reflects the city''s evolving identity over the years. Largo da Carioca has been a place of transformation, mirroring the changes and growth of Rio de Janeiro itself.
+
+One of the most striking features of this square is the vibrant street life that thrives here. Street vendors, artists, and musicians add a touch of local flair to the atmosphere. You''ll find stalls selling delectable Brazilian snacks, handmade crafts, and souvenirs that make for perfect mementos of your visit.
+
+As you wander through Largo da Carioca, you''ll also come across the charming Church of Our Lady of the Rosary and Saint Benedict. This historic church, dating back to the 18th century, is a masterpiece of Baroque architecture. Its intricately designed façade and exquisite interior decorations pay homage to Brazil''s rich religious and cultural heritage.
+
+Largo da Carioca is not just a place to admire architecture and enjoy street life; it''s also a place to connect with the city''s history. The square has been a stage for important events, political gatherings, and cultural celebrations throughout Rio''s past. Its significance extends beyond its physical boundaries; it''s a place where the soul of Rio de Janeiro comes alive.
+
+Before we conclude our visit to Largo da Carioca, I encourage you to take a moment to soak in the vibrant energy of this square. Whether you choose to savor a local delicacy, listen to the music of street performers, or simply people-watch, Largo da Carioca offers a unique window into the heart and soul of Rio de Janeiro.
+
+I want to thank each of you for joining me on this journey through Largo da Carioca today. May the memories we create here stay with you, and may you carry the spirit of this vibrant square with you as you continue to explore the wonders of Rio de Janeiro.', '2023-09-17 08:10:00'),
+
+  (63, 'Municipal Theater of Rio de Janeiro', 'Ladies and gentlemen, welcome to the Municipal Theater of Rio de Janeiro, an architectural gem and a cultural treasure nestled in the heart of this vibrant city. I am your tour guide, and it is my privilege to take you on a journey through the history, elegance, and artistic significance of this magnificent institution.
+
+As we stand before the Municipal Theater, or Teatro Municipal as it''s known in Portuguese, let''s take a moment to appreciate the grandeur of its façade. Designed by the renowned Brazilian architect Francisco de Oliveira Passos, this building is a masterpiece of eclectic architecture, blending elements of Art Nouveau and Art Deco styles. Its iconic dome and intricate ornamentation immediately capture our attention and transport us to a bygone era of opulence and creativity.
+
+The history of the Municipal Theater dates back to the early 20th century when it was inaugurated in 1909. This was a time when Rio de Janeiro was experiencing a cultural renaissance, and the theater was conceived as a symbol of the city''s cultural sophistication. Today, it remains a symbol of Brazil''s rich artistic heritage.
+
+Our first stop inside the theater is the breathtaking main hall, often referred to as the "Golden Room." As you step inside, you''ll be awestruck by the sheer beauty and opulence of this space. The chandeliers, adorned with Bohemian crystals, cast a warm glow on the gilded décor and rich red velvet seats. It''s a space where performances come to life, where music, dance, and theater converge to create moments of pure magic.
+
+The Municipal Theater is not just a feast for the eyes; it''s also a stage for world-class performances. Over the years, it has hosted some of the most renowned artists, musicians, and dancers from around the globe. The theater''s acoustics are world-famous, making it a preferred venue for orchestral concerts and opera performances. If you have the opportunity to attend a live performance here, you''ll be treated to an unforgettable sensory experience.
+
+As we explore the backstage areas, you''ll gain insight into the intricate workings of the theater. The dressing rooms, filled with nostalgia and history, have been occupied by countless performers who have graced this stage. The costume and prop rooms are a testament to the meticulous attention to detail that goes into every production.
+
+One of the most remarkable features of the Municipal Theater is the stunning stained glass ceiling in the main hall. Created by the French artist Marianne Peretti, it depicts the nine muses and Apollo, the god of music and arts. The celestial colors and intricate details make it a true masterpiece and a source of inspiration for all who gaze upon it.
+
+The Municipal Theater is more than just a performance venue; it''s a guardian of culture and a testament to the enduring power of the arts. Its educational programs, exhibitions, and outreach initiatives ensure that the legacy of culture and creativity continues to thrive in Rio de Janeiro.
+
+Before we conclude our tour, take a moment to soak in the ambiance of this remarkable space. Whether you''re an avid theatergoer or simply an admirer of architecture and history, the Municipal Theater offers something truly extraordinary for everyone.
+
+I want to thank each of you for joining me on this journey through the Municipal Theater of Rio de Janeiro today. May the memories we create here be a source of inspiration and a reminder of the beauty that art brings to our lives.', '2023-09-17 08:20:00'),
+
+  (64, 'Cinelândia Square', 'Ladies and gentlemen, welcome to Cinelândia Square, the cultural and historical heart of Rio de Janeiro. I am your tour guide, and it''s a pleasure to take you on a journey through the vibrant history, architecture, and significance of this remarkable square.
+
+As we stand here in Cinelândia, also known as Praça Floriano Peixoto, let''s transport ourselves back in time to the early 20th century. The square was named after Marshal Floriano Peixoto, the second president of Brazil, and it was during his time that Rio de Janeiro experienced a cultural renaissance.
+
+Our first point of interest here is the iconic Theatro Municipal, or Municipal Theater, which graces the northern side of the square. This magnificent theater, designed by Francisco de Oliveira Passos, the same architect behind many of Rio''s iconic buildings, is a symbol of opulence and artistic excellence. Its neoclassical façade adorned with statues and columns is a true architectural marvel.
+
+The Theatro Municipal opened its doors in 1909 and quickly became a hub for cultural performances. The grandeur of the interior, characterized by its ornate chandeliers, plush red velvet seats, and golden accents, makes it a fitting setting for world-class opera, ballet, and orchestral performances. It''s a place where art transcends time, and every show is a masterpiece.
+
+On the southern side of Cinelândia Square, you''ll find another architectural gem, the National Library of Brazil, or Biblioteca Nacional. Established in 1810, it''s the largest library in Latin America and one of the most important cultural institutions in Brazil. The library houses millions of volumes, including rare manuscripts, maps, and prints. Its façade, with grand Ionic columns, exudes an air of intellect and grandeur.
+
+Next to the National Library stands the Royal Portuguese Reading Room, an exquisite neo-Manueline-style building. It''s a testament to the deep cultural ties between Brazil and Portugal. The interior is a true masterpiece of craftsmanship, adorned with intricately carved woodwork, stained glass windows, and a stunning chandelier.
+
+Cinelândia Square is not only a place of culture but also a symbol of democracy and civic engagement. It has witnessed historic events, including political rallies and protests, that have shaped the course of Brazilian history. The equestrian statue of Marshal Floriano Peixoto at the center of the square stands as a reminder of Brazil''s democratic journey.
+
+Our tour wouldn''t be complete without mentioning the surrounding streets and avenues that radiate from Cinelândia. Avenida Rio Branco, for example, is a bustling thoroughfare that leads to the waterfront and boasts an impressive collection of historic and modern buildings.
+
+As we stroll through Cinelândia, I encourage you to soak in the atmosphere, appreciate the architectural wonders, and reflect on the cultural significance of this square. Whether you''re an art enthusiast, a history buff, or simply a lover of urban spaces, Cinelândia has something to offer everyone.
+
+I want to thank each of you for joining me on this exploration of Cinelândia Square today. May the history, culture, and beauty of this place leave a lasting impression, and may it inspire you to delve deeper into the rich tapestry of Rio de Janeiro''s past and present.', '2023-09-17 08:30:00'),
+
+  (65, 'National Library of Brazil', 'Ladies and gentlemen, welcome to the National Library of Brazil, one of the most distinguished cultural institutions in South America. I am your tour guide, and I am honored to take you on a journey through the rich history, literary treasures, and architectural splendor of this magnificent library.
+
+As we stand before the grand entrance of the National Library, let us first appreciate the sheer majesty of its neoclassical architecture. The imposing façade, adorned with Corinthian columns and intricate carvings, speaks to the library''s significance as a repository of knowledge and culture. Designed by the renowned Brazilian architect, Francisco de Oliveira Passos, the library''s building itself is a work of art.
+
+The National Library of Brazil was founded in 1810 by King João VI of Portugal, who saw the importance of cultivating knowledge and education in Brazil. Over the centuries, it has grown into one of the largest and most comprehensive libraries in the world, housing millions of books, manuscripts, maps, and documents. It''s a treasure trove of information and a testament to Brazil''s commitment to learning.
+
+One of the library''s most prized possessions is its collection of rare books and manuscripts. Among these is the first printed book in Brazil, "Marítimo" by João de Lisboa, dating back to 1569. The library also houses a significant collection of Portuguese royal documents, including the royal collection brought to Brazil by the Portuguese court during the Napoleonic Wars.
+
+As we step inside, you''ll be greeted by the breathtaking Rotunda, a circular reading room crowned by a stunning dome adorned with intricate frescoes. This space has a unique energy, where scholars and researchers from around the world come to study and explore. It''s a place where the past and the present merge, and where the pursuit of knowledge is celebrated.
+
+One of the library''s most prized possessions is its collection of rare books and manuscripts. Among these is the first printed book in Brazil, "Marítimo" by João de Lisboa, dating back to 1569. The library also houses a significant collection of Portuguese royal documents, including the royal collection brought to Brazil by the Portuguese court during the Napoleonic Wars.
+
+As we step inside, you''ll be greeted by the breathtaking Rotunda, a circular reading room crowned by a stunning dome adorned with intricate frescoes. This space has a unique energy, where scholars and researchers from around the world come to study and explore. It''s a place where the past and the present merge, and where the pursuit of knowledge is celebrated.
+
+The National Library also plays a vital role in preserving Brazil''s literary heritage. Its vast collection includes works by some of the country''s greatest authors, such as Machado de Assis, Euclides da Cunha, and Clarice Lispector. These literary giants have left an indelible mark on Brazilian literature, and their manuscripts and original writings are carefully preserved here.
+
+But the library is not just a place for academics and researchers; it''s a space for everyone to discover the joy of reading and learning. The library''s many exhibitions, events, and public programs ensure that knowledge and culture are accessible to all.
+
+Before we conclude our tour, take a moment to explore the library''s beautiful gardens and courtyards, which provide a tranquil escape from the bustling city outside. These green spaces have witnessed countless readers and thinkers finding inspiration among the pages of the library''s books.
+
+I want to thank each of you for joining me on this exploration of the National Library of Brazil today. May this visit kindle a greater appreciation for the written word, the pursuit of knowledge, and the enduring legacy of literature.', '2023-09-17 08:40:00'),
+
+  (66, 'Theatro Municipal tram stop', 'Ladies and gentlemen, welcome to Theatro Municipal tram stop, a significant and historic transportation hub located in the heart of Rio de Janeiro. I am your guide, and I''m thrilled to share the fascinating history and cultural significance of this iconic tram stop.
+
+As we stand on the platform of Theatro Municipal tram stop, take a moment to absorb the bustling energy of Rio de Janeiro''s city center. This tram stop has served as a vital transportation link for generations of cariocas (Rio de Janeiro''s residents) and visitors alike, connecting various parts of the city and providing a gateway to cultural and historical treasures.
+
+Theatro Municipal tram stop is intrinsically linked to the nearby Theatro Municipal, one of Brazil''s most celebrated opera houses. The theater''s opulent architecture and exquisite design are visible from this vantage point. It''s a testament to the grandeur and cultural significance of the performing arts in Rio de Janeiro.
+
+This tram stop has witnessed countless artists, musicians, and theatergoers passing through its gates, making it an integral part of Rio''s cultural tapestry. It''s not just a transportation hub; it''s a symbol of the city''s passion for music, dance, and the performing arts.
+
+The tram lines that converge at this stop have their own rich history. Trams have been a mode of transportation in Rio de Janeiro since the late 19th century, and their distinct yellow and blue cars are an iconic sight on the city''s streets. While trams are no longer the primary means of transportation, they remain a charming and nostalgic way to explore Rio de Janeiro.
+
+Theatro Municipal tram stop also serves as a gateway to some of Rio''s most cherished attractions. From here, you can easily access the historic neighborhood of Santa Teresa, known for its winding streets, colorful houses, and bohemian atmosphere. Santa Teresa offers a glimpse into Rio''s artistic and creative soul.
+
+Additionally, this tram stop is a convenient starting point for exploring Cinelândia Square, a cultural and political center that hosts some of Rio de Janeiro''s most significant landmarks, including the National Library of Brazil and the Museum of Fine Arts. The square is a testament to the city''s commitment to education, culture, and the arts.
+
+As you wait for the tram or disembark from your journey, take a moment to appreciate the architectural details of the tram stop itself. Its design reflects the elegance and style of a bygone era, a reminder of Rio de Janeiro''s storied past.
+
+Before we conclude our visit to Theatro Municipal tram stop, I want to express my gratitude for joining me on this brief but meaningful exploration of this transportation hub. Whether you''re here to catch a tram, begin a cultural adventure, or simply soak in the atmosphere, I hope you carry with you a sense of the history and vibrancy that defines this special place.', '2023-09-17 08:50:00'),
+
+  (67, 'Lapa Arches', 'Ladies and gentlemen, welcome to the iconic Lapa Arches, one of the most recognizable and cherished landmarks in the vibrant city of Rio de Janeiro. I am your guide, and I''m excited to take you on a journey through the history, culture, and artistic spirit that define this magnificent structure.
+
+As we stand beneath the grand Lapa Arches, also known as the "Arcos da Lapa" in Portuguese, let''s transport ourselves back in time to understand the significance of this monumental aqueduct. The aqueduct was constructed in the mid-18th century, during the colonial period of Brazil when it was still a Portuguese colony. Its primary purpose was to supply fresh water to the growing city of Rio de Janeiro.
+
+The arches stretch for an impressive 270 meters, forming an imposing semicircular structure that spans over the Lapa neighborhood below. The sheer scale and architectural ingenuity of the Lapa Arches are a testament to the craftsmanship of the time. The aqueduct was a remarkable engineering feat, showcasing the skills and vision of those who designed and built it.
+
+While the Lapa Arches served as a functional aqueduct, it also holds cultural and historical significance. Over the years, it has become a symbol of Rio de Janeiro, representing the city''s rich heritage and blending seamlessly into its urban landscape. The sight of the aqueduct towering above the bustling streets of Lapa is a sight to behold, especially when illuminated at night.
+
+In recent decades, the Lapa Arches have undergone restoration and preservation efforts to ensure their continued existence as a cherished cultural icon. Today, they stand as a reminder of Rio de Janeiro''s past and a testament to the city''s commitment to preserving its architectural heritage.
+
+One of the most striking features of the Lapa Arches is their adaptation for modern use. In the early 20th century, the aqueduct''s water supply system was replaced by a tramline that ran along the top of the arches. This tramline, known as the "Bonde de Santa Teresa," became an integral part of the city''s transportation network and a beloved mode of travel for locals and visitors alike.
+
+The Lapa Arches are also closely associated with the lively and bohemian neighborhood of Lapa. This neighborhood is known for its vibrant music scene, historic bars, and lively street parties. It''s a place where samba rhythms fill the air, and the spirit of Carnival lives year-round.
+
+Many visitors to the Lapa Arches are drawn to the adjacent "Escadaria Selarón" or Selarón Steps, an artistic masterpiece created by the late artist Jorge Selarón. These colorful steps, adorned with tiles from all over the world, offer a stunning contrast to the aqueduct''s stone arches. The Selarón Steps are a testament to the power of art to transform public spaces and bring people together.
+
+Before we conclude our visit to the Lapa Arches, let me express my gratitude for sharing this experience with me. Whether you''re here to admire the architectural marvel, soak in the vibrant atmosphere of Lapa, or simply take in the beauty of the Selarón Steps, I hope you leave with a deeper appreciation for the history and culture of Rio de Janeiro.', '2023-09-17 09:00:00'),
+
+  (68, 'Selarón Steps', 'Ladies and gentlemen, welcome to the Selarón Steps, a vibrant and artistic masterpiece nestled in the heart of Rio de Janeiro, Brazil. I am your guide, and I''m delighted to introduce you to this remarkable work of art and cultural icon.
+
+As we ascend these colorful steps, created by the visionary artist Jorge Selarón, let''s embark on a journey that celebrates creativity, community, and the boundless spirit of human expression.
+
+The story of the Selarón Steps is a testament to the transformative power of art and the indomitable passion of one man. Jorge Selarón, a Chilean-born artist, embarked on a mission to revitalize this once-neglected staircase in the Lapa neighborhood of Rio de Janeiro. What began as a personal artistic endeavor evolved into a symbol of hope, unity, and international collaboration.
+
+Each of the 215 steps that make up the Selarón Steps is a canvas, adorned with a kaleidoscope of colorful tiles, ceramics, and fragments from all corners of the globe. Selarón collected these tiles over the years, and the steps became a living, breathing artwork that continues to evolve.
+
+As you walk up these steps, take a moment to appreciate the intricate details and the stories that each tile carries. From hand-painted tiles depicting local scenes to fragments from distant lands, the Selarón Steps are a testament to the diversity and interconnectedness of our world.
+
+Jorge Selarón dedicated his life to this artistic endeavor, often working on the steps day and night. His passion and dedication resonated with both locals and tourists, turning the Selarón Steps into a symbol of community and collaboration. Visitors from around the world contributed tiles and fragments, making the steps a truly global work of art.
+
+Tragically, Jorge Selarón passed away in 2013, but his legacy lives on through these steps. Today, the Selarón Steps are not only a tourist attraction but also a symbol of Rio de Janeiro''s artistic spirit and a tribute to Selarón''s vision.
+
+The Selarón Steps have been featured in numerous films, documentaries, and travel shows, further cementing their status as an iconic cultural landmark. They have also provided the backdrop for music videos, cultural events, and celebrations of all kinds.
+
+As we reach the top of the Selarón Steps, take a moment to soak in the panoramic views of the Lapa neighborhood and the vibrant city of Rio de Janeiro. From here, you can see the grand Lapa Arches, another historic landmark that adds to the charm of this neighborhood.
+
+Before we conclude our visit, let me express my gratitude for sharing this artistic journey with me. Whether you came to admire the colors, the stories, or the legacy of Jorge Selarón, I hope you leave here with a deeper appreciation for the power of art to transcend borders and bring people together.
+
+Thank you for being a part of this experience, and may the Selarón Steps continue to inspire creativity and connection for generations to come.', '2023-09-17 09:10:00'),
+
+  (69, 'Santa Teresa neighborhood', 'Ladies and gentlemen, welcome to the enchanting Santa Teresa neighborhood, nestled on the hills of Rio de Janeiro, Brazil. I am your guide, and I''m excited to introduce you to this unique and artistic corner of the city.
+
+Santa Teresa is a neighborhood that encapsulates the soul of Rio de Janeiro. It''s a place where history, culture, and creativity converge to create a vibrant and eclectic atmosphere. As we explore its winding streets and colorful alleys, you''ll soon discover why Santa Teresa is a beloved gem among both locals and visitors.
+
+Our journey begins in the heart of Santa Teresa, where colonial-style mansions, adorned with intricate ironwork and lush gardens, line the cobblestone streets. This neighborhood has a rich history, and you''ll find that many of these elegant homes have been transformed into charming boutique hotels, restaurants, and art studios.
+
+One of the highlights of Santa Teresa is the iconic Santa Teresa Tram, also known as the "bonde." This historic tramline, which dates back to the early 20th century, winds its way through the neighborhood''s hilly terrain, offering passengers breathtaking views of Rio de Janeiro''s landscapes. It''s a delightful way to immerse yourself in the neighborhood''s charm.
+
+Santa Teresa has long been a haven for artists, and you''ll find evidence of their creativity around every corner. The neighborhood is dotted with art studios, galleries, and open-air exhibitions that showcase the diverse talents of local and international artists. It''s a place where artistic expression knows no bounds, and you''re invited to explore and be inspired.
+
+As you wander through Santa Teresa''s streets, you''ll come across cozy cafes, where you can savor Brazilian coffee and indulge in delectable pastries. The neighborhood''s culinary scene is equally enticing, offering a fusion of flavors that reflect Rio''s diverse cultural heritage.
+
+One of the must-visit spots in Santa Teresa is the Selarón Steps, which we explored earlier. These vibrant and artistic steps are not only a tribute to the neighborhood but also a testament to the artistic spirit that permeates Santa Teresa.
+
+Santa Teresa is also known for its lively cultural scene. Throughout the year, the neighborhood hosts festivals, music events, and art exhibitions that celebrate its rich heritage. Be sure to check if there are any local events happening during your visit, as they provide a unique opportunity to immerse yourself in the neighborhood''s dynamic culture.
+
+One of the defining features of Santa Teresa is its sense of community. Despite its proximity to the bustling city center, the neighborhood has managed to maintain a close-knit and welcoming atmosphere. You''ll often find residents socializing on their doorsteps or gathering in the local square, creating a warm and inviting ambiance.
+
+Before we conclude our exploration of Santa Teresa, I want to express my gratitude for joining me on this journey through this captivating neighborhood. Santa Teresa is a place that invites you to slow down, embrace the beauty of everyday life, and savor the richness of culture and art.
+
+As you continue to explore Santa Teresa or perhaps indulge in its culinary delights or artistic offerings, I hope you carry with you the spirit of this remarkable neighborhood. May Santa Teresa leave an indelible mark on your heart, and may its artistic and cultural treasures continue to inspire you in your travels.
+
+Thank you for being a part of this experience, and I wish you a wonderful day ahead as you continue to explore the wonders of Rio de Janeiro.', '2023-09-17 09:20:00'),
+
+  (70, 'Parque das Ruínas (Ruins Park)', 'Ladies and gentlemen, welcome to Parque das Ruínas, also known as Ruins Park, a fascinating cultural and historical gem nestled in the heart of Rio de Janeiro, Brazil. I am your guide, and I am thrilled to be your companion on this captivating journey through the intriguing ruins and vibrant arts scene of this unique park.
+
+Parque das Ruínas holds a special place in Rio''s cultural landscape, offering a captivating blend of history, art, and stunning panoramic views of the city. Our exploration of this hidden treasure promises to be both enriching and inspiring.
+
+Our journey begins with the story of Laurinda Santos Lobo, a prominent Brazilian patron of the arts who lived in the early 20th century. Her home, which now forms the core of the park''s ruins, was a hub for intellectuals, artists, and musicians of her time. As we wander through the remnants of her mansion, you''ll feel the echoes of the vibrant cultural gatherings that once graced these walls.
+
+Parque das Ruínas has been transformed into an open-air cultural center, and you''re in for a treat as we explore its artistic offerings. The park hosts a variety of exhibitions, concerts, and performances that showcase the rich creative spirit of Rio de Janeiro. From contemporary art displays to live music and theater, there''s always something exciting happening here.
+
+One of the highlights of our visit is the stunning panoramic view of Rio de Janeiro that unfolds before us. As we climb to the park''s elevated terrace, you''ll be rewarded with breathtaking vistas of the city''s iconic landmarks, including Sugarloaf Mountain, Christ the Redeemer, and the picturesque neighborhoods of Santa Teresa and Lapa. It''s a moment that captures the essence of Rio''s natural beauty and urban charm.
+
+Parque das Ruínas also pays homage to its history through thoughtfully preserved architectural elements. The exposed brickwork, iron structures, and remnants of Laurinda Santos Lobo''s mansion create a unique ambiance that blends the old and the new. It''s a testament to the park''s commitment to honoring its heritage while embracing contemporary culture.
+
+As you explore the park''s various levels and terraces, take your time to soak in the art installations and sculptures that are scattered throughout the grounds. The park''s commitment to fostering creativity is evident in every corner, making it a source of inspiration for both established and emerging artists.
+
+Before we conclude our visit to Parque das Ruínas, I want to express my gratitude for sharing this experience with me. The park''s fusion of history, art, and breathtaking scenery creates a unique atmosphere that leaves a lasting impression on all who visit. May the spirit of creativity and cultural appreciation that you''ve encountered here continue to inspire your travels and enrich your life.
+
+As you explore the vibrant city of Rio de Janeiro further, I hope you carry with you the memories of this unique park and its compelling story. Thank you for being a part of this journey, and I wish you a wonderful day ahead filled with more exciting discoveries in this captivating city.', '2023-09-17 09:30:00'),
+
+  (71, 'Escadaria Selarón (Selarón Steps)', 'Ladies and gentlemen, welcome to the world-famous Escadaria Selarón, or Selarón Steps, an iconic landmark located right here in Rio de Janeiro, Brazil. I am your guide, and I am thrilled to accompany you on this enchanting journey through the vibrant and artistic world of these unique steps.
+
+The Selarón Steps, created by the Chilean-born artist Jorge Selarón, are not just a staircase; they are a true work of art and a symbol of the creative spirit that thrives in Rio de Janeiro. Our exploration of this extraordinary masterpiece promises to be a feast for the senses.
+
+Jorge Selarón, a self-taught artist, dedicated over 20 years of his life to transforming this once-neglected stairway into a magnificent mosaic masterpiece. As we ascend these colorful steps, you''ll witness the culmination of his artistic vision—a mesmerizing fusion of over 2,000 tiles from around the world. Each tile tells a story, and together, they create a harmonious symphony of colors and patterns.
+
+The Selarón Steps are more than just an artistic endeavor; they are a testament to the power of creativity and dedication. Jorge Selarón''s passion for his work and his desire to bring beauty to a public space have left an indelible mark on Rio de Janeiro and the world.
+
+As we continue our ascent, take a moment to appreciate the details of the tiles. You''ll notice that they come from all corners of the globe, donated by people who wanted to contribute to this living work of art. The steps have become a symbol of unity and a celebration of cultural diversity.
+
+The Selarón Steps have also been featured in films, music videos, and countless photographs, making them a global icon of Rio de Janeiro. Whether you''re a fan of art, culture, or simply the joy of discovery, this place has something to offer everyone.
+
+Our visit to the Selarón Steps would not be complete without acknowledging Jorge Selarón''s legacy. His dedication to this project until his passing in 2013 is a testament to the transformative power of art. His spirit lives on in every tile and every visitor who climbs these steps.
+
+Before we conclude our journey, I want to thank you for sharing this remarkable experience with me. The Selarón Steps are a testament to the beauty that can emerge from creativity, dedication, and a love for art. As you continue to explore Rio de Janeiro and beyond, may you carry with you the vibrant spirit of this place and the inspiration it offers.
+
+Thank you for being a part of this enchanting tour, and I wish you a wonderful day ahead filled with more art, culture, and discovery.', '2023-09-17 09:40:00'),
+
+  (72, 'Lapa Neighborhood', 'Ladies and gentlemen, welcome to the vibrant Lapa Neighborhood right here in Rio de Janeiro, Brazil. I''m delighted to be your guide as we delve into the rich cultural tapestry of this dynamic and historic part of the city.
+
+The Lapa Neighborhood is a place where tradition and modernity seamlessly blend, creating a unique and lively atmosphere. As we explore its streets, you''ll have the chance to immerse yourself in the captivating energy that defines this neighborhood.
+
+Our journey begins in the heart of Lapa, known for its iconic arches, the Arcos da Lapa. These historic aqueduct arches, originally built in the mid-18th century, have become an emblem of the neighborhood. Today, they serve as a bridge for the tram and a symbol of Lapa''s enduring connection to its past.
+
+Lapa is renowned for its vibrant nightlife, and it comes alive after the sun sets. The neighborhood''s bars, clubs, and music venues pulse with the rhythms of samba and other Brazilian music genres. It''s the perfect place to experience the soul of Rio de Janeiro through its music and dance.
+
+One of the highlights of Lapa is the Selarón Steps, which we visited earlier. These steps, covered in a dazzling mosaic of tiles from around the world, were created by the artist Jorge Selarón. They stand as a testament to the neighborhood''s artistic spirit and its welcoming embrace of global culture.
+
+The Lapa Neighborhood is also a hub of creativity and street art. As we stroll through its colorful streets, take a moment to admire the graffiti and murals that adorn the buildings. These works of art tell stories, convey messages, and reflect the vibrant soul of the community.
+
+While Lapa is known for its lively entertainment scene, it also boasts historic and architectural gems. The Carioca Aqueduct, which supports the Arcos da Lapa, is a marvel of engineering from the colonial era. Its massive stone arches and intricate design are a testament to the craftsmanship of the time.
+
+Our journey through Lapa wouldn''t be complete without mentioning its central market, known as the "Mercado Popular da Lapa." Here, you''ll find a bustling market where vendors offer a wide array of goods, from fresh produce and local crafts to delicious street food. It''s a place where the flavors of Brazil come together.
+
+As we conclude our exploration of Lapa, I want to thank you for joining me on this cultural adventure. The neighborhood''s blend of history, art, and entertainment is a reflection of Rio de Janeiro''s vibrant spirit. I hope you carry with you the memories of our time here and continue to explore the wonders of this incredible city.
+
+Thank you for being a part of this journey, and I wish you a fantastic day ahead filled with more discoveries and experiences in Rio de Janeiro''s Lapa Neighborhood.', '2023-09-17 09:50:00'),
+
+  (73, 'Carioca Aqueduct (Arcos da Lapa)', 'Ladies and gentlemen, welcome to the awe-inspiring Carioca Aqueduct, also known as the Arcos da Lapa, right here in the heart of Rio de Janeiro, Brazil. It''s my pleasure to guide you through the history and significance of this remarkable architectural marvel.
+
+The Carioca Aqueduct, with its majestic stone arches, stands as a testament to the rich history of Rio de Janeiro. This remarkable structure was constructed in the mid-18th century during the colonial period when Brazil was a Portuguese colony. Its primary purpose was to supply the city with fresh water from the Carioca River, a vital resource for the growing settlement.
+
+As we stand beneath these towering arches, take a moment to appreciate the craftsmanship of the aqueduct''s builders. The massive stone blocks, meticulously cut and stacked, create a sense of grandeur and timelessness. The aqueduct''s design was inspired by Roman architecture, reflecting the architectural trends of the time.
+
+In addition to its functional role in providing water to the city, the Carioca Aqueduct also served as a bridge for trams. Today, the iconic bonde trams still traverse the arches, offering residents and visitors a unique and nostalgic mode of transportation through the historic heart of Rio de Janeiro.
+
+The Arcos da Lapa have become an enduring symbol of the city and are often featured in literature, art, and films that celebrate the vibrant culture of Rio. The arches have witnessed the transformation of the city over the centuries, from colonial times to the bustling metropolis we see today.
+
+One of the most iconic features of the Carioca Aqueduct is its dramatic illumination at night. As the sun sets and the city lights come to life, the arches are bathed in a warm glow, creating a mesmerizing spectacle. It''s a sight you won''t want to miss during your visit to Rio de Janeiro.
+
+The neighborhood of Lapa, where the Arcos da Lapa are located, is known for its lively atmosphere, vibrant nightlife, and cultural diversity. It''s a place where music, art, and history converge, making it a must-visit destination in Rio.
+
+As we stand here beneath the Carioca Aqueduct''s arches, I invite you to take a moment to absorb the history and grandeur of this iconic structure. Feel the connection to the past and the dynamic energy of the present that flows through this remarkable place.
+
+Thank you for joining me on this journey through the Carioca Aqueduct, a true marvel of Rio de Janeiro''s architectural heritage. As you continue to explore the city, may you carry with you the memories of this historic site and the rich stories it holds.
+
+', '2023-09-17 10:00:00'),
+
+  (74, 'Candelária Church', 'We are back to our starting point.', '2023-09-17 10:10:00');
 
 
