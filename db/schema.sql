@@ -45,7 +45,6 @@ CREATE TABLE commentary (
     poi_id INT REFERENCES point_of_interest(id),
     comm_name TEXT,  
     description TEXT,
-    audio_url VARCHAR,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
