@@ -8,6 +8,14 @@
 -- -- Connect to the db
 -- \c tours;
 
+-- Drop the point_of_interest and commentary tables first, which depend on the tour table.
+DROP TABLE IF EXISTS commentary;
+DROP TABLE IF EXISTS point_of_interest;
+
+-- Drop the tour table and cascade the deletion to dependent objects.
+DROP TABLE IF EXISTS tour CASCADE;
+
+
 -- Create a table for our products
 DROP TABLE IF EXISTS tour;
 
