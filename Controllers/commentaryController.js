@@ -30,8 +30,10 @@ commentaries.put('/:id', async (req, res) => {
 
 commentaries.post('/', async (req, res) => {
   const newCommentary = req.body;
+  // console.log(newCommentary)
   try {
     const addedCommentary = await createComment(newCommentary);
+    // console.log(addedCommentary)
     res.status(200).json(addedCommentary);
   } catch (error) {
     res.status(404).json({ error: "not found" });

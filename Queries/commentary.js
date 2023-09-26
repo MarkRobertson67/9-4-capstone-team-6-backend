@@ -19,10 +19,10 @@ const getComment = async (id) => {
 }
 
 const updateComment = async (id, comment) => {
-    const { poi_id, name, description, audio_url, created_at } = comment
+    const { poi_id, name, description, created_at } = comment
 
     try {
-        const updatedComment = await db.one("UPDATE commentary SET poi_id=$1, name=$2, description=$3, audio_url=$4, created_at=$5 WHERE id=$6 RETURNING *", [poi_id, name, description, audio_url, created_at, id])
+        const updatedComment = await db.one("UPDATE commentary SET poi_id=$1, name=$2, description=$3, created_at=$4 WHERE id=$5 RETURNING *", [poi_id, name, description, created_at, id])
         return updatedComment;
     } catch (e) {
         return e;
@@ -30,10 +30,10 @@ const updateComment = async (id, comment) => {
 }
 
 const createComment = async (newComment) => {
-    const { poi_id, name, description, audio_url, created_at } = newComment
+    const { poi_id, comm_name, description, created_at } = newComment
 
     try {
-        const comment = await db.one("INSERT INTO commentary (poi_id, name, description, audio_url, created_at) VALUES ($1, $2, $3, $4, $5) RETURNING *", [poi_id, comm_name, description, audio_url, created_at])
+        const comment = await db.one("INSERT INTO commentary (poi_id, comm_name, description, created_at) VALUES ($1, $2, $3, $4) RETURNING *", [poi_id, comm_name, description, created_at])
         return comment;
     } catch (e) {
         return e;
