@@ -1,7 +1,28 @@
-# 9-4-capstone-team-6-backend
-# Hello to the backend
+# City Whisperer ~ Backend
+# Hello to 9-4 Capstone Team 6 backend
 
 ![Tour Favicon](https://github.com/MarkRobertson67/9-4-capstone-team-6-backend/assets/115380009/14733b98-691e-4e81-b9e2-03874ed15665)
+
+On the City Whisperer back-end, our robust server powers the entire application, facilitating smooth communication and data management. We've implemented a structured database with extensive features and data types, guaranteeing the accuracy and reliability of our walking routes. You can expect a secure and efficient experience, with dedicated routes for creating, viewing, editing, and removing your city exploration resources. Our server also delivers accurate responses for unmatched routes, ensuring a hassle-free exploration experience.
+
+# **Installation**
+
+## **Back-end**
+
+1.  Clone the repository:   git clone <repository URL>
+2.  Navigate to the back-end directory: cd back-end
+3.  Install the back-end dependencies:  npm install
+4.  Create a .env file in the back-end directory and configure the following environment variables: <br>
+PORT=7777<br>
+PG_HOST=localhost<br>
+PG_PORT=5432<br>
+PG_DATABASE=tours<br>
+PG_USER=postgres<br>
+5.  Make sure to include in your .gitignore file:   node_modules
+.env
+.DS_Store
+5.  Start the back-end server:  npm start, which will actually start Front and back-end.
+
 
 # **Database**
 
@@ -29,4 +50,4 @@ These scripts work together to manage the lifecycle of the database server, from
 2.  Once logged in, you can view the list of tables by running the following command: \dt
 3.  To view the contents of a specific table, use the following command:    SELECT * FROM tour (or commentary or pointofinterest);
 
-
+That's it! You should now have the City Whisperer App installed and running on your local machine. Enjoy exploring the world of AI self guided walking generated tours.
