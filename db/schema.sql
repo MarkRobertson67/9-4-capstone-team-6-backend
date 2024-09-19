@@ -56,3 +56,6 @@ CREATE TABLE commentary (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+CREATE INDEX idx_tour_name ON tour (tour_name);
+CREATE INDEX idx_country_city ON tour (country, city);
+CREATE INDEX idx_tour_id_poi ON point_of_interest (tour_id);
