@@ -41,7 +41,7 @@ CREATE TABLE point_of_interest (
     latitude DECIMAL,
     longitude DECIMAL,
     poi_name VARCHAR, 
-    tour_id INT REFERENCES tour(id),
+    tour_id INT REFERENCES tour(id) ON DELETE CASCADE,
     image_url VARCHAR,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -50,7 +50,7 @@ DROP TABLE IF EXISTS commentary;
 
 CREATE TABLE commentary (   
     id SERIAL PRIMARY KEY,   
-    poi_id INT REFERENCES point_of_interest(id),
+    poi_id INT REFERENCES point_of_interest(id) ON DELETE CASCADE,
     comm_name TEXT,  
     description TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
