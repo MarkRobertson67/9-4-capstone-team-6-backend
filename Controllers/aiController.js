@@ -6,13 +6,13 @@ const OpenAI = require("openai");
 
 // Keep the SAME env var name for compatibility (backend-only)
 const client = new OpenAI({
-  apiKey: process.env.REACT_APP_OPENAI_API_KEY,
+  apiKey: process.env.OPENAI_API_KEY,
 });
 
 router.post("/generate-tour", async (req, res) => {
   try {
-    if (!process.env.REACT_APP_OPENAI_API_KEY) {
-      return res.status(500).json({ error: "Missing REACT_APP_OPENAI_API_KEY on server" });
+    if (!process.env.OPENAI_API_KEY) {
+      return res.status(500).json({ error: "Missing OPENAI_API_KEY on server" });
     }
 
     const { tour, maxPointsOfInterest } = req.body;
@@ -52,7 +52,7 @@ router.post("/generate-tour", async (req, res) => {
     ];
 
     const completion = await client.chat.completions.create({
-      model: "gpt-4o-mini",
+      model: "gpt-4.1-mini",
       messages,
       temperature: 0.7,
     });
@@ -67,8 +67,8 @@ router.post("/generate-tour", async (req, res) => {
 
 router.post("/generate-commentary", async (req, res) => {
   try {
-    if (!process.env.REACT_APP_OPENAI_API_KEY) {
-      return res.status(500).json({ error: "Missing REACT_APP_OPENAI_API_KEY on server" });
+    if (!process.env.OPENAI_API_KEY) {
+      return res.status(500).json({ error: "Missing OPENAI_API_KEY on server" });
     }
 
     const { poiName, cityName, countryName } = req.body;
