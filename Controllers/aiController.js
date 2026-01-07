@@ -1,20 +1,16 @@
 
-// Controllers/aiController.js
 const express = require("express");
 const router = express.Router();
 const OpenAI = require("openai");
 
-// Keep the SAME env var name for compatibility (backend-only)
-const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+if (!process.env.OPENAI_API_KEY) {
+  throw new Error("OPENAI_API_KEY is not set on the server");
+}
+
+const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 router.post("/generate-tour", async (req, res) => {
   try {
-    if (!process.env.OPENAI_API_KEY) {
-      return res.status(500).json({ error: "Missing OPENAI_API_KEY on server" });
-    }
-
     const { tour, maxPointsOfInterest } = req.body;
 
     if (!tour?.city || !tour?.country || !tour?.duration) {
@@ -54,7 +50,7 @@ router.post("/generate-tour", async (req, res) => {
     const completion = await client.chat.completions.create({
       model: "gpt-4.1-mini",
       messages,
-      temperature: 0.7,
+      temperature: 0.5,
     });
 
     const generatedTour = completion.choices?.[0]?.message?.content || "";
@@ -67,21 +63,21 @@ router.post("/generate-tour", async (req, res) => {
 
 router.post("/generate-commentary", async (req, res) => {
   try {
-    if (!process.env.OPENAI_API_KEY) {
-      return res.status(500).json({ error: "Missing OPENAI_API_KEY on server" });
-    }
-
     const { poiName, cityName, countryName } = req.body;
     if (!poiName || !cityName || !countryName) {
       return res.status(400).json({ error: "Missing fields" });
     }
 
-    const prompt = `Provide a 25-word commentary for ${poiName} in ${cityName}, ${countryName}. Only return the commentary text.`;
+    const prompt = `Write exactly 400 words of tour-guide style commentary about ${poiName} in ${cityName}, ${countryName}.
+No title, no bullets, no quotes. Return ONLY the commentary text.`;
+
+
 
     const completion = await client.chat.completions.create({
-      model: "gpt-4o-mini",
+      model: "gpt-4.1-mini",
       messages: [{ role: "user", content: prompt }],
-      temperature: 0.7,
+      temperature: 0.5,
+      max_tokens: 900,
     });
 
     const commentary = completion.choices?.[0]?.message?.content || "";
