@@ -21,6 +21,9 @@ app.use('/commentary', commentaryController)
 const tourController = require('./Controllers/tourController.js')
 app.use('/tours', tourController)
 
+const aiController = require("./Controllers/aiController.js");
+app.use("/ai", aiController);
+
 
 // ROUTES
 app.get("/", (req, res) => {
